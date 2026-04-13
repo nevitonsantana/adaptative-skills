@@ -96,6 +96,7 @@ Start with:
 - `docs/consumer-adoption.md`
 - `docs/codex-consumer-setup.md`
 - `docs/claude-consumer-setup.md`
+- `docs/first-consumer-pilot.md`
 - `examples/README.md`
 - `docs/aletheia-integration.md`
 
