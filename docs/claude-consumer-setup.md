@@ -13,7 +13,7 @@ The projection registry uses three modes:
 
 - `link-only` — keep the canon in this repository and point local docs or workflows to it
 - `manual` — adapt the skill deliberately for the Claude workflow in your consumer project
-- `unsupported` — do not project the skill into Claude yet
+- `available-not-default` — the skill is still available for Claude use, but it is not part of the current default operating path
 
 You can inspect the current state with:
 
@@ -44,10 +44,10 @@ Examples in v0:
 - `business-design`
 - `triad-check`
 
-### 3. Leave unsupported skills alone
+### 3. Treat non-default skills as available, not blocked
 
-If a skill is marked `unsupported`, that is a boundary, not a failure.
-It means the repository is avoiding fake symmetry.
+If a skill is marked `available-not-default`, it is still usable with Claude.
+It simply means the repository is not treating it as part of the current default Claude path.
 
 ## Practical setup model
 
@@ -63,7 +63,7 @@ A consumer project can keep a short local note such as:
 
 - use `workflow` by link/reference only
 - adapt `ux-writing` manually for Claude if the team already reviews copy conversationally
-- keep `testing` unsupported until there is a real Claude-native reason to wrap it
+- keep `testing` as `available-not-default` until there is a real Claude-native reason to wrap it
 
 ## When to choose manual adaptation
 
@@ -81,7 +81,7 @@ Do not choose manual adaptation when:
 
 - do not mirror the entire library into Claude on day one
 - do not rewrite the canon just to fit a local Claude wrapper
-- do not treat `unsupported` as missing work by default
+- do not treat `available-not-default` as missing support
 - do not collapse local Claude rituals into the generic library
 
 ## Relationship to AletheIA

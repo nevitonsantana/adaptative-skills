@@ -39,7 +39,7 @@
       },
       "claude_projection": {
         "enabled": true,
-        "mode": "unsupported",
+        "mode": "available-not-default",
         "target_path": null
       }
     },
@@ -60,7 +60,7 @@
       },
       "claude_projection": {
         "enabled": true,
-        "mode": "unsupported",
+        "mode": "available-not-default",
         "target_path": null
       }
     },
@@ -81,7 +81,7 @@
       },
       "claude_projection": {
         "enabled": true,
-        "mode": "unsupported",
+        "mode": "available-not-default",
         "target_path": null
       }
     },
@@ -102,7 +102,7 @@
       },
       "claude_projection": {
         "enabled": true,
-        "mode": "unsupported",
+        "mode": "available-not-default",
         "target_path": null
       }
     },
@@ -123,7 +123,7 @@
       },
       "claude_projection": {
         "enabled": true,
-        "mode": "unsupported",
+        "mode": "available-not-default",
         "target_path": null
       }
     },
@@ -144,7 +144,7 @@
       },
       "claude_projection": {
         "enabled": true,
-        "mode": "unsupported",
+        "mode": "available-not-default",
         "target_path": null
       }
     },
@@ -165,7 +165,7 @@
       },
       "claude_projection": {
         "enabled": true,
-        "mode": "unsupported",
+        "mode": "available-not-default",
         "target_path": null
       }
     },
@@ -312,7 +312,7 @@
       },
       "claude_projection": {
         "enabled": true,
-        "mode": "unsupported",
+        "mode": "available-not-default",
         "target_path": null
       }
     },
@@ -333,7 +333,7 @@
       },
       "claude_projection": {
         "enabled": true,
-        "mode": "unsupported",
+        "mode": "available-not-default",
         "target_path": null
       }
     },
