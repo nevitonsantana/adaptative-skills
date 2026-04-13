@@ -10,31 +10,35 @@ def repo_root() -> Path:
 
 
 def load_registry() -> list[dict]:
-    return json.loads((repo_root() / 'projections' / 'registry.yaml').read_text()).get('skills', [])
+    return json.loads((repo_root() / "projections" / "registry.yaml").read_text()).get("skills", [])
 
 
 def main() -> int:
     skills = load_registry()
-    print('Projection status')
-    print(f'Total skills: {len(skills)}')
+    print("Projection status")
+    print(f"Total skills: {len(skills)}")
 
     modes: dict[str, int] = {}
     for skill in skills:
-        mode = skill.get('claude_projection', {}).get('mode', 'missing')
+        mode = skill.get("claude_projection", {}).get("mode", "missing")
         modes[mode] = modes.get(mode, 0) + 1
 
-    print('Claude modes:')
+    print("Claude modes:")
     for mode in sorted(modes):
-        print(f'- {mode}: {modes[mode]}')
+        print(f"- {mode}: {modes[mode]}")
 
-    print('
-Per skill:')
+    print("\nPer skill:")
     for skill in skills:
-        codex = skill.get('codex_projection', {})
-        claude = skill.get('claude_projection', {})
-        print(f"- {skill['id']}: category={skill.get('category')} | codex={'on' if codex.get('enabled') else 'off'}:{codex.get('target_name')} | claude={claude.get('mode')}")
+        codex = skill.get("codex_projection", {})
+        claude = skill.get("claude_projection", {})
+        codex_state = "on" if codex.get("enabled") else "off"
+        print(
+            f"- {skill['id']}: category={skill.get('category')} | "
+            f"codex={codex_state}:{codex.get('target_name')} | "
+            f"claude={claude.get('mode')}"
+        )
     return 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     raise SystemExit(main())
