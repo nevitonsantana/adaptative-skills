@@ -86,3 +86,7 @@ The test is successful if:
 ## Recommended artifact
 
 Use `examples/aletheia/first-test-report.md` as the output skeleton.
+
+## Worked example
+
+If you want to see the test as a concrete scenario, read `examples/aletheia/feature-slice-worked-example.md` and `examples/aletheia/first-test-report-sample.md`.
