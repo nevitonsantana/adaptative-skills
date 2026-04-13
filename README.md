@@ -94,6 +94,7 @@ python3 scripts/project_to_codex.py --all --dry-run
 
 Start with:
 - `docs/consumer-adoption.md`
+- `docs/codex-consumer-setup.md`
 - `examples/README.md`
 - `docs/aletheia-integration.md`
 
