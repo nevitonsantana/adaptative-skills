@@ -81,6 +81,8 @@ python3 scripts/project_to_codex.py --all --dry-run
 python3 scripts/project_to_codex.py --all
 ```
 
+For a more operational consumer setup, see `docs/codex-consumer-setup.md`.
+
 ### Claude
 
 Claude projection is selective in v0.
