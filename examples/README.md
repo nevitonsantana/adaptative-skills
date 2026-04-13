@@ -17,6 +17,7 @@ These examples show how to combine a small set of skills in realistic work.
 - `aletheia/first-test-report.md` — capture the first macro/micro test with AletheIA
 - `aletheia/feature-slice-worked-example.md` — worked example of the macro/micro split on a small feature task
 - `aletheia/first-test-report-sample.md` — sample filled report for the first AletheIA test
+- `aletheia/crisis-monitor-two-round-pilot.md` — real two-round pilot in Crisis Monitor using AletheIA + Adaptative Skills
 
 ## Reading guidance
 

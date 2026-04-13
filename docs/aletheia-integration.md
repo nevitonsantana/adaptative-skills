@@ -25,3 +25,10 @@ This repository should never assume that AletheIA is installed, running, or requ
 ## First practical test
 
 If you want to try the macro/micro split in a real task, start with `docs/aletheia-first-test.md` and `examples/aletheia/first-test-report.md`.
+
+## Real case reference
+
+If you want to see the model after two real rounds in a product lane, read:
+
+- `docs/crisis-monitor-case-study.md`
+- `examples/aletheia/crisis-monitor-two-round-pilot.md`

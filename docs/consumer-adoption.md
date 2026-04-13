@@ -113,3 +113,7 @@ Adoption is working if, within one week:
 
 Do not jump from setup directly into broad rollout.
 Use `docs/first-consumer-pilot.md` and `docs/pilot-evaluation-checklist.md` to run a bounded first adoption round.
+
+## Real consumer reference
+
+For a concrete small-lane pilot in production-like work, see `docs/crisis-monitor-case-study.md`.
