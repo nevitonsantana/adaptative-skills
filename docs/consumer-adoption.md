@@ -89,9 +89,9 @@ Claude projection is selective in v0.
 Current modes are:
 - `link-only`
 - `manual`
-- `unsupported`
+- `available-not-default`
 
-Do not force a symmetric projection model until the consumer project actually needs it.
+Do not force a symmetric projection model until the consumer project actually needs it. Every skill can still be used if you decide to adopt it later.
 For a practical guide, see `docs/claude-consumer-setup.md`.
 
 ## First-week success criteria

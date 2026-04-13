@@ -80,7 +80,7 @@ The repository keeps the canon in the repo and treats agent installs as derived 
 
 - `projections/registry.yaml` defines projection metadata
 - Codex projection is first-class today
-- Claude projection remains selective/manual in v0
+- Claude projection remains selective and availability-based in v0
 
 ## Quick start
 

@@ -14,7 +14,7 @@ def load_registry() -> list[dict]:
 
 
 def main() -> int:
-    print("Claude projection is documentation-first in v0.\n")
+    print("Claude projection is selective and availability-based in v0.\n")
     for skill in load_registry():
         projection = skill.get("claude_projection", {})
         print(f"- {skill['id']}: mode={projection.get('mode')} target={projection.get('target_path')}")
