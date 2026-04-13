@@ -65,6 +65,8 @@ Use it with AletheIA when you also want:
 
 See `docs/aletheia-integration.md` for the integration model.
 
+A real field case is documented in `docs/crisis-monitor-case-study.md`.
+
 ## Current domains
 
 - **Engineering** — implementation, contracts, testing, debugging, structural review
