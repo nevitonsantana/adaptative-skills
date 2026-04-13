@@ -21,3 +21,7 @@ AletheIA may:
 Skills remain useful without AletheIA.
 
 This repository should never assume that AletheIA is installed, running, or required.
+
+## First practical test
+
+If you want to try the macro/micro split in a real task, start with `docs/aletheia-first-test.md` and `examples/aletheia/first-test-report.md`.
