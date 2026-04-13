@@ -45,3 +45,10 @@ If you changed projection metadata, also run:
 ```bash
 python3 scripts/project_to_codex.py --check
 ```
+
+## When to add an example
+
+Add or update an example when:
+- a new skill is hard to understand from the contract alone
+- a skill combination becomes a repeated usage pattern
+- a domain pack needs a clear boundary example
