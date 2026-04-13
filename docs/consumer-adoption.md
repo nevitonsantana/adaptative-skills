@@ -108,3 +108,8 @@ Adoption is working if, within one week:
 - copying project-local rules into generic skills
 - treating modules as mandatory phases
 - trying to make the library replace product or engineering judgment
+
+## After setup: run a small pilot
+
+Do not jump from setup directly into broad rollout.
+Use `docs/first-consumer-pilot.md` and `docs/pilot-evaluation-checklist.md` to run a bounded first adoption round.
