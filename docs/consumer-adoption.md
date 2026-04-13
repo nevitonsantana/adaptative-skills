@@ -92,6 +92,7 @@ Current modes are:
 - `unsupported`
 
 Do not force a symmetric projection model until the consumer project actually needs it.
+For a practical guide, see `docs/claude-consumer-setup.md`.
 
 ## First-week success criteria
 
