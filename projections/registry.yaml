@@ -1,0 +1,425 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "id": "workflow",
+      "source_path": "skills/engineering/workflow/SKILL.md",
+      "category": "engineering",
+      "status": "active",
+      "portability_tags": [
+        "engineering",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "workflow",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $workflow when the task matches workflow work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "link-only",
+        "target_path": ".claude/skills/workflow.md"
+      }
+    },
+    {
+      "id": "feature-planning",
+      "source_path": "skills/engineering/feature-planning/SKILL.md",
+      "category": "engineering",
+      "status": "active",
+      "portability_tags": [
+        "engineering",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "feature-planning",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $feature-planning when the task matches feature planning work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "unsupported",
+        "target_path": null
+      }
+    },
+    {
+      "id": "testing",
+      "source_path": "skills/engineering/testing/SKILL.md",
+      "category": "engineering",
+      "status": "active",
+      "portability_tags": [
+        "engineering",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "testing",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $testing when the task matches testing work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "unsupported",
+        "target_path": null
+      }
+    },
+    {
+      "id": "debugging",
+      "source_path": "skills/engineering/debugging/SKILL.md",
+      "category": "engineering",
+      "status": "active",
+      "portability_tags": [
+        "engineering",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "debugging",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $debugging when the task matches debugging work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "unsupported",
+        "target_path": null
+      }
+    },
+    {
+      "id": "api-design",
+      "source_path": "skills/engineering/api-design/SKILL.md",
+      "category": "engineering",
+      "status": "active",
+      "portability_tags": [
+        "engineering",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "api-design",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $api-design when the task matches api design work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "unsupported",
+        "target_path": null
+      }
+    },
+    {
+      "id": "refactoring",
+      "source_path": "skills/engineering/refactoring/SKILL.md",
+      "category": "engineering",
+      "status": "active",
+      "portability_tags": [
+        "engineering",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "refactoring",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $refactoring when the task matches refactoring work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "unsupported",
+        "target_path": null
+      }
+    },
+    {
+      "id": "architecture-review",
+      "source_path": "skills/engineering/architecture-review/SKILL.md",
+      "category": "engineering",
+      "status": "active",
+      "portability_tags": [
+        "engineering",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "architecture-review",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $architecture-review when the task matches architecture review work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "unsupported",
+        "target_path": null
+      }
+    },
+    {
+      "id": "code-style",
+      "source_path": "skills/engineering/code-style/SKILL.md",
+      "category": "engineering",
+      "status": "active",
+      "portability_tags": [
+        "engineering",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "code-style",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $code-style when the task matches code style work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "unsupported",
+        "target_path": null
+      }
+    },
+    {
+      "id": "communication",
+      "source_path": "skills/engineering/communication/SKILL.md",
+      "category": "engineering",
+      "status": "active",
+      "portability_tags": [
+        "engineering",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "communication",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $communication when the task matches communication work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "link-only",
+        "target_path": ".claude/skills/communication.md"
+      }
+    },
+    {
+      "id": "ux-strategy",
+      "source_path": "skills/design/ux-strategy/SKILL.md",
+      "category": "design",
+      "status": "active",
+      "portability_tags": [
+        "design",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "ux-strategy",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $ux-strategy when the task matches ux strategy work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "manual",
+        "target_path": ".claude/skills/ux-strategy.md"
+      }
+    },
+    {
+      "id": "ux-provocation",
+      "source_path": "skills/design/ux-provocation/SKILL.md",
+      "category": "design",
+      "status": "active",
+      "portability_tags": [
+        "design",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "ux-provocation",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $ux-provocation when the task matches ux provocation work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "manual",
+        "target_path": ".claude/skills/ux-provocation.md"
+      }
+    },
+    {
+      "id": "heuristic-audit",
+      "source_path": "skills/design/heuristic-audit/SKILL.md",
+      "category": "design",
+      "status": "active",
+      "portability_tags": [
+        "design",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "heuristic-audit",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $heuristic-audit when the task matches heuristic audit work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "manual",
+        "target_path": ".claude/skills/heuristic-audit.md"
+      }
+    },
+    {
+      "id": "ux-writing",
+      "source_path": "skills/design/ux-writing/SKILL.md",
+      "category": "design",
+      "status": "active",
+      "portability_tags": [
+        "design",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "ux-writing",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $ux-writing when the task matches ux writing work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "manual",
+        "target_path": ".claude/skills/ux-writing.md"
+      }
+    },
+    {
+      "id": "business-design",
+      "source_path": "skills/business/business-design/SKILL.md",
+      "category": "business",
+      "status": "active",
+      "portability_tags": [
+        "business",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "business-design",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $business-design when the task matches business design work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "manual",
+        "target_path": ".claude/skills/business-design.md"
+      }
+    },
+    {
+      "id": "qa-review",
+      "source_path": "skills/quality/qa-review/SKILL.md",
+      "category": "quality",
+      "status": "active",
+      "portability_tags": [
+        "quality",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "qa-review",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $qa-review when the task matches qa review work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "unsupported",
+        "target_path": null
+      }
+    },
+    {
+      "id": "observability-review",
+      "source_path": "skills/metrics/observability-review/SKILL.md",
+      "category": "metrics",
+      "status": "active",
+      "portability_tags": [
+        "metrics",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "observability-review",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $observability-review when the task matches observability review work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "unsupported",
+        "target_path": null
+      }
+    },
+    {
+      "id": "triad-check",
+      "source_path": "skills/cross-functional/triad-check/SKILL.md",
+      "category": "cross-functional",
+      "status": "active",
+      "portability_tags": [
+        "cross-functional",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "triad-check",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $triad-check when the task matches triad check work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "manual",
+        "target_path": ".claude/skills/triad-check.md"
+      }
+    },
+    {
+      "id": "crisis-analyst",
+      "source_path": "domain-packs/crisis-management/skills/crisis-analyst/SKILL.md",
+      "category": "crisis-management",
+      "status": "active",
+      "portability_tags": [
+        "crisis-management",
+        "domain-pack"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "crisis-analyst",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $crisis-analyst when the task matches crisis analyst work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "manual",
+        "target_path": ".claude/skills/crisis-analyst.md"
+      }
+    },
+    {
+      "id": "monitoring-architect",
+      "source_path": "domain-packs/crisis-management/skills/monitoring-architect/SKILL.md",
+      "category": "crisis-management",
+      "status": "active",
+      "portability_tags": [
+        "crisis-management",
+        "domain-pack"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "monitoring-architect",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $monitoring-architect when the task matches monitoring architect work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "manual",
+        "target_path": ".claude/skills/monitoring-architect.md"
+      }
+    },
+    {
+      "id": "cris-voice",
+      "source_path": "domain-packs/crisis-management/skills/cris-voice/SKILL.md",
+      "category": "crisis-management",
+      "status": "active",
+      "portability_tags": [
+        "crisis-management",
+        "domain-pack"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "cris-voice",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $cris-voice when the task matches cris voice work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "manual",
+        "target_path": ".claude/skills/cris-voice.md"
+      }
+    }
+  ]
+}

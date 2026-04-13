@@ -1,0 +1,95 @@
+# Adaptative Skills
+
+A public, English-first library of micro-skills for agentic work.
+
+**AletheIA is the macro layer.** It frames work, gates risk, supports handoffs, and preserves continuity.
+**Adaptative Skills is the micro layer.** It helps an agent or team execute a specific capability with discipline, lightweight structure, and reusable heuristics.
+
+## Core thesis
+
+The library is built around **Core + Modules + Triggers**:
+
+- **Core Moves** — the few moves that should almost always happen
+- **Optional Modules** — add-ons that activate only when the context needs them
+- **Activation Triggers** — simple signals that help choose the right modules without building a rigid mini-engine
+
+This keeps skills structured without turning them into bureaucracy.
+
+## What is in v0
+
+### Generic library
+
+- `skills/engineering`
+- `skills/design`
+- `skills/business`
+- `skills/quality`
+- `skills/metrics`
+- `skills/cross-functional`
+
+Skeleton-only domains in v0:
+
+- `skills/product`
+- `skills/governance`
+
+### Domain packs
+
+- `domain-packs/crisis-management`
+
+Domain packs are intentionally specific. They are useful, versioned, and reusable, but they are **not** treated as generic skills.
+
+## Repository layout
+
+```txt
+/docs           -> model, taxonomy, telemetry, AletheIA integration
+/skills         -> generic skills by domain
+/domain-packs   -> explicit domain-specific packs
+/projections    -> projection registry for agent installs
+/scripts        -> validation and projection tooling
+/templates      -> starter templates for new skills
+```
+
+## Use with or without AletheIA
+
+The library is useful on its own.
+
+Use it without AletheIA when you want:
+- reusable execution discipline
+- consistent outputs
+- better specialist handoffs
+
+Use it with AletheIA when you also want:
+- macro framing
+- review gates
+- continuity between rounds
+- structured learning and operational memory
+
+See `docs/aletheia-integration.md` for the integration model.
+
+## Current domains
+
+- **Engineering** — implementation, contracts, testing, debugging, structural review
+- **Design** — UX strategy, critique, provocation, UX writing
+- **Business** — strategic framing and synthesis
+- **Quality** — cross-layer quality review
+- **Metrics** — observable, decision-linked signals
+- **Cross-functional** — triad-style checks for multi-function decisions
+
+## Projection model
+
+The repository keeps the canon in the repo and treats agent installs as derived artifacts.
+
+- `projections/registry.yaml` defines projection metadata
+- Codex projection is first-class today
+- Claude projection remains selective/manual in v0
+
+## Quick start
+
+```bash
+python3 scripts/validate_skills.py
+python3 scripts/report_projection_status.py
+python3 scripts/project_to_codex.py --all --dry-run
+```
+
+## License
+
+Apache-2.0
