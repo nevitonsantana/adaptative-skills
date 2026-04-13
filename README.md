@@ -90,6 +90,18 @@ python3 scripts/report_projection_status.py
 python3 scripts/project_to_codex.py --all --dry-run
 ```
 
+## Adopt in another project
+
+Start with:
+- `docs/consumer-adoption.md`
+- `examples/README.md`
+- `docs/aletheia-integration.md`
+
+Recommended first bundle for a new consumer:
+- `workflow`
+- `feature-planning`
+- `testing`
+
 ## License
 
 Apache-2.0
