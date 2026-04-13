@@ -13,6 +13,9 @@ These examples show how to combine a small set of skills in realistic work.
 ### Domain packs
 - `domain-packs/crisis-signal-read.md` — use `workflow + crisis-analyst + triad-check`
 
+### AletheIA
+- `aletheia/first-test-report.md` — capture the first macro/micro test with AletheIA
+
 ## Reading guidance
 
 Examples are intentionally short.
