@@ -1,25 +1,39 @@
 # Recommended Telemetry
 
-This repository does not implement runtime telemetry.
-It documents a recommended shape so projects can evolve skills intentionally instead of by anecdote.
+This repository still does not implement runtime telemetry.
+What it now provides is a **governed telemetry shape** so real usage can feed the evolution layer without drifting into anecdote.
 
 ## Recommended fields
 
 - `skill_id`
 - `domain`
+- `context`
 - `modules_activated`
 - `trigger_matches`
 - `result`
 - `handoff_required`
 - `failure_type`
 - `improvement_note`
+- `evidence_refs`
+- `attribution_guess`
+- `result_mode`
 
-## Reading guidance
+## How telemetry should be read
 
-Track telemetry only when it supports:
-- skill improvement
-- better projection defaults
-- clearer handoff points
-- evidence that a module should be promoted, changed, or removed
+Telemetry is useful only when it helps answer one of these questions:
 
-Do not instrument for vanity.
+- did the current skill work as intended?
+- was the issue local to the project or lane?
+- is a trigger, module, or sidecar weak?
+- is there enough evidence to create a proposal?
+- is `reinforced` or `no-change` actually the correct outcome?
+
+## Relation to the evolution layer
+
+In v1.1, telemetry should normally feed repository-level artifacts such as:
+
+- `evolution/observations/`
+- `evolution/proposals/`
+- `evolution/reviews/`
+
+It should not become vanity instrumentation or a hidden self-editing loop.

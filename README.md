@@ -15,6 +15,18 @@ The library is built around **Core + Modules + Triggers**:
 
 This keeps skills structured without turning them into bureaucracy.
 
+## Governed evolution layer
+
+The library now also includes a repository-level evolution layer.
+It treats skills as governed living assets:
+
+- observations capture real usage signals
+- proposals turn repeated evidence into reviewable change requests
+- `reinforced` and `no-change` are valid outcomes
+- the canon never self-rewrites in v1.1
+
+See `docs/evolution-layer.md` and `evolution/README.md`.
+
 ## What is in v0
 
 ### Generic library
@@ -44,6 +56,7 @@ Domain packs are intentionally specific. They are useful, versioned, and reusabl
 /skills         -> generic skills by domain
 /domain-packs   -> explicit domain-specific packs
 /projections    -> projection registry for agent installs
+/evolution      -> governed learning artifacts, observations, proposals, reviews
 /scripts        -> validation and projection tooling
 /templates      -> starter templates for new skills
 ```
@@ -88,6 +101,7 @@ The repository keeps the canon in the repo and treats agent installs as derived 
 
 ```bash
 python3 scripts/validate_skills.py
+python3 scripts/validate_evolution.py
 python3 scripts/report_projection_status.py
 python3 scripts/project_to_codex.py --all --dry-run
 ```
