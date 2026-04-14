@@ -27,6 +27,36 @@ This repository therefore uses an explicit loop:
 7. **Govern** — decide whether the proposal is accepted, rejected, deferred, or downgraded to no-change.
 8. **Write** — update the library only after review.
 
+## Implemented now — Evolution Layer v1.1
+
+The current v1.1 baseline is already implemented through:
+
+- `docs/evolution-layer.md`
+- `evolution/registry.yaml`
+- `evolution/observations/`
+- `evolution/proposals/`
+- `evolution/reviews/`
+- `scripts/validate_evolution.py`
+
+Decisions already taken in v1.1:
+
+- repository-level governance instead of per-skill logs
+- no auto-writeback into `SKILL.md`
+- no mandatory `telemetry.md` or `improvement-log.md` inside every skill
+- success-aware outcomes such as `reinforced` and `no-change`
+- a small, domain-aligned pilot using a limited initial skill set
+
+## Editorial decision
+
+**The Evolution Layer v1.1 is considered structurally correct and will not be reworked into a per-skill logging model right now.**
+
+This avoids reopening decisions that were intentionally chosen for v1.1:
+
+- centralised evidence
+- lighter governance
+- less bureaucracy per skill
+- canonical writeback only through pull request
+
 ## What this is not
 
 This is not a self-rewrite runtime.
@@ -50,19 +80,51 @@ Valid outcomes include:
 - `new-skill-candidate` — repeated evidence suggests the current skill boundary is too small
 - `rejected` — a proposed change should not enter the library
 
-## Repo-level design
+## Implemented structure versus deferred structure
 
-The evolution layer is intentionally centralised.
+### Adopted in v1.1
 
-It lives in:
+```txt
+evolution/
+  registry.yaml
+  observations/
+  proposals/
+  reviews/
+  templates/
+```
 
-- `evolution/registry.yaml`
-- `evolution/observations/`
-- `evolution/proposals/`
-- `evolution/templates/`
-- `evolution/reviews/`
+This is the current, supported structure.
+It is enough for governed learning without making every skill heavier.
 
-This keeps the library coherent and avoids adding `telemetry.md` or `improvement-log.md` to every skill before the process is proven.
+### Deferred for Evolution Layer v1.2+
+
+```txt
+skill-name/
+  telemetry.md
+  improvement-log.md
+```
+
+This structure is **not adopted in v1.1**.
+It remains a future candidate only if real pilot scale shows that the repository-level structure is no longer sufficient.
+
+The same is true for a future split such as:
+
+```txt
+telemetry/
+  skill-usage/
+  skill-failures/
+  skill-opportunities/
+
+improvements/
+  proposals/
+  approved/
+  rejected/
+
+experiments/
+  automated-refinement/
+```
+
+That may become useful later, but it should not be treated as missing work in the current baseline.
 
 ## Protected versus proposal-safe surfaces
 
@@ -99,8 +161,51 @@ It also uses the Crisis Monitor + AletheIA case as seed evidence, especially whe
 - a reinforced skill
 - a true proposal-worthy library gap
 
+## Evolution Layer vs Efficiency Layer
+
+These are related but different tracks.
+
+- **Evolution Layer** improves the library itself.
+- **Efficiency Layer** improves how work is carried out with the library.
+
+Examples:
+
+- if `feature-planning` has a weak trigger or sidecar gap, that belongs to the Evolution Layer
+- if tasks keep arriving too large across many sessions, that belongs to the Efficiency Layer
+- if handoffs are poor because a skill boundary is weak, that belongs to the Evolution Layer
+- if handoffs are poor because teams lack a good end-of-round practice, that belongs to the Efficiency Layer
+
+## New track — Efficiency Layer v0
+
+Efficiency Layer is a separate, future track.
+It is **not** part of the Evolution Layer v1.1 baseline.
+
+Its purpose is to improve operational efficiency around:
+
+- context growth
+- task chunking
+- prompt quality
+- checkpoints
+- handoff summaries
+- model-class calibration
+
+See `docs/efficiency-layer.md` for the roadmap.
+
 ## Relation to AletheIA
 
 AletheIA may eventually help coordinate this layer by surfacing repeated breakdowns, handoff friction, and continuity signals.
 But Adaptative Skills must remain useful without AletheIA.
 The evolution layer therefore stays repository-native and review-native in v1.1.
+
+## Recommended next step
+
+Do not restructure the Evolution Layer further right now.
+The next sensible move is:
+
+- merge the current Evolution Layer work
+- keep using the bounded pilot
+- observe whether the repository-level artifacts remain sufficient
+- plan Efficiency Layer v0 separately, beginning with:
+  - `task-chunking`
+  - `handoff-summary`
+  - `checkpoint-review`

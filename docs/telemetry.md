@@ -37,3 +37,9 @@ In v1.1, telemetry should normally feed repository-level artifacts such as:
 - `evolution/reviews/`
 
 It should not become vanity instrumentation or a hidden self-editing loop.
+
+
+## Deferred per-skill telemetry
+
+Per-skill files such as `telemetry.md` or `improvement-log.md` are not part of the current baseline.
+They remain future candidates only if the repository-level evolution artifacts become too coarse for real usage volume.

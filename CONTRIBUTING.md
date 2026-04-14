@@ -67,3 +67,9 @@ Prefer this order before proposing a new skill:
 5. only then a new-skill candidate
 
 Do not treat every local success or failure as a library edit request. `reinforced` and `no-change` are healthy outcomes.
+
+
+## Efficiency Layer timing
+
+Do not treat Efficiency Layer ideas as unfinished Evolution Layer work.
+The Evolution Layer v1.1 baseline should stay stable while Efficiency Layer is planned as its own track.

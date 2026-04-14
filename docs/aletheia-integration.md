@@ -38,3 +38,7 @@ If you want to see the model after two real rounds in a product lane, read:
 
 The evolution layer can be informed by AletheIA, but it should never depend on AletheIA to exist.
 AletheIA may surface recurring signals; the Adaptative Skills repository still owns the governed writeback through its own review process.
+
+## Efficiency-layer boundary
+
+A future Efficiency Layer may align closely with AletheIA because both care about handoffs, checkpoints, and bounded work. Even then, the Efficiency Layer should remain an Adaptative Skills track rather than becoming an AletheIA requirement.
