@@ -462,6 +462,27 @@
         "mode": "available-not-default",
         "target_path": null
       }
+    },
+    {
+      "id": "checkpoint-review",
+      "source_path": "skills/efficiency/checkpoint-review/SKILL.md",
+      "category": "efficiency",
+      "status": "active",
+      "portability_tags": [
+        "efficiency",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "checkpoint-review",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $checkpoint-review when the task matches checkpoint review work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "available-not-default",
+        "target_path": null
+      }
     }
   ]
 }

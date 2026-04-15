@@ -67,6 +67,9 @@ Close one round of work with enough context for the next round without dragging 
 
 ## `checkpoint-review`
 
+**Status:** published in `skills/efficiency/checkpoint-review/` as the third Efficiency Layer skill.
+
+
 ### Purpose
 Insert a short, useful pause between rounds so teams do not keep pushing work forward blindly.
 
