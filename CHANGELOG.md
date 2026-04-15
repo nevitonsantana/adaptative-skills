@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1
+
+- clarify Evolution Layer v1.1 as the current baseline and separate Efficiency Layer as a future track
+- add a governed evolution layer with repo-level registry, observations, proposals, and reviews
+- add validation for evolution metadata and protected proposal surfaces
+- document success-aware outcomes such as `reinforced` and `no-change`
+
 ## 0.1.0
 
 - initial public scaffold for Adaptative Skills

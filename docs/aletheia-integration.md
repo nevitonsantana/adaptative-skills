@@ -14,7 +14,8 @@ AletheIA may:
 2. suggest optional modules based on context
 3. require minimum proof before closure
 4. detect that a handoff is required
-5. turn repeated breakdowns into library improvements
+5. turn repeated breakdowns into observations or proposals
+6. help carry learning across rounds when the same lane keeps exposing the same friction
 
 ## Important boundary
 
@@ -32,3 +33,12 @@ If you want to see the model after two real rounds in a product lane, read:
 
 - `docs/crisis-monitor-case-study.md`
 - `examples/aletheia/crisis-monitor-two-round-pilot.md`
+
+## Evolution-layer boundary
+
+The evolution layer can be informed by AletheIA, but it should never depend on AletheIA to exist.
+AletheIA may surface recurring signals; the Adaptative Skills repository still owns the governed writeback through its own review process.
+
+## Efficiency-layer boundary
+
+A future Efficiency Layer may align closely with AletheIA because both care about handoffs, checkpoints, and bounded work. Even then, the Efficiency Layer should remain an Adaptative Skills track rather than becoming an AletheIA requirement.

@@ -1,0 +1,745 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "skill_id": "workflow",
+      "scope": "generic",
+      "domain": "engineering",
+      "automation_level": "semi-automatic",
+      "pilot_priority": "now",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "feature-planning",
+      "scope": "generic",
+      "domain": "engineering",
+      "automation_level": "semi-automatic",
+      "pilot_priority": "now",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "testing",
+      "scope": "generic",
+      "domain": "engineering",
+      "automation_level": "semi-automatic",
+      "pilot_priority": "now",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "debugging",
+      "scope": "generic",
+      "domain": "engineering",
+      "automation_level": "governed-autoevolution",
+      "pilot_priority": "now",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "api-design",
+      "scope": "generic",
+      "domain": "engineering",
+      "automation_level": "governed-autoevolution",
+      "pilot_priority": "later",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "refactoring",
+      "scope": "generic",
+      "domain": "engineering",
+      "automation_level": "governed-autoevolution",
+      "pilot_priority": "later",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "architecture-review",
+      "scope": "generic",
+      "domain": "engineering",
+      "automation_level": "governed-autoevolution",
+      "pilot_priority": "later",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "code-style",
+      "scope": "generic",
+      "domain": "engineering",
+      "automation_level": "governed-autoevolution",
+      "pilot_priority": "later",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "communication",
+      "scope": "generic",
+      "domain": "engineering",
+      "automation_level": "semi-automatic",
+      "pilot_priority": "later",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "ux-strategy",
+      "scope": "generic",
+      "domain": "design",
+      "automation_level": "manual-assisted",
+      "pilot_priority": "later",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "ux-provocation",
+      "scope": "generic",
+      "domain": "design",
+      "automation_level": "manual-assisted",
+      "pilot_priority": "later",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "heuristic-audit",
+      "scope": "generic",
+      "domain": "design",
+      "automation_level": "semi-automatic",
+      "pilot_priority": "later",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "ux-writing",
+      "scope": "generic",
+      "domain": "design",
+      "automation_level": "manual-assisted",
+      "pilot_priority": "now",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "business-design",
+      "scope": "generic",
+      "domain": "business",
+      "automation_level": "manual-assisted",
+      "pilot_priority": "later",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "qa-review",
+      "scope": "generic",
+      "domain": "quality",
+      "automation_level": "manual-assisted",
+      "pilot_priority": "later",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "observability-review",
+      "scope": "generic",
+      "domain": "metrics",
+      "automation_level": "manual-assisted",
+      "pilot_priority": "later",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "triad-check",
+      "scope": "generic",
+      "domain": "cross-functional",
+      "automation_level": "manual-assisted",
+      "pilot_priority": "later",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "crisis-analyst",
+      "scope": "domain-pack",
+      "domain": "crisis-management",
+      "automation_level": "manual-assisted",
+      "pilot_priority": "hold",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "monitoring-architect",
+      "scope": "domain-pack",
+      "domain": "crisis-management",
+      "automation_level": "manual-assisted",
+      "pilot_priority": "hold",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    },
+    {
+      "skill_id": "cris-voice",
+      "scope": "domain-pack",
+      "domain": "crisis-management",
+      "automation_level": "manual-assisted",
+      "pilot_priority": "hold",
+      "protected_surfaces": [
+        "name",
+        "description",
+        "When to Use",
+        "When NOT to Use",
+        "Core Moves",
+        "skill-domain",
+        "skill-category",
+        "skill-merge-split",
+        "skill-thesis"
+      ],
+      "proposal_targets": [
+        "Activation Triggers",
+        "Optional Modules",
+        "Verification",
+        "Anti-patterns",
+        "templates/",
+        "checklists/",
+        "examples/",
+        "references/",
+        "changelog.md"
+      ],
+      "result_modes": [
+        "reinforced",
+        "no-change",
+        "proposal-created",
+        "new-module-candidate",
+        "new-skill-candidate",
+        "rejected"
+      ]
+    }
+  ]
+}

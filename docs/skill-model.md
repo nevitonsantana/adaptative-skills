@@ -60,3 +60,28 @@ Only add them when they reduce cognitive load or improve reuse.
 - do not create modules for one-off edge cases
 - do not create empty sidecar folders
 - do not turn a skill into a mini framework
+
+
+## Governed evolution
+
+Skills are living assets, but not every observation should change the library.
+
+The evolution layer is designed to:
+- capture real usage evidence
+- distinguish local residue from reusable skill friction
+- protect the most conceptually sensitive surfaces
+- allow small proposals before structural edits
+
+Valid outcomes include `reinforced`, `no-change`, and proposal-oriented results such as `new-module-candidate`.
+
+## Protected surfaces
+
+In v1.1, the most sensitive surfaces stay protected from proposal-driven writeback:
+
+- `name` and `description`
+- `When to Use` / `When NOT to Use`
+- `Core Moves`
+- skill category and domain boundaries
+- merge or split decisions for skills
+
+That keeps the library coherent while still allowing safer refinements in triggers, modules, verification, and sidecars.

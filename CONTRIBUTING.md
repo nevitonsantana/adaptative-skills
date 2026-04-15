@@ -36,6 +36,7 @@ Run:
 
 ```bash
 python3 scripts/validate_skills.py
+python3 scripts/validate_evolution.py
 python3 scripts/report_projection_status.py
 python3 scripts/project_to_codex.py --all --dry-run
 ```
@@ -52,3 +53,23 @@ Add or update an example when:
 - a new skill is hard to understand from the contract alone
 - a skill combination becomes a repeated usage pattern
 - a domain pack needs a clear boundary example
+
+
+## Evolution layer changes
+
+Use the evolution layer when a real usage signal suggests the library itself may need review.
+
+Prefer this order before proposing a new skill:
+1. `no-change`
+2. trigger adjustment
+3. example, checklist, or template refinement
+4. new module candidate
+5. only then a new-skill candidate
+
+Do not treat every local success or failure as a library edit request. `reinforced` and `no-change` are healthy outcomes.
+
+
+## Efficiency Layer timing
+
+Do not treat Efficiency Layer ideas as unfinished Evolution Layer work.
+The Evolution Layer v1.1 baseline should stay stable while Efficiency Layer is planned as its own track.
