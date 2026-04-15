@@ -2,6 +2,7 @@
 
 ## 0.1.1
 
+- publish `checkpoint-review` as the third Efficiency Layer skill
 - publish `handoff-summary` as the second Efficiency Layer skill
 - publish `task-chunking` as the first Efficiency Layer skill
 - document the first Efficiency Layer roadmap and the initial candidate skills
