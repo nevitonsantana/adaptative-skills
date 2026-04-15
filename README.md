@@ -27,7 +27,7 @@ It treats skills as governed living assets:
 
 See `docs/evolution-layer.md` and `evolution/README.md`.
 
-A separate **Efficiency Layer** is now tracked as a future path for context, checkpoint, handoff, and chunking discipline. It is intentionally separate from the Evolution Layer so the current v1.1 baseline does not get reopened prematurely. See `docs/efficiency-layer.md`.
+A separate **Efficiency Layer** is now tracked as a future path for context, checkpoint, handoff, and chunking discipline. It is intentionally separate from the Evolution Layer so the current v1.1 baseline does not get reopened prematurely. See `docs/efficiency-layer.md`, `docs/efficiency-layer-roadmap.md`, and `docs/efficiency-layer-candidate-skills.md`.
 
 ## What is in v0
 
