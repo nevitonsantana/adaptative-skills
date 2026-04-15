@@ -96,3 +96,12 @@ After this roadmap pass, the next sensible move is a separate documentation pass
 - expected outputs
 - where each skill stops and AletheIA begins
 - one lightweight example of combined usage
+
+
+## First pilot artifacts
+
+The pilot artifacts for this first use pass are:
+
+- `docs/efficiency-layer-first-pilot.md`
+- `docs/efficiency-layer-pilot-checklist.md`
+- `templates/pilot/efficiency-pilot-report.md`
