@@ -105,3 +105,5 @@ The pilot artifacts for this first use pass are:
 - `docs/efficiency-layer-first-pilot.md`
 - `docs/efficiency-layer-pilot-checklist.md`
 - `templates/pilot/efficiency-pilot-report.md`
+- `docs/efficiency-layer-crisis-monitor-reference.md`
+- `examples/efficiency/crisis-monitor-efficiency-reference.md`

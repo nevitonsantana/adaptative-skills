@@ -15,3 +15,4 @@ The first implementation pass is documentation-first, so examples are intentiona
 - `task-chunking-bounded-slice.md`
 - `handoff-summary-round-closure.md`
 - `checkpoint-review-stop-or-continue.md`
+- `crisis-monitor-efficiency-reference.md`

@@ -50,6 +50,11 @@ The pilot should not pull in:
 
 Those remain local overlays or AletheIA-level macro posture.
 
+## Reference case
+
+A Crisis Monitor reference case is available in `docs/efficiency-layer-crisis-monitor-reference.md`.
+Use it when you want one concrete field example of the trio mapped onto a real product lane without treating that product repo as the implementation target.
+
 ## Suggested pilot loop
 
 ### 1. Pick one recurring lane
