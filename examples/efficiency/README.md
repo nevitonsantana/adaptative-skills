@@ -9,3 +9,9 @@ The first implementation pass is documentation-first, so examples are intentiona
 - bounded execution with `task-chunking`
 - round closure with `handoff-summary`
 - stop-or-continue decision with `checkpoint-review`
+
+## Published examples
+
+- `task-chunking-bounded-slice.md`
+- `handoff-summary-round-closure.md`
+- `checkpoint-review-stop-or-continue.md`

@@ -120,6 +120,7 @@ Start with:
 - `docs/aletheia-first-test.md`
 - `examples/README.md`
 - `docs/aletheia-integration.md`
+- `docs/efficiency-layer-first-pilot.md`
 
 Recommended first bundle for a new consumer:
 - `workflow`
