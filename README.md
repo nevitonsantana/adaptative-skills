@@ -121,6 +121,7 @@ Start with:
 - `examples/README.md`
 - `docs/aletheia-integration.md`
 - `docs/efficiency-layer-first-pilot.md`
+- `docs/efficiency-layer-crisis-monitor-reference.md`
 
 Recommended first bundle for a new consumer:
 - `workflow`

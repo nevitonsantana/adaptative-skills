@@ -2,6 +2,7 @@
 
 ## 0.1.1
 
+- add a Crisis Monitor-based reference case for the first Efficiency Layer trio
 - add an Efficiency Layer pilot kit for validating the first trio in real work
 - publish `checkpoint-review` as the third Efficiency Layer skill
 - publish `handoff-summary` as the second Efficiency Layer skill
