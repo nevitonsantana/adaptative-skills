@@ -2,6 +2,7 @@
 
 ## 0.1.1
 
+- add a short trio-patterns guide for combining the first Efficiency Layer skills
 - add a Crisis Monitor-based reference case for the first Efficiency Layer trio
 - add an Efficiency Layer pilot kit for validating the first trio in real work
 - publish `checkpoint-review` as the third Efficiency Layer skill

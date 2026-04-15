@@ -122,6 +122,7 @@ Start with:
 - `docs/aletheia-integration.md`
 - `docs/efficiency-layer-first-pilot.md`
 - `docs/efficiency-layer-crisis-monitor-reference.md`
+- `docs/efficiency-layer-trio-patterns.md`
 
 Recommended first bundle for a new consumer:
 - `workflow`
