@@ -41,6 +41,9 @@ Break oversized work into smaller, reviewable, and more testable slices.
 
 ## `handoff-summary`
 
+**Status:** published in `skills/efficiency/handoff-summary/` as the second Efficiency Layer skill.
+
+
 ### Purpose
 Close one round of work with enough context for the next round without dragging the whole session forward.
 
