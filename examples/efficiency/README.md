@@ -16,3 +16,9 @@ The first implementation pass is documentation-first, so examples are intentiona
 - `handoff-summary-round-closure.md`
 - `checkpoint-review-stop-or-continue.md`
 - `crisis-monitor-efficiency-reference.md`
+
+## Supporting guides
+
+- `../../docs/efficiency-layer-first-pilot.md`
+- `../../docs/efficiency-layer-crisis-monitor-reference.md`
+- `../../docs/efficiency-layer-trio-patterns.md`
