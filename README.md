@@ -123,6 +123,7 @@ Start with:
 - `docs/efficiency-layer-first-pilot.md`
 - `docs/efficiency-layer-crisis-monitor-reference.md`
 - `docs/efficiency-layer-trio-patterns.md`
+- `docs/efficiency-layer-next-signals.md`
 
 Recommended first bundle for a new consumer:
 - `workflow`

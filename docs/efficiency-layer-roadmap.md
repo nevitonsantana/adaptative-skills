@@ -108,3 +108,4 @@ The pilot artifacts for this first use pass are:
 - `docs/efficiency-layer-crisis-monitor-reference.md`
 - `examples/efficiency/crisis-monitor-efficiency-reference.md`
 - `docs/efficiency-layer-trio-patterns.md`
+- `docs/efficiency-layer-next-signals.md`
