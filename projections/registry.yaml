@@ -420,6 +420,27 @@
         "mode": "manual",
         "target_path": ".claude/skills/cris-voice.md"
       }
+    },
+    {
+      "id": "task-chunking",
+      "source_path": "skills/efficiency/task-chunking/SKILL.md",
+      "category": "efficiency",
+      "status": "active",
+      "portability_tags": [
+        "efficiency",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "task-chunking",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $task-chunking when the task matches chunking work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "available-not-default",
+        "target_path": null
+      }
     }
   ]
 }
