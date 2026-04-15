@@ -39,6 +39,7 @@ A separate **Efficiency Layer** is now tracked as a future path for context, che
 - `skills/quality`
 - `skills/metrics`
 - `skills/cross-functional`
+- `skills/efficiency`
 
 Skeleton-only domains in v0:
 
@@ -90,6 +91,7 @@ A real field case is documented in `docs/crisis-monitor-case-study.md`.
 - **Quality** — cross-layer quality review
 - **Metrics** — observable, decision-linked signals
 - **Cross-functional** — triad-style checks for multi-function decisions
+- **Efficiency** — chunking, checkpoints, handoff discipline, and bounded execution patterns
 
 ## Projection model
 

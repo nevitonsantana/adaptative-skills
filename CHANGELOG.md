@@ -2,6 +2,7 @@
 
 ## 0.1.1
 
+- publish `task-chunking` as the first Efficiency Layer skill
 - document the first Efficiency Layer roadmap and the initial candidate skills
 - clarify Evolution Layer v1.1 as the current baseline and separate Efficiency Layer as a future track
 - add a governed evolution layer with repo-level registry, observations, proposals, and reviews

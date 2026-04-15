@@ -13,6 +13,9 @@ These examples show how to combine a small set of skills in realistic work.
 ### Domain packs
 - `domain-packs/crisis-signal-read.md` — use `workflow + crisis-analyst + triad-check`
 
+### Efficiency
+- `efficiency/task-chunking-bounded-slice.md` — use `task-chunking` to turn an oversized task into one bounded execution slice
+
 ### AletheIA
 - `aletheia/first-test-report.md` — capture the first macro/micro test with AletheIA
 - `aletheia/feature-slice-worked-example.md` — worked example of the macro/micro split on a small feature task

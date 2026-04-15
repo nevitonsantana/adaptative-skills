@@ -11,6 +11,7 @@ Current generic domains:
 - quality
 - metrics
 - cross-functional
+- efficiency
 
 Skeleton-only in v0:
 - product

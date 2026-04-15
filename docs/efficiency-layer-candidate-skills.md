@@ -16,6 +16,9 @@ They improve how work is carried out, but they do not require the repository to 
 
 ## `task-chunking`
 
+**Status:** published in `skills/efficiency/task-chunking/` as the first Efficiency Layer skill.
+
+
 ### Purpose
 Break oversized work into smaller, reviewable, and more testable slices.
 
