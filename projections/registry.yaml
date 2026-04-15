@@ -441,6 +441,27 @@
         "mode": "available-not-default",
         "target_path": null
       }
+    },
+    {
+      "id": "handoff-summary",
+      "source_path": "skills/efficiency/handoff-summary/SKILL.md",
+      "category": "efficiency",
+      "status": "active",
+      "portability_tags": [
+        "efficiency",
+        "generic"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "handoff-summary",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $handoff-summary when the task matches handoff summary work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "available-not-default",
+        "target_path": null
+      }
     }
   ]
 }

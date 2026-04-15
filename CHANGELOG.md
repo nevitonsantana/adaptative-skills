@@ -2,6 +2,7 @@
 
 ## 0.1.1
 
+- publish `handoff-summary` as the second Efficiency Layer skill
 - publish `task-chunking` as the first Efficiency Layer skill
 - document the first Efficiency Layer roadmap and the initial candidate skills
 - clarify Evolution Layer v1.1 as the current baseline and separate Efficiency Layer as a future track
