@@ -42,3 +42,14 @@ AletheIA may surface recurring signals; the Adaptative Skills repository still o
 ## Efficiency-layer boundary
 
 A future Efficiency Layer may align closely with AletheIA because both care about handoffs, checkpoints, and bounded work. Even then, the Efficiency Layer should remain an Adaptative Skills track rather than becoming an AletheIA requirement.
+
+## Current Efficiency Layer focus
+
+The current Efficiency Layer roadmap is intentionally narrow.
+Its first candidate skills are:
+
+- `task-chunking`
+- `handoff-summary`
+- `checkpoint-review`
+
+These are intentionally lighter than model-routing or prompt-framing and should be easier to validate with real work before deeper overlap with AletheIA is considered.
