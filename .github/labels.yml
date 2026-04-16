@@ -1,0 +1,90 @@
+# Labels para o projeto Adaptative Skills
+# Importar com: gh label edit --import .github/labels.yml
+
+- name: "priority: critical"
+  color: "b60205"
+  description: "P0 - Urgência máxima, próximo sprint"
+
+- name: "priority: high"
+  color: "d93f0b"
+  description: "P1 - Alta prioridade, próximo sprint"
+
+- name: "priority: medium"
+  color: "fbca04"
+  description: "P2 - Média prioridade, próximo mês"
+
+- name: "priority: low"
+  color: "0e8a16"
+  description: "P3 - Baixa prioridade, backlog longo prazo"
+
+- name: "category: domain-expansion"
+  color: "1d76db"
+  description: "Expansão de domains/skills"
+
+- name: "category: tooling"
+  color: "0075ca"
+  description: "Ferramentas e infraestrutura"
+
+- name: "category: documentation"
+  color: "c5def5"
+  description: "Documentação e guides"
+
+- name: "category: testing"
+  color: "bfd4f2"
+  description: "Tests e QA"
+
+- name: "category: automation"
+  color: "d4c5f9"
+  description: "Automação e bots"
+
+- name: "category: governance"
+  color: "663399"
+  description: "Governança e políticas"
+
+- name: "category: community"
+  color: "ff69b4"
+  description: "Comunidade e contribuições"
+
+- name: "category: feature"
+  color: "a2eeef"
+  description: "Nova feature"
+
+- name: "category: research"
+  color: "d4fc79"
+  description: "Pesquisa e exploração"
+
+- name: "category: refactoring"
+  color: "ffc107"
+  description: "Refatoração e patterns"
+
+- name: "type: feature"
+  color: "84b6eb"
+  description: "Nova funcionalidade"
+
+- name: "type: bug"
+  color: "e11d21"
+  description: "Bug report"
+
+- name: "type: enhancement"
+  color: "a2eeef"
+  description: "Melhoria"
+
+- name: "type: tech-debt"
+  color: "f9d0c4"
+  description: "Technical debt"
+
+- name: "type: research"
+  color: "d4fc79"
+  description: "Research task"
+
+- name: "status: blocked"
+  color: "e11d21"
+  description: "Bloqueado, precisa atenção"
+
+- name: "status: needs-review"
+  color: "fbca04"
+  description: "Aguardando review"
+
+- name: "status: ready-for-release"
+  color: "0e8a16"
+  description: "Pronto para release"

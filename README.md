@@ -110,6 +110,23 @@ python3 scripts/report_projection_status.py
 python3 scripts/project_to_codex.py --all --dry-run
 ```
 
+## 📊 Project Management
+
+- **[Project Kanban](./PROJECT_KANBAN.md)**: Quadro Kanban com tarefas, prioridades e status dos pilotos
+- **[Roadmap Evolutivo](./ROADMAP_EVOLUTIVO.md)**: Planejamento estratégico Q2-Q3 2026 com fases, OKRs e métricas
+- **[Evolution Backlog](./EVOLUTION_BACKLOG.md)**: Backlog de evolution cycles (observations, proposals, reviews)
+
+### Status Atual (Abril 2026)
+
+| Dimensão | Status | Próxima Entrega |
+|----------|--------|-----------------|
+| Skills Validadas | 23/35 | Efficiency Layer v1.1 - 2026-04-25 |
+| Pilotos Ativos | 5 | Resultados - 2026-04-20 |
+| Evolution Cycle | #3 (Observations) | Cycle #4 - 2026-05-01 |
+| Domínios | 8/10 | Product + Governance - Maio 2026 |
+
+**📋 Veja o [Project Kanban](./PROJECT_KANBAN.md) para detalhes das tarefas atuais e prioridades.**
+
 ## Adopt in another project
 
 Start with:
