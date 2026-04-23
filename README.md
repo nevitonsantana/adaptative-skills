@@ -79,7 +79,7 @@ Use it with AletheIA when you also want:
 - continuity between rounds
 - structured learning and operational memory
 
-See `docs/aletheia-integration.md` for the integration model.
+See `docs/aletheia-integration.md` for the integration model and `docs/agent-role-integration.md` for the role-to-skill consumption layer.
 
 A real field case is documented in `docs/crisis-monitor-case-study.md`.
 
@@ -120,6 +120,7 @@ Start with:
 - `docs/aletheia-first-test.md`
 - `examples/README.md`
 - `docs/aletheia-integration.md`
+- `docs/agent-role-integration.md`
 - `docs/efficiency-layer-first-pilot.md`
 - `docs/efficiency-layer-crisis-monitor-reference.md`
 - `docs/efficiency-layer-trio-patterns.md`

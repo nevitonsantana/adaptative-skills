@@ -17,6 +17,21 @@ AletheIA may:
 5. turn repeated breakdowns into observations or proposals
 6. help carry learning across rounds when the same lane keeps exposing the same friction
 
+
+## Agent-role consumption layer
+
+AletheIA roles may consume Adaptative Skills without turning this repository into an agent framework.
+
+Healthy reading model:
+
+- **AletheIA role** -> semantic responsibility
+- **Adaptative Skill** -> reusable micro-execution support
+- **projection / runtime adapter** -> consumer-local delivery mechanism
+
+That means a consumer may keep the same role across Codex and Claude Code while changing only how the skills are loaded or projected locally.
+
+For the recommended role-to-skill matrix, see `docs/agent-role-integration.md`.
+
 ## Important boundary
 
 Skills remain useful without AletheIA.

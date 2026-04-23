@@ -68,6 +68,24 @@ A practical split:
 AletheIA may suggest the skill, enforce minimum proof, or detect the need for handoff.
 The skill itself remains independently useful.
 
+
+## Using the library with AletheIA roles
+
+If your project already uses AletheIA agent roles, treat this repository as the micro layer consumed by those roles.
+
+Healthy split:
+
+- **role** decides the semantic boundary
+- **skill** gives the execution discipline inside that boundary
+- **consumer projection** decides how the skill becomes available in Codex, Claude Code, or another runtime
+
+Recommended entrypoint:
+
+- `docs/agent-role-integration.md`
+- `examples/aletheia/role-to-skill-consumption.md`
+
+Do not create new generic skills just because a role exists. Prefer using the current canon through a small role-to-skill bundle first.
+
 ## Projection strategy
 
 ### Codex
