@@ -78,7 +78,7 @@ This model is called **Core + Modules + Triggers**. You do not need to understan
 
 ## Current library
 
-The canonical library currently contains **34 generic skills across 11 categories**:
+The canonical library currently contains **35 portable skills across 11 categories**:
 
 - engineering;
 - design;
@@ -124,7 +124,7 @@ Read [AletheIA integration](https://nevitonsantana.github.io/adaptive-skills/ale
 
 - Do not use a skill when its “When NOT to Use” section matches the task.
 - Do not assume a skill grants access to tools, files, secrets, or external systems.
-- Do not copy project-specific policy into the generic library.
+- Do not copy project-specific policy into the portable library.
 - Do not treat a polished AI response as evidence that the skill succeeded.
 - Do not activate several skills when one is enough.
 

@@ -34,7 +34,7 @@ The recommended public reader path is:
 - `skill-design-principles/lean-skill-doctrine.md` — S20 doctrine for necessary, distinct, proportional, verifiable and governable skills
 - `skill-catalog-governance.md` — catalog lifecycle, intake, merge/split/deprecation and quality-gate flow
 - `how-to-use-a-skill.md` — practical guide for choosing and using a skill
-- `domain-taxonomy.md` — generic skills vs. domain packs
+- `domain-taxonomy.md` — portable skills vs. domain packs
 - `capability-model.md` — skills, capabilities, workflows, runtime, harness, and governance boundaries
 - `capability-graph.md` — experimental graph overlay for composition and routing
 - `capability-routing-boundary.md` — S10 boundary note aligning capability fit with AletheIA routing governance

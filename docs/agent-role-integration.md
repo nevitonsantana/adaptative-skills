@@ -41,7 +41,7 @@ Without this separation, teams tend to create one of two problems:
 1. **role inflation**
    - every runtime invents its own role names for the same job
 2. **skill inflation**
-   - a generic skill gets treated as if it were a role, workflow engine, or project operating system
+   - a portable skill gets treated as if it were a role, workflow engine, or project operating system
 
 The healthy model is simpler:
 

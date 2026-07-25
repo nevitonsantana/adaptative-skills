@@ -49,7 +49,7 @@ Use it when you want:
 - more consistent AI-assisted execution;
 - clearer specialist handoffs;
 - reusable quality gates;
-- better separation between generic practices and project-local rules;
+- better separation between portable practices and project-local rules;
 - a governed way to evolve prompts, skills, and operating patterns over time.
 
 <p align="center">
@@ -76,9 +76,9 @@ This keeps skills practical: structured enough to be repeatable, flexible enough
 
 ## What is in the repository
 
-### Generic skills
+### Portable skills
 
-Generic skills live flat under `/skills` as `skills/<skill-name>/SKILL.md`, conforming to the [`agentskills.io`](https://agentskills.io/specification) Skill Collection layout consumed by APM. Each skill carries its domain in the `metadata.category` field of its frontmatter; see [`docs/skill-categories.md`](docs/skill-categories.md) for the category taxonomy and per-category backlog, and [ADR-005](docs/adr/ADR-005-apm-packaging-strategy.md) for the rationale.
+Portable skills live flat under `/skills` as `skills/<skill-name>/SKILL.md`, conforming to the [`agentskills.io`](https://agentskills.io/specification) Skill Collection layout consumed by APM. Each skill carries its domain in the `metadata.category` field of its frontmatter; see [`docs/skill-categories.md`](docs/skill-categories.md) for the category taxonomy and per-category backlog, and [ADR-005](docs/adr/ADR-005-apm-packaging-strategy.md) for the rationale.
 
 Current examples include:
 
@@ -100,7 +100,7 @@ Every category now has at least one published skill. See `docs/skill-categories.
 
 Domain packs live under `/domain-packs`.
 
-They are intentionally specific, versioned, and reusable, but they are **not** treated as generic skill truth.
+They are intentionally specific, versioned, and reusable, but they are **not** treated as portable skill truth.
 
 Current domain packs:
 
@@ -162,7 +162,7 @@ See:
 
 ```txt
 /docs           -> model, taxonomy, telemetry, integration notes
-/skills         -> generic skills by domain
+/skills         -> portable skills by domain
 /domain-packs   -> explicit domain-specific packs
 /projections    -> projection registry for agent installs
 /evolution      -> governed learning artifacts, observations, proposals, reviews
@@ -266,7 +266,7 @@ Add `premortem` when plans have meaningful cost of failure and can still be chan
 
 | Dimension | Status | Next delivery posture |
 |----------|--------|-----------------------|
-| Validated skills | 35 generic + 8 domain-pack | Gather authorized field evidence for the experimental AI Discovery pack |
+| Validated skills | 35 portable + 8 domain-pack | Gather authorized field evidence for the experimental AI Discovery pack |
 | Active pilots | 5 | Keep follow-ups evidence-gated |
 | Evolution cycle | #3 — Observations | Start Cycle #4 only after reviewable signals |
 | Domains | 10/10 | All categories now have at least one published skill |
@@ -286,7 +286,7 @@ Adaptive Skills is **domain-agnostic** (see [`docs/adr/ADR-002-domain-agnosticis
 - [`domain-packs/ai-discovery-agent-experience/`](domain-packs/ai-discovery-agent-experience/) —
   experimental second pack; five skills are delivered, but field evidence remains incomplete
 
-These domain packs remain bounded evidence rather than generic skill truth. The
+These domain packs remain bounded evidence rather than portable skill truth. The
 MoradaHarmoniA scaffold does not become completed field evidence until an authorized,
 reproducible baseline exists.
 

@@ -36,11 +36,11 @@ def main() -> int:
     for page in pages:
         text = page.read_text(errors="ignore")
         relative = page.relative_to(dist)
-        h1_count = len(re.findall(r"<h1(?:\\s|>)", text))
+        h1_count = len(re.findall(r"<h1(?:\s|>)", text))
         if h1_count != 1:
             errors.append(f"{relative}: expected exactly one visible H1, found {h1_count}")
 
-        heading_levels = [int(level) for level in re.findall(r"<h([1-6])(?:\\s|>)", text)]
+        heading_levels = [int(level) for level in re.findall(r"<h([1-6])(?:\s|>)", text)]
         for previous, current in zip(heading_levels, heading_levels[1:]):
             if current > previous + 1:
                 errors.append(

@@ -3,8 +3,6 @@ title: Select Product Management modules
 description: Choose the smallest sufficient product-management module and companion skill path.
 ---
 
-# Select Product Management modules
-
 Start with the decision, not with a framework name. Ask what must become clearer, what evidence exists, and what decision remains human-owned.
 
 ## Initial modules

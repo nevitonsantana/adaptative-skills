@@ -9,7 +9,7 @@ Short answers to common questions from new users and teams.
 
 ### What is Adaptive Skills?
 
-A portable library of 34 small capabilities for AI-assisted work. Each skill defines when it fits, essential moves, optional depth, an expected output, and verification criteria.
+A portable library of 35 focused capabilities for AI-assisted work. Each skill defines when it fits, essential moves, optional depth, an expected output, and verification criteria.
 
 ### Is a skill just a prompt?
 
@@ -87,7 +87,7 @@ No. Review the source, ownership, version, and boundaries before installation. T
 
 ### Can I customize a skill?
 
-Keep project-specific rules in a local overlay or project skill rather than silently changing the installed generic canon. If a generic improvement is broadly useful, submit it through the evolution process.
+Keep project-specific rules in a local overlay or project skill rather than silently changing the installed portable canon. If an improvement is broadly useful across projects, submit it through the evolution process.
 
 ### Can a skill approve or close work?
 
@@ -105,7 +105,7 @@ Real usage can produce observations. Maintainers may turn repeated evidence into
 
 ### Where can I see all available skills?
 
-Use the [skill catalog](https://nevitonsantana.github.io/adaptive-skills/getting-started/skill-catalog/). It lists all 34 canonical skills by category and trigger.
+Use the [skill catalog](https://nevitonsantana.github.io/adaptive-skills/getting-started/skill-catalog/). It lists all 35 portable skills by category and trigger.
 
 ## Troubleshooting
 

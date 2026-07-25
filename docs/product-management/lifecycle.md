@@ -3,8 +3,6 @@ title: Product Management lifecycle
 description: Understand the product-management journey from framing to learning review.
 ---
 
-# Product Management lifecycle
-
 The lifecycle is a decision journey, not a mandatory waterfall. Stop when the current decision is sufficiently clear, or hand off when another skill owns the next action.
 
 ## Stages

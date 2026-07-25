@@ -35,7 +35,7 @@ The basic loop is:
 4. produce the expected output
 5. verify the result before treating the task as done
 
-### 2. Start with a small generic set
+### 2. Start with a small portable set
 
 For a first consumer project, start with three engineering skills:
 - `workflow`
@@ -104,7 +104,7 @@ Recommended entrypoint:
 - `docs/agent-role-integration.md`
 - `examples/aletheia/role-to-skill-consumption.md`
 
-Do not create new generic skills just because a role exists. Prefer using the current canon through a small role-to-skill bundle first.
+Do not create new portable skills just because a role exists. Prefer using the current canon through a small role-to-skill bundle first.
 
 ## Projection strategy
 
@@ -137,13 +137,13 @@ For a practical guide, see `docs/claude-consumer-setup.md`.
 Adoption is working if, within one week:
 - the team can pick a skill without confusion
 - at least one real task improves clarity or proof quality
-- local overlays stay local instead of leaking into generic skills
+- local overlays stay local instead of leaking into portable skills
 - no one feels forced to run all modules all the time
 
 ## Common failure modes
 
 - importing too many skills at once
-- copying project-local rules into generic skills
+- copying project-local rules into portable skills
 - treating modules as mandatory phases
 - trying to make the library replace product or engineering judgment
 

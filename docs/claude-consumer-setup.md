@@ -117,7 +117,7 @@ Do not choose manual adaptation when:
 - do not create Claude wrappers before selecting the skills by task need
 - do not rewrite the canon just to fit a local Claude wrapper
 - do not treat `available-not-default` as missing support
-- do not collapse local Claude rituals into the generic library
+- do not collapse local Claude rituals into the portable library
 
 ## Relationship to AletheIA
 

@@ -13,7 +13,7 @@ Start with:
 
 - [Skill model](https://nevitonsantana.github.io/adaptive-skills/skill-model/) — anatomy and selection discipline.
 - [Skill categories](https://nevitonsantana.github.io/adaptive-skills/skill-categories/) — current organizational taxonomy.
-- [Domain taxonomy](https://nevitonsantana.github.io/adaptive-skills/domain-taxonomy/) — generic skills versus domain packs.
+- [Domain taxonomy](https://nevitonsantana.github.io/adaptive-skills/domain-taxonomy/) — portable skills versus domain packs.
 - [Lean skill doctrine](https://nevitonsantana.github.io/adaptive-skills/skill-design-principles/lean-skill-doctrine/) — why skills stay small and composable.
 
 ## Composition

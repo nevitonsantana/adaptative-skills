@@ -165,6 +165,6 @@ A practical split is:
 
 - do not install every skill on day one
 - do not use `--all` as the default adoption path
-- do not move project-local policies into generic skills
+- do not move project-local policies into portable skills
 - do not treat projection as the source of truth
 - do not assume Claude should mirror Codex installation in v0
