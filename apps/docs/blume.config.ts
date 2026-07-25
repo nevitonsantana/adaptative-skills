@@ -67,6 +67,12 @@ export default defineConfig({
               ],
             },
             {
+              label: "Knowledge Governance",
+              items: [
+                "/knowledge-governance/index",
+              ],
+            },
+            {
               label: "Skill reference",
               items: [
                 "/skills/index",

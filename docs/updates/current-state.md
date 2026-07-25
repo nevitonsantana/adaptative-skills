@@ -7,7 +7,7 @@ This page describes the repository state represented by current documentation an
 
 ## Published capability surface
 
-- **36 portable skills** under `skills/*/SKILL.md`.
+- **37 portable skills** under `skills/*/SKILL.md`.
 - **9 domain-pack skills** across the crisis-management pack and the experimental
   AI Discovery & Agent Experience v0.1 pack.
 - Portable skills remain the reusable public capability library.
@@ -20,7 +20,7 @@ This page describes the repository state represented by current documentation an
 
 See the [complete skills catalog](https://nevitonsantana.github.io/adaptive-skills/getting-started/skill-catalog/) for task triggers and expected outcomes.
 
-Detailed public profiles are available for all 36 portable skills. Each profile is generated from its canonical `SKILL.md` contract and adds reader-facing orientation without creating a second source of authority.
+Detailed public profiles are available for all 37 portable skills. Each profile is generated from its canonical `SKILL.md` contract and adds reader-facing orientation without creating a second source of authority.
 
 ## Supporting metadata
 
@@ -77,3 +77,5 @@ pnpm run docs:validate
 - Browse [Cases and evidence](https://nevitonsantana.github.io/adaptive-skills/cases/) for bounded maturity records.
 - Read [Changelog](https://nevitonsantana.github.io/adaptive-skills/updates/changelog/) for consumer-facing changes.
 - Read [Updates and evolution](https://nevitonsantana.github.io/adaptive-skills/updates/) before interpreting roadmap material.
+
+Knowledge Governance provides an optional entrypoint for source evaluation, conflict resolution, and restricted-context checks.

@@ -146,3 +146,23 @@ escalation_boundaries:
     to: communication
     relation: delegates-to
     reason: "The family uses communication when the continuity result must be made legible to another owner."
+
+  - from: knowledge-governance
+    to: knowledge-source-evaluation
+    relation: delegates-to
+    reason: "The family routes new or re-evaluated source decisions to the canonical evaluation contract."
+
+  - from: knowledge-governance
+    to: knowledge-conflict-resolution
+    relation: delegates-to
+    reason: "The family routes confirmed decision-relevant source conflicts to the canonical precedence contract."
+
+  - from: knowledge-governance
+    to: restricted-context-check
+    relation: delegates-to
+    reason: "The family routes sensitive or cross-boundary source use to the canonical exposure contract."
+
+  - from: knowledge-governance
+    to: aletheia
+    relation: escalation-boundary
+    reason: "Registration, authorization, human review, and governance decisions remain outside the portable family."

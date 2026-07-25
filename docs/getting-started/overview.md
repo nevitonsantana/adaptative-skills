@@ -81,7 +81,7 @@ to understand the deeper architecture before using your first skill.
 
 ## Current library
 
-The canonical library currently contains **36 portable skills across 11 categories**:
+The canonical library currently contains **37 portable skills across 11 categories**:
 
 - engineering;
 - design;

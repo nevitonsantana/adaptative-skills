@@ -55,7 +55,7 @@ Reusable execution skills for engineering work. These skills should work across 
 
 Skills for reviewing permanent cost, lifecycle decisions, and governed knowledge use without taking project-level decision authority.
 
-- **Published:** `feature-complexity-audit`, `sunset-decision`, `knowledge-source-evaluation`, `knowledge-conflict-resolution`, `restricted-context-check`
+- **Published:** `feature-complexity-audit`, `sunset-decision`, `knowledge-source-evaluation`, `knowledge-conflict-resolution`, `restricted-context-check`, `knowledge-governance`
 - **Backlog:** `decision-log`, `handoff-governance`, `ai-safety-review`
 
 ## metrics
