@@ -1,0 +1,30 @@
+# Reusable output shape for a Product Management review.
+# Keep unknowns explicit; do not fill them with invented product data.
+product_management_review:
+  decision:
+    question: ""
+    stage: frame | discover | decide | define | deliver | learn
+    shape: problem | opportunity | feature | portfolio | sequence | metric | outcome_review
+  framing:
+    outcome: ""
+    user_or_customer: ""
+    problem: ""
+    decision_owner: ""
+  evidence:
+    observed: []
+    hypotheses: []
+    assumptions: []
+    gaps: []
+  path:
+    primary_module: ""
+    supporting_modules: []
+    handoffs: []
+    rejected_methods: []
+  result:
+    recommendation_or_finding: ""
+    confidence: high | medium | low | not_assessed
+    limitations: []
+  human_decisions: []
+  verification:
+    success_condition: ""
+    next_step: ""

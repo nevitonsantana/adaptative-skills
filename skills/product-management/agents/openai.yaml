@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Management"
+  short_description: "Guide product decisions with modular methods"
+  default_prompt: "Use $product-management to frame a product decision and select the right modules."

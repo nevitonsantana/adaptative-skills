@@ -68,6 +68,7 @@ Each skill appears once in this catalog. Its `skills/<name>/SKILL.md` file remai
 
 | Skill | Use it when | Expected outcome |
 |---|---|---|
+| [`product-management`](https://nevitonsantana.github.io/adaptive-skills/skills/product-management/) | A product request spans framing, evidence, method selection, outcomes, or handoffs | Bounded product decision path with explicit modules, uncertainty, verification, and human boundaries |
 | [`feature-value-governance`](https://nevitonsantana.github.io/adaptive-skills/skills/feature-value-governance/) | Deciding whether a feature deserves investment | Auditable value and overreach judgment |
 | [`opportunity-tree-alignment`](https://nevitonsantana.github.io/adaptive-skills/skills/opportunity-tree-alignment/) | Backlog bets lack clear outcome links | Outcome-to-opportunity-to-lever alignment |
 

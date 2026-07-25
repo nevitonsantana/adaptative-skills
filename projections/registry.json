@@ -779,6 +779,28 @@
         "mode": "available-not-default",
         "target_path": null
       }
+    },
+    {
+      "id": "product-management",
+      "source_path": "skills/product-management/SKILL.md",
+      "category": "product",
+      "status": "active",
+      "portability_tags": [
+        "product",
+        "generic",
+        "consultative"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "product-management",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $product-management to frame a product decision and select the right modules."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "available-not-default",
+        "target_path": null
+      }
     }
   ]
 }

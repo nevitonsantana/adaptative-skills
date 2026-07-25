@@ -68,3 +68,29 @@ profiles:
       - rollback_or_mitigation
       - human_approval_boundary
       - post_fix_evidence
+
+  - id: product-management/diagnose
+    depth: standard
+    use_when: "A product request is ambiguous, spans multiple decisions, or needs a bounded problem and evidence frame."
+    requires:
+      - problem_or_request
+      - intended_outcome
+      - available_evidence
+
+  - id: product-management/decision
+    depth: high-assurance
+    use_when: "A product decision needs method selection, explicit uncertainty, human trade-offs, or outcome guardrails."
+    requires:
+      - decision_object
+      - decision_horizon
+      - evidence_quality
+      - human_decision_points
+
+  - id: product-management/composition
+    depth: coordinated
+    use_when: "The request requires ordered handoffs between product framing, value, delivery, design, or measurement skills."
+    requires:
+      - decomposed_questions
+      - role_boundaries
+      - handoff_protocol
+      - verification_plan

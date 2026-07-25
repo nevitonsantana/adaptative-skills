@@ -78,3 +78,16 @@ routes:
       - pulso-pilot-mode
       - pattern-candidate-review
     escalation_hint: aletheia_design_system_intelligence_review
+
+  - id: route.product-management.ambiguous-request
+    activates:
+      - product-management
+    when:
+      task_shape: product_request
+      ambiguity: medium_or_high
+    mode: product-management/diagnose
+    modules:
+      - problem-framing
+      - discovery-and-evidence
+      - handoff-boundary
+    escalation_hint: aletheia_product_decision_boundary

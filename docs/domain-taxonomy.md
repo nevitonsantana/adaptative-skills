@@ -34,3 +34,5 @@ Current pack:
 A skill belongs in the generic library only if it can be used in another project without inheriting local operating rules or domain-specific vocabulary.
 
 If the skill depends on a specific product worldview, vocabulary, or context model, it should be a domain pack.
+
+The generic `product-management` skill is a modular entry point inside the `product` domain. Its modules and framework references extend one contract; they do not create separate domains or independent skills by default.

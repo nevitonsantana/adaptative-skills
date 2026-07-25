@@ -7,15 +7,16 @@ This page describes the repository state represented by current documentation an
 
 ## Published capability surface
 
-- **34 generic skills** under `skills/*/SKILL.md`.
+- **35 generic skills** under `skills/*/SKILL.md`.
 - **3 domain-pack skills** in the crisis-management validation pack.
 - Generic skills remain the reusable public capability library.
 - Domain-pack skills remain validation cases rather than part of the generic inventory.
 - `documentation` is the generic `docs` skill for source-backed self-service journeys across novice, practitioner, advanced, and maintainer readers.
+- `product-management` is the generic `product` entry point for modular, evidence-aware product decisions; its first release includes problem framing, discovery and evidence, prioritization and method selection, and metrics and outcomes.
 
 See the [complete skills catalog](https://nevitonsantana.github.io/adaptive-skills/getting-started/skill-catalog/) for task triggers and expected outcomes.
 
-Detailed public profiles are available for all 34 generic skills. Each profile is generated from its canonical `SKILL.md` contract and adds reader-facing orientation without creating a second source of authority.
+Detailed public profiles are available for all 35 generic skills. Each profile is generated from its canonical `SKILL.md` contract and adds reader-facing orientation without creating a second source of authority.
 
 ## Supporting metadata
 
@@ -38,6 +39,8 @@ The public Blume site provides progressive paths for beginners, practitioners, a
 The canonical `documentation` skill uses five durable Core Moves and context-triggered modules for reader journeys, information architecture, technical storytelling, controlled procedural clarity, editorial governance, change documentation, and publication QA. A reusable checklist and three synthetic validation cases cover multi-level onboarding, executable procedures, and mixed-corpus audits.
 
 The complete skill reference uses stable `/skills/<name>/` routes, canonical metadata projection, complete contract rendering, and direct access to usage boundaries, outputs, verification, and handoff guidance. Registry validation now requires every canonical generic skill to have a public profile.
+
+The public [Product Management guide](https://nevitonsantana.github.io/adaptive-skills/product-management/) explains the lifecycle, module selection, framework provenance, and bounded composition examples without duplicating the canonical contract.
 
 ## Maturity boundaries
 

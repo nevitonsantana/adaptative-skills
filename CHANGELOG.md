@@ -2,7 +2,9 @@
 
 ## Unreleased
 
-- expand canonical public detail profiles from the validated three-skill pilot to all 34 generic skills, with registry-driven navigation, complete catalog and index links, and validation that blocks missing canonical profiles
+- add the modular `product-management` skill as a consultative product-domain entry point with problem framing, discovery and evidence, prioritization and method selection, metrics and outcomes, method profiles, synthetic validation cases, capability metadata, and public lifecycle guidance; keep investment, roadmap, delivery, and macro-governance authority outside the skill
+
+- expand canonical public detail profiles from the validated three-skill pilot to all 35 generic skills, with registry-driven navigation, complete catalog and index links, and validation that blocks missing canonical profiles
 
 - evolve the generic `documentation` skill around source-backed self-service reader journeys, five durable Core Moves, context-triggered modules, a reusable checklist, and synthetic validation cases; align its public catalog, category, generic-domain taxonomy, current-state record, and consumer-facing changelog without adding runtime enforcement or formal ASD-STE100 compliance
 
