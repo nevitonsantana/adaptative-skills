@@ -1,5 +1,8 @@
 import { defineConfig } from "blume";
 
+import skillReferenceRegistry from "../../docs/skills/registry.json" with {
+  type: "json",
+};
 import { skillReferenceSource } from "./skill-reference-source.ts";
 
 export default defineConfig({
@@ -45,9 +48,9 @@ export default defineConfig({
               label: "Skill reference",
               items: [
                 "/skills/index",
-                "/skills/documentation",
-                "/skills/feature-planning",
-                "/skills/ux-strategy",
+                ...skillReferenceRegistry.skills.map(
+                  ({ id }) => `/skills/${id}`
+                ),
               ],
             },
             "/guides/workflow-recipes",

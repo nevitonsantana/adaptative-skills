@@ -1,16 +1,140 @@
 {
   "skills": [
     {
-      "id": "documentation",
-      "title": "Documentation"
+      "id": "workflow",
+      "title": "Workflow"
     },
     {
       "id": "feature-planning",
       "title": "Feature planning"
     },
     {
+      "id": "testing",
+      "title": "Testing"
+    },
+    {
+      "id": "debugging",
+      "title": "Debugging"
+    },
+    {
+      "id": "api-design",
+      "title": "API design"
+    },
+    {
+      "id": "refactoring",
+      "title": "Refactoring"
+    },
+    {
+      "id": "lean-implementation",
+      "title": "Lean implementation"
+    },
+    {
+      "id": "architecture-review",
+      "title": "Architecture review"
+    },
+    {
+      "id": "code-style",
+      "title": "Code style"
+    },
+    {
+      "id": "communication",
+      "title": "Communication"
+    },
+    {
+      "id": "domain-language-alignment",
+      "title": "Domain language alignment"
+    },
+    {
       "id": "ux-strategy",
       "title": "UX strategy"
+    },
+    {
+      "id": "ux-provocation",
+      "title": "UX provocation"
+    },
+    {
+      "id": "heuristic-audit",
+      "title": "Heuristic audit"
+    },
+    {
+      "id": "ux-writing",
+      "title": "UX writing"
+    },
+    {
+      "id": "design-system-intelligence",
+      "title": "Design system intelligence"
+    },
+    {
+      "id": "documentation",
+      "title": "Documentation"
+    },
+    {
+      "id": "intent-clarification",
+      "title": "Intent clarification"
+    },
+    {
+      "id": "premortem",
+      "title": "Premortem"
+    },
+    {
+      "id": "task-chunking",
+      "title": "Task chunking"
+    },
+    {
+      "id": "checkpoint-review",
+      "title": "Checkpoint review"
+    },
+    {
+      "id": "handoff-summary",
+      "title": "Handoff summary"
+    },
+    {
+      "id": "triad-check",
+      "title": "Triad check"
+    },
+    {
+      "id": "feature-value-governance",
+      "title": "Feature value governance"
+    },
+    {
+      "id": "opportunity-tree-alignment",
+      "title": "Opportunity tree alignment"
+    },
+    {
+      "id": "business-design",
+      "title": "Business design"
+    },
+    {
+      "id": "revenue-lever-mapping",
+      "title": "Revenue lever mapping"
+    },
+    {
+      "id": "feature-complexity-audit",
+      "title": "Feature complexity audit"
+    },
+    {
+      "id": "sunset-decision",
+      "title": "Sunset decision"
+    },
+    {
+      "id": "knowledge-source-evaluation",
+      "title": "Knowledge source evaluation"
+    },
+    {
+      "id": "knowledge-conflict-resolution",
+      "title": "Knowledge conflict resolution"
+    },
+    {
+      "id": "restricted-context-check",
+      "title": "Restricted context check"
+    },
+    {
+      "id": "qa-review",
+      "title": "QA review"
+    },
+    {
+      "id": "observability-review",
+      "title": "Observability review"
     }
   ]
 }

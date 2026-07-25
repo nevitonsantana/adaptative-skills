@@ -57,6 +57,7 @@ def detail_registry(root: Path, errors: list[str]) -> list[dict[str, str]]:
 
     normalized: list[dict[str, str]] = []
     seen: set[str] = set()
+    seen_titles: set[str] = set()
     for index, entry in enumerate(entries):
         source = f"docs/skills/registry.json: skills[{index}]"
         if not isinstance(entry, dict):
@@ -73,7 +74,14 @@ def detail_registry(root: Path, errors: list[str]) -> list[dict[str, str]]:
         if skill_id in seen:
             errors.append(f"docs/skills/registry.json: duplicate skill id {skill_id}")
             continue
+        normalized_title = title.strip().casefold()
+        if normalized_title in seen_titles:
+            errors.append(
+                f"docs/skills/registry.json: duplicate public title {title.strip()}"
+            )
+            continue
         seen.add(skill_id)
+        seen_titles.add(normalized_title)
         normalized.append({"id": skill_id, "title": title.strip()})
     return normalized
 
@@ -135,6 +143,19 @@ def main() -> int:
 
     registry = detail_registry(root, errors)
     registered_ids = {entry["id"] for entry in registry}
+    missing_profiles = sorted(set(skills) - registered_ids)
+    unknown_profiles = sorted(registered_ids - set(skills))
+    if missing_profiles:
+        errors.append(
+            "skill detail registry is missing canonical skills: "
+            + ", ".join(missing_profiles)
+        )
+    if unknown_profiles:
+        errors.append(
+            "skill detail registry contains unknown skills: "
+            + ", ".join(unknown_profiles)
+        )
+
     index_path = root / "docs" / "skills" / "index.md"
     index_text = index_path.read_text() if index_path.exists() else ""
     if not index_text:

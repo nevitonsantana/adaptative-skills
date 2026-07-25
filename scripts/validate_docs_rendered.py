@@ -115,6 +115,23 @@ def main() -> int:
         if canonical_url not in text:
             errors.append(f"{relative}: missing canonical SKILL.md source link")
 
+        canonical_text = (
+            root / "skills" / skill_id / "SKILL.md"
+        ).read_text(errors="ignore")
+        for target in re.findall(
+            r"\]\(\.\./\.\./\.\./aletheia/([^)]+)\)",
+            canonical_text,
+        ):
+            expected_url = (
+                "https://github.com/nevitonsantana/AletheIA/blob/main/"
+                f"{target}"
+            )
+            if expected_url not in text:
+                errors.append(
+                    f"{relative}: missing rewritten AletheIA source link: "
+                    f"{expected_url}"
+                )
+
     if errors:
         print("Rendered documentation validation failed:")
         for error in errors:
