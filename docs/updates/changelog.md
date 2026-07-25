@@ -13,6 +13,8 @@ capabilities and routes, projection metadata, a dated standards register, and a 
 self-service journey. No MoradaHarmoniA baseline or external outcome is claimed.
 It now also has an optional family entrypoint that routes broad goals to the smallest sufficient
 building block without replacing direct specialist use.
+The first inventory audit of the remaining portable skills identifies Work Continuity & Efficiency
+as the next pilot candidate and keeps broader or overlapping groupings on hold.
 Public documentation now labels the cross-domain library as **portable skills** while preserving `generic` for internal metadata and knowledge-mode semantics. The rendered-page validator was corrected to detect H1 tags with attributes, and the Product Management guide no longer renders duplicate page titles.
 
 The portable `product-management` skill is now available as one consultative, modular entry point. Its first modules cover problem framing, discovery and evidence, prioritization and method selection, and metrics and outcomes. Public guidance explains the lifecycle, module selection, framework provenance, and handoffs to existing skills.

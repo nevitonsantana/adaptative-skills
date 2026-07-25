@@ -48,6 +48,7 @@ The public [Product Management guide](https://nevitonsantana.github.io/adaptive-
 
 The public [AI Discovery & Agent Experience guide](https://nevitonsantana.github.io/adaptive-skills/ai-discovery-agent-experience/) provides skill selection, evidence-gated workflows, measurement guidance, and a bounded MoradaHarmoniA pilot scaffold without adding the domain skills to the portable catalog.
 The [building blocks and capability families guide](https://nevitonsantana.github.io/adaptive-skills/capability-composition/) documents direct skill use and optional family-led composition.
+The [capability family audit](https://nevitonsantana.github.io/adaptive-skills/family-audit/) records which additional families are ready for a pilot and which should remain direct-use or on hold.
 Public documentation uses **portable skills** as the reader-facing label for the cross-domain library. The internal `generic` metadata and governance term remains unchanged. Rendered documentation validation now checks H1 tags with attributes and all published pages for exactly one visible H1.
 
 ## Maturity boundaries

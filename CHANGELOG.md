@@ -6,6 +6,9 @@
   building-block use; document the distinction between skills, modules, families, harnesses, and
   AletheIA; add a synthetic agnostic-SEO routing case and validation metadata
 
+- audit the portable skill inventory for additional capability families; select Work Continuity
+  & Efficiency as the next pilot candidate and keep overlapping families bounded or on hold
+
 - fix duplicate public H1s by aligning Blume frontmatter titles with editorial pages, correct rendered-heading validation for tags with attributes, and use `portable skills` in reader-facing documentation while preserving `generic` internal metadata and knowledge-mode terminology
 
 - complete the experimental AI Discovery & Agent Experience v0.1 domain pack with five
