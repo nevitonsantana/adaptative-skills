@@ -73,6 +73,12 @@ export default defineConfig({
               ],
             },
             {
+              label: "Work Continuity & Efficiency",
+              items: [
+                "/work-continuity-efficiency/index",
+              ],
+            },
+            {
               label: "Skill reference",
               items: [
                 "/skills/index",
