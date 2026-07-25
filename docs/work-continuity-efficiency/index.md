@@ -31,5 +31,5 @@ Oversized initiative
 If the current round has meaningful proof or uncertainty, add `checkpoint-review`. Use
 `communication` when the result needs to be presented clearly to another owner.
 
-The canonical [skill contract](https://github.com/nevitonsantana/adaptive-skills/blob/main/skills/work-continuity-efficiency/SKILL.md)
+The canonical [skill contract](https://nevitonsantana.github.io/adaptive-skills/skills/work-continuity-efficiency/)
 remains the source of authority.
