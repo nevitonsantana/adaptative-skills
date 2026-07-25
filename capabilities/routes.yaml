@@ -162,3 +162,16 @@ routes:
       - dominant-question-classification
       - selective-composition
     escalation_hint: evidence_or_authorization_owner
+
+  - id: route.work-continuity.ambiguous-need
+    activates:
+      - work-continuity-efficiency
+    when:
+      task_shape: oversized_interrupted_or_handoff_request
+      ambiguity: medium_or_high
+    mode: workflow/extended
+    modules:
+      - continuity-need-framing
+      - dominant-need-classification
+      - selective-composition
+    escalation_hint: ownership_or_macro_governance_owner

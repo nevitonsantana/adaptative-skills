@@ -7,7 +7,7 @@ This page describes the repository state represented by current documentation an
 
 ## Published capability surface
 
-- **35 portable skills** under `skills/*/SKILL.md`.
+- **36 portable skills** under `skills/*/SKILL.md`.
 - **9 domain-pack skills** across the crisis-management pack and the experimental
   AI Discovery & Agent Experience v0.1 pack.
 - Portable skills remain the reusable public capability library.
@@ -20,7 +20,7 @@ This page describes the repository state represented by current documentation an
 
 See the [complete skills catalog](https://nevitonsantana.github.io/adaptive-skills/getting-started/skill-catalog/) for task triggers and expected outcomes.
 
-Detailed public profiles are available for all 35 portable skills. Each profile is generated from its canonical `SKILL.md` contract and adds reader-facing orientation without creating a second source of authority.
+Detailed public profiles are available for all 36 portable skills. Each profile is generated from its canonical `SKILL.md` contract and adds reader-facing orientation without creating a second source of authority.
 
 ## Supporting metadata
 
@@ -48,6 +48,10 @@ The public [Product Management guide](https://nevitonsantana.github.io/adaptive-
 
 The public [AI Discovery & Agent Experience guide](https://nevitonsantana.github.io/adaptive-skills/ai-discovery-agent-experience/) provides skill selection, evidence-gated workflows, measurement guidance, and a bounded MoradaHarmoniA pilot scaffold without adding the domain skills to the portable catalog.
 The [building blocks and capability families guide](https://nevitonsantana.github.io/adaptive-skills/capability-composition/) documents direct skill use and optional family-led composition.
+The [capability family audit](https://nevitonsantana.github.io/adaptive-skills/family-audit/) records which additional families are ready for a pilot and which should remain direct-use or on hold.
+The Work Continuity & Efficiency family provides an optional entrypoint for chunking,
+checkpoint, handoff, and communication needs. Crisis Response remains Crisis Monitor-specific
+scope and is not part of the general-purpose family inventory.
 Public documentation uses **portable skills** as the reader-facing label for the cross-domain library. The internal `generic` metadata and governance term remains unchanged. Rendered documentation validation now checks H1 tags with attributes and all published pages for exactly one visible H1.
 
 ## Maturity boundaries
