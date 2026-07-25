@@ -28,5 +28,5 @@ Proposed client source
 ```
 
 Unknown ownership, provenance, sensitivity, or authorization remain blockers rather than being
-inferred. The canonical [skill contract](https://github.com/nevitonsantana/adaptive-skills/blob/main/skills/knowledge-governance/SKILL.md)
+inferred. The canonical [skill contract](https://nevitonsantana.github.io/adaptive-skills/skills/knowledge-governance/)
 is the source of authority.

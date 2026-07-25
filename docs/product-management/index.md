@@ -28,4 +28,4 @@ The skill does **not** approve investment, change a roadmap, create tasks, promi
 
 ## Public guide versus canonical contract
 
-This area explains how to use the family. It intentionally does not reproduce the full contract, module instructions, or method profiles. The canonical [`skills/product-management/SKILL.md`](https://github.com/nevitonsantana/adaptive-skills/blob/main/skills/product-management/SKILL.md) remains the authority for execution behavior and metadata.
+This area explains how to use the family. It intentionally does not reproduce the full contract, module instructions, or method profiles. The canonical [`skills/product-management/SKILL.md`](https://nevitonsantana.github.io/adaptive-skills/skills/product-management/) remains the authority for execution behavior and metadata.
