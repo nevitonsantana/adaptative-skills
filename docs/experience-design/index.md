@@ -19,5 +19,5 @@ should run first.
 The family selects one primary block and adds supporting blocks only when evidence requires
 them. It does not implement designs, approve product decisions, or promote patterns.
 
-See the canonical [skill contract](https://github.com/nevitonsantana/adaptive-skills/blob/main/skills/experience-design/SKILL.md)
-for the source of authority.
+See the published [Experience Design skill profile](https://nevitonsantana.github.io/adaptive-skills/skills/experience-design/)
+for the contract and reader-facing reference.
