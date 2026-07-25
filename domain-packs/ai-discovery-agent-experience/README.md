@@ -9,8 +9,8 @@
 Help teams review whether a digital property can be discovered, interpreted, represented,
 measured, and—when a concrete user task exists—used safely by agents.
 
-The pack separates five related intents instead of treating "SEO for AI" as one oversized
-checklist:
+The pack provides an optional family entrypoint plus five independent building blocks. This
+keeps broad requests easy to start while preserving direct specialist use:
 
 | Skill | Status | Primary question |
 |---|---|---|
@@ -19,6 +19,9 @@ checklist:
 | `ai-discovery-measurement` | available | Can discovery and representation outcomes be measured repeatedly? |
 | `generative-visibility-optimization` | available | Can generative systems retrieve, cite, and faithfully use the information? |
 | `agent-capability-actionability` | available | Can an agent discover and safely perform a meaningful user-owned action? |
+
+The family entrypoint is `ai-discovery-agent-experience`. It diagnoses a broad goal and
+selects the smallest sufficient building block. It does not load all five skills by default.
 
 ## Use this pack when
 
@@ -47,6 +50,9 @@ change external state.
 
 ## Start with the smallest fit
 
+Use the family entrypoint when the goal is broad or the dominant question is unknown. Use a
+building block directly when the question is already specific:
+
 Use one skill when it answers the dominant question:
 
 - entity or claim ambiguity → `knowledge-entity-representation`;
@@ -55,6 +61,9 @@ Use one skill when it answers the dominant question:
 - retrieval, citation, answer coverage, or representation fidelity →
   `generative-visibility-optimization`;
 - a concrete state-changing agent task → `agent-capability-actionability`.
+
+The family is a guided composition, not a required wrapper. A direct specialist contract
+remains valid for users and agents that already know the task shape.
 
 Common compositions:
 

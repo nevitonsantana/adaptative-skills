@@ -4,7 +4,12 @@ description: Route an AI discovery or agent experience question to the smallest 
 ---
 
 
-Use one skill by default. Compose only when the output of one is necessary evidence for another.
+Use one building block by default when the question is clear. Start with the
+`ai-discovery-agent-experience` family entrypoint when the request is broad, such as “improve
+our SEO”. Compose only when the output of one block is necessary evidence for another.
+
+The family entrypoint is optional. It helps users state an outcome without knowing the
+specialist IDs; advanced users can continue directly with any skill below.
 
 ## Decision guide
 

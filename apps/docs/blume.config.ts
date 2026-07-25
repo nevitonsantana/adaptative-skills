@@ -44,6 +44,7 @@ export default defineConfig({
           items: [
             "/guides/skill-selection",
             "/getting-started/skill-catalog",
+            "/capability-composition",
             {
               label: "Product Management",
               items: [

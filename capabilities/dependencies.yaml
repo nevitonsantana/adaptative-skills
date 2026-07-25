@@ -101,3 +101,28 @@ escalation_boundaries:
     to: aletheia
     relation: escalation-boundary
     reason: "Investment, roadmap, macro-gate, and ownership decisions remain outside the portable skill."
+
+  - from: ai-discovery-agent-experience
+    to: knowledge-entity-representation
+    relation: delegates-to
+    reason: "The family entrypoint routes entity and claim ambiguity to the canonical specialist."
+
+  - from: ai-discovery-agent-experience
+    to: search-indexability-optimization
+    relation: delegates-to
+    reason: "The family entrypoint routes search access and indexability questions to the canonical specialist."
+
+  - from: ai-discovery-agent-experience
+    to: ai-discovery-measurement
+    relation: delegates-to
+    reason: "The family entrypoint selects measurement when a repeatable baseline or comparison is required."
+
+  - from: ai-discovery-agent-experience
+    to: generative-visibility-optimization
+    relation: delegates-to
+    reason: "The family entrypoint routes retrieval, citation, and representation questions to the canonical specialist."
+
+  - from: ai-discovery-agent-experience
+    to: agent-capability-actionability
+    relation: delegates-to
+    reason: "The family entrypoint routes concrete state-changing agent tasks to the canonical specialist."

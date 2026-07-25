@@ -149,3 +149,16 @@ routes:
       state_change_possible: true
     mode: workflow/high-risk
     escalation_hint: authorization_and_implementation_owner
+
+  - id: route.ai-discovery.ambiguous-goal
+    activates:
+      - ai-discovery-agent-experience
+    when:
+      task_shape: discovery_or_seo_request
+      ambiguity: medium_or_high
+    mode: workflow/extended
+    modules:
+      - goal-framing
+      - dominant-question-classification
+      - selective-composition
+    escalation_hint: evidence_or_authorization_owner
