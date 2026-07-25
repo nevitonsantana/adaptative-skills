@@ -2,11 +2,10 @@
 
 ## Unreleased
 
-- add the experimental AI Discovery & Agent Experience domain-pack foundation with five
-  reviewed quality gates, the first `knowledge-entity-representation` skill, four optional
-  evidence templates, two synthetic validation cases, advisory capability/projection metadata,
-  and CI validation for every domain pack; keep the other four v0.1 skills explicitly planned
-  rather than delivered
+- complete the experimental AI Discovery & Agent Experience v0.1 domain pack with five
+  reviewed skills, eight optional evidence templates, eight synthetic cases, advisory
+  capabilities and routes, projection and evolution metadata, a dated standards register,
+  and a five-page public journey; keep real baselines and external outcomes explicitly unclaimed
 
 - add the modular `product-management` skill as a consultative product-domain entry point with problem framing, discovery and evidence, prioritization and method selection, metrics and outcomes, method profiles, synthetic validation cases, capability metadata, and public lifecycle guidance; keep investment, roadmap, delivery, and macro-governance authority outside the skill
 

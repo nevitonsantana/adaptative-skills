@@ -55,6 +55,16 @@ export default defineConfig({
               ],
             },
             {
+              label: "AI Discovery & Agent Experience",
+              items: [
+                "/ai-discovery-agent-experience/index",
+                "/ai-discovery-agent-experience/choose-a-skill",
+                "/ai-discovery-agent-experience/workflows",
+                "/ai-discovery-agent-experience/evidence-and-measurement",
+                "/ai-discovery-agent-experience/moradaharmonia-pilot",
+              ],
+            },
+            {
               label: "Skill reference",
               items: [
                 "/skills/index",

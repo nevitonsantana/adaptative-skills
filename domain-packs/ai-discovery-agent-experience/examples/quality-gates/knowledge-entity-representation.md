@@ -69,6 +69,6 @@
 
 ## Follow-up
 
-- **Next action:** `implement`
+- **Next action:** `collect_authorized_field_evidence`
 - **Required validation:** skill validation, two synthetic cases, projection smoke test
 - **AletheIA governance link:** consumer governance owns priority, approval, and closure

@@ -210,3 +210,87 @@ capabilities:
       - ownership_or_brand_decision_required
       - policy_or_legal_conflict
       - macro_priority_decision_required
+
+  - id: search-indexability-optimization
+    kind: macro-capability
+    source_skill: domain-packs/ai-discovery-agent-experience/skills/search-indexability-optimization/SKILL.md
+    category: ai-discovery-agent-experience
+    stable: false
+    default_mode: workflow/extended
+    allowed_modes:
+      - workflow/basic
+      - workflow/extended
+      - workflow/high-risk
+    intent: "Diagnose whether intended surfaces are discoverable, accessible, indexable, canonical, and interpretable."
+    evidence:
+      - scope
+      - access_observations
+      - interpretation_findings
+      - unavailable_evidence
+      - verification_handoff
+    escalate_to_aletheia_if:
+      - ownership_boundary_crossed
+      - macro_priority_decision_required
+
+  - id: ai-discovery-measurement
+    kind: macro-capability
+    source_skill: domain-packs/ai-discovery-agent-experience/skills/ai-discovery-measurement/SKILL.md
+    category: ai-discovery-agent-experience
+    stable: false
+    default_mode: workflow/extended
+    allowed_modes:
+      - workflow/basic
+      - workflow/extended
+      - workflow/high-risk
+    intent: "Design repeatable samples, preserve raw observations, and compare discovery or action behavior with uncertainty."
+    evidence:
+      - measurement_decision
+      - sample
+      - run_records
+      - variance
+      - comparison
+      - unavailable_evidence
+    escalate_to_aletheia_if:
+      - measurement_authority_required
+      - high_impact_decision_required
+
+  - id: generative-visibility-optimization
+    kind: macro-capability
+    source_skill: domain-packs/ai-discovery-agent-experience/skills/generative-visibility-optimization/SKILL.md
+    category: ai-discovery-agent-experience
+    stable: false
+    default_mode: workflow/extended
+    allowed_modes:
+      - workflow/extended
+      - workflow/high-risk
+    intent: "Review repeated generative source, citation, extraction, and representation behavior against canonical evidence."
+    evidence:
+      - baseline
+      - source_observations
+      - citation_support
+      - representation_fidelity
+      - bounded_hypotheses
+    escalate_to_aletheia_if:
+      - representation_owner_decision_required
+      - macro_priority_decision_required
+
+  - id: agent-capability-actionability
+    kind: macro-capability
+    source_skill: domain-packs/ai-discovery-agent-experience/skills/agent-capability-actionability/SKILL.md
+    category: ai-discovery-agent-experience
+    stable: false
+    default_mode: workflow/high-risk
+    allowed_modes:
+      - workflow/extended
+      - workflow/high-risk
+    intent: "Define agent tasks, preconditions, authorization, effects, confirmation, and recovery before implementation."
+    evidence:
+      - user_task
+      - capability_contract
+      - authorization_boundary
+      - side_effects
+      - confirmation
+      - recovery
+    escalate_to_aletheia_if:
+      - risky_state_change
+      - authorization_or_policy_decision_required

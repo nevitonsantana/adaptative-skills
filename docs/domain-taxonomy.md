@@ -28,8 +28,8 @@ They are explicitly domain-specific and should stay separate from the generic li
 
 Current packs:
 - `crisis-management`
-- `ai-discovery-agent-experience` — experimental foundation; currently publishes
-  `knowledge-entity-representation` while the rest of v0.1 remains planned
+- `ai-discovery-agent-experience` — experimental five-skill v0.1 domain pack for
+  representation, search foundations, measurement, generative visibility, and agent actions
 
 ## Decision rule
 

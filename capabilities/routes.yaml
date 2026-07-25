@@ -104,3 +104,48 @@ routes:
       - entity-consistency-audit
       - claim-evidence-mapping
     escalation_hint: human_representation_owner
+
+  - id: route.ai-discovery.search-foundations
+    activates:
+      - search-indexability-optimization
+    when:
+      task_shape: search_foundations_review
+      property_scope: available
+    mode: workflow/extended
+    modules:
+      - crawl-access-review
+      - indexability-and-canonicalization-review
+      - information-architecture-review
+    escalation_hint: property_or_implementation_owner
+
+  - id: route.ai-discovery.generative-baseline
+    activates:
+      - ai-discovery-measurement
+      - generative-visibility-optimization
+    when:
+      task_shape: generative_visibility_baseline
+      repeated_observations_required: true
+    mode: workflow/extended
+    escalation_hint: evidence_or_representation_owner
+
+  - id: route.ai-discovery.pre-launch
+    activates:
+      - knowledge-entity-representation
+      - search-indexability-optimization
+      - ai-discovery-measurement
+      - generative-visibility-optimization
+    when:
+      task_shape: pre_launch_discovery_review
+      multiple_evidence_boundaries: true
+    mode: workflow/high-risk
+    escalation_hint: launch_decision_owner
+
+  - id: route.ai-discovery.agent-action-readiness
+    activates:
+      - agent-capability-actionability
+      - ai-discovery-measurement
+    when:
+      task_shape: agent_action_readiness
+      state_change_possible: true
+    mode: workflow/high-risk
+    escalation_hint: authorization_and_implementation_owner

@@ -64,6 +64,6 @@
 
 ## Follow-up
 
-- **Next action:** `implement_after_foundation`
+- **Next action:** `collect_authorized_field_evidence`
 - **Required validation:** repeated-run and comparison cases
 - **AletheIA governance link:** humans own metric consequence and intervention choice

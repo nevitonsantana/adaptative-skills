@@ -31,6 +31,27 @@ relationships:
     relation: handoff-escalation
     reason: "A checkpoint may conclude that a clean restart or another owner is needed."
 
+
+  - from: knowledge-entity-representation
+    to: search-indexability-optimization
+    relation: informs
+    reason: "Stable entities and claims reduce ambiguity in search representation findings."
+
+  - from: search-indexability-optimization
+    to: generative-visibility-optimization
+    relation: informs
+    reason: "Search access and interpretation evidence can bound generative visibility hypotheses."
+
+  - from: ai-discovery-measurement
+    to: generative-visibility-optimization
+    relation: evidence-prerequisite
+    reason: "Generative visibility conclusions require a repeated, preserved baseline."
+
+  - from: agent-capability-actionability
+    to: ai-discovery-measurement
+    relation: defines-observation-contract
+    reason: "Capability states, effects, confirmation, and recovery define what action measurement should observe."
+
 escalation_boundaries:
   - signal: human_decision_required
     owner: AletheIA or consumer governance layer

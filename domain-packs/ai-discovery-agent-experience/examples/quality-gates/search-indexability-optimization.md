@@ -66,6 +66,6 @@
 
 ## Follow-up
 
-- **Next action:** `implement_after_foundation`
+- **Next action:** `collect_authorized_field_evidence`
 - **Required validation:** structural validation plus synthetic missing-evidence and boundary cases
 - **AletheIA governance link:** consumer governance owns remediation priority
