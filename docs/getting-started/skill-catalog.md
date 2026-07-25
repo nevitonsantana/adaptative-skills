@@ -3,13 +3,13 @@ title: Skills catalog
 description: Browse all published Adaptive Skills by category, trigger, and expected outcome.
 ---
 
-Adaptive Skills currently publishes **37 portable skills**. Use this page when you already know the kind of help you need. If the task is still unclear, start with [Choose the right skill](https://nevitonsantana.github.io/adaptive-skills/guides/skill-selection/).
+Adaptive Skills currently publishes **38 portable skills**. Use this page when you already know the kind of help you need. If the task is still unclear, start with [Choose the right skill](https://nevitonsantana.github.io/adaptive-skills/guides/skill-selection/).
 
 Each skill appears once in this catalog. Its `skills/<name>/SKILL.md` file remains the canonical instruction source.
 
 ![Skill Catalog: 11 Categories](https://nevitonsantana.github.io/adaptive-skills/assets/adaptive-skills/09_skill_catalog_11_categories.png)
 
-*Skill Catalog: 11 Categories — 37 portable skills organized by category, trigger, and expected outcome.*
+*Skill Catalog: 11 Categories — 38 portable skills organized by category, trigger, and expected outcome.*
 
 ## Engineering
 
@@ -36,6 +36,7 @@ Each skill appears once in this catalog. Its `skills/<name>/SKILL.md` file remai
 | [`heuristic-audit`](https://nevitonsantana.github.io/adaptive-skills/skills/heuristic-audit/) | An existing interface has usability risks | Prioritized failures and defensible fixes |
 | [`ux-writing`](https://nevitonsantana.github.io/adaptive-skills/skills/ux-writing/) | Product language is unclear or unsafe | Clear, actionable interface language |
 | [`design-system-intelligence`](https://nevitonsantana.github.io/adaptive-skills/skills/design-system-intelligence/) | Reviewing an artifact against declared design-system sources | Source-backed conformance and exception evidence |
+| [`experience-design`](https://nevitonsantana.github.io/adaptive-skills/skills/experience-design/) | A broad experience request needs selective composition | A bounded path through design building blocks |
 
 ## Documentation
 
@@ -112,7 +113,7 @@ Each skill appears once in this catalog. Its `skills/<name>/SKILL.md` file remai
 ## Next steps
 
 - [Choose the right skill](https://nevitonsantana.github.io/adaptive-skills/guides/skill-selection/) when several options seem plausible.
-- Browse the [complete skill reference](https://nevitonsantana.github.io/adaptive-skills/skills/) for canonical public profiles of all 37 portable skills.
+- Browse the [complete skill reference](https://nevitonsantana.github.io/adaptive-skills/skills/) for canonical public profiles of all 38 portable skills.
 - [Use a skill](https://nevitonsantana.github.io/adaptive-skills/how-to-use-a-skill/) for invocation and evidence-return guidance.
 - [Try workflow recipes](https://nevitonsantana.github.io/adaptive-skills/guides/workflow-recipes/) when the task needs more than one skill.
 - Read the canonical `skills/<name>/SKILL.md` in your installed copy before execution.

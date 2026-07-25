@@ -955,6 +955,28 @@
         "mode": "available-not-default",
         "target_path": null
       }
+    },
+    {
+      "id": "experience-design",
+      "source_path": "skills/experience-design/SKILL.md",
+      "category": "design",
+      "status": "active",
+      "portability_tags": [
+        "product",
+        "generic",
+        "consultative"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "experience-design",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $experience-design when a broad experience request needs strategy, critique, writing, or design-system routing."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "available-not-default",
+        "target_path": null
+      }
     }
   ]
 }

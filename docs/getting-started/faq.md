@@ -105,7 +105,7 @@ Real usage can produce observations. Maintainers may turn repeated evidence into
 
 ### Where can I see all available skills?
 
-Use the [skill catalog](https://nevitonsantana.github.io/adaptive-skills/getting-started/skill-catalog/). It lists all 37 portable skills by category and trigger.
+Use the [skill catalog](https://nevitonsantana.github.io/adaptive-skills/getting-started/skill-catalog/). It lists all 38 portable skills by category and trigger.
 
 ## Troubleshooting
 

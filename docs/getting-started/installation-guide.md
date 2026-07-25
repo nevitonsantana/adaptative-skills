@@ -42,7 +42,7 @@ Installing a focused set makes it easier to learn when each skill adds value. Yo
 apm install nevitonsantana/adaptive-skills
 ```
 
-This installs all **37 canonical portable skills**. Domain packs, repository governance records, capability metadata, and evolution artifacts are not part of the standard capability payload.
+This installs all **38 canonical portable skills**. Domain packs, repository governance records, capability metadata, and evolution artifacts are not part of the standard capability payload.
 
 ## What the installation changes
 
