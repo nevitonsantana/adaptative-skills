@@ -35,10 +35,14 @@ Authoritative entrypoints:
 - Consultative `intent-clarification` capability for AletheIA S8, with advise-only harness requirements.
 - Lean Implementation Skill — delivered through Adaptive Skills PR #79 as a bounded engineering skill.
 - Design System Intelligence Skill — delivered through Adaptive Skills PR #81 as a bounded Pulso pilot method.
+- AI Discovery & Agent Experience domain-pack foundation — one experimental
+  `knowledge-entity-representation` skill with source-backed entity and claim boundaries.
 
 ## Active and planned evolution
 
 - **Active:** AS-DOC-4 manual GitHub Pages publication proof.
+- **Active:** AI Discovery & Agent Experience v0.1 foundation; four planned skills remain
+  unavailable until their contracts and validation evidence land.
 - **Delivered:** official documentation readiness review recorded in `docs/official-docs-readiness.md`.
 - **Delivered:** AS-DOC-1 public documentation map curation aligned `README.md` and `docs/README.md`.
 - **Delivered:** AS-DOC-2 route/link readiness classification recorded in `docs/official-docs-link-readiness.md`.
@@ -66,13 +70,16 @@ Backlog authority: [AletheIA integrated evolution backlog](https://github.com/ne
 - **Current level:** medium — capability, evolution, projection and catalog governance concepts require guided explanation for new users.
 - SYSTEM_STATE can become stale; source files and accepted evidence always win.
 - No usage percentage, success rate or skill ranking is admissible without comparable reviewed records.
+- The AI Discovery pack is proposal-stage domain evidence; it must not imply completed
+  MoradaHarmoniA measurement, ranking, citation, traffic, conversion, or agent adoption.
 - Provider naming retains historical `adaptative-skills` paths in some local integrations; GitHub redirects preserve compatibility.
 
 ## Next safe steps
 
 1. Keep `lean-implementation` bounded: it does not replace debugging, testing, refactoring, architecture review or governance.
 2. Keep skill use source-backed through execution/observation return records.
-3. Coordinate the next ordered slice from the AletheIA backlog before adding new skills.
+3. Complete the AI Discovery pack only through its reviewed two-PR sequence and keep
+   MoradaHarmoniA evidence unavailable until an authorized baseline exists.
 4. Do not create an automatic routing engine, global provider selector or skill self-edit loop.
 
 ## Last reviewed

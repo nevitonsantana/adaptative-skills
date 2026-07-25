@@ -8,11 +8,14 @@ This page describes the repository state represented by current documentation an
 ## Published capability surface
 
 - **35 generic skills** under `skills/*/SKILL.md`.
-- **3 domain-pack skills** in the crisis-management validation pack.
+- **4 domain-pack skills** across the crisis-management pack and the experimental
+  AI Discovery & Agent Experience foundation.
 - Generic skills remain the reusable public capability library.
 - Domain-pack skills remain validation cases rather than part of the generic inventory.
 - `documentation` is the generic `docs` skill for source-backed self-service journeys across novice, practitioner, advanced, and maintainer readers.
 - `product-management` is the generic `product` entry point for modular, evidence-aware product decisions; its first release includes problem framing, discovery and evidence, prioritization and method selection, and metrics and outcomes.
+- `knowledge-entity-representation` is the first AI Discovery domain-pack skill. The other
+  four planned v0.1 skills are not yet published.
 
 See the [complete skills catalog](https://nevitonsantana.github.io/adaptive-skills/getting-started/skill-catalog/) for task triggers and expected outcomes.
 
@@ -45,6 +48,9 @@ The public [Product Management guide](https://nevitonsantana.github.io/adaptive-
 ## Maturity boundaries
 
 Current documentation does not claim autonomous orchestration, automatic routing authority, universal effectiveness from pilots, automatic promotion from observation, formal ASD-STE100 compliance, elimination of all support dependency, or an AletheIA dependency.
+
+The AI Discovery foundation also does not claim a completed MoradaHarmoniA baseline,
+search ranking, citation, traffic, conversion, or agent adoption outcome.
 
 ## How to verify
 

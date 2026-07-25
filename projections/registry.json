@@ -801,6 +801,28 @@
         "mode": "available-not-default",
         "target_path": null
       }
+    },
+    {
+      "id": "knowledge-entity-representation",
+      "source_path": "domain-packs/ai-discovery-agent-experience/skills/knowledge-entity-representation/SKILL.md",
+      "category": "ai-discovery-agent-experience",
+      "status": "active",
+      "portability_tags": [
+        "ai-discovery-agent-experience",
+        "domain-pack",
+        "experimental"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "knowledge-entity-representation",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $knowledge-entity-representation to stabilize entities, relationships, and claims before downstream discovery work."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "available-not-default",
+        "target_path": null
+      }
     }
   ]
 }

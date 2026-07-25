@@ -59,7 +59,7 @@ jobs:
       - name: Validate domain-pack skills (one folder per invocation)
         run: |
           set -e
-          for d in domain-packs/crisis-management/skills/*/; do
+          for d in domain-packs/*/skills/*/; do
             echo "::group::agentskills validate $d"
             agentskills validate "$d"
             echo "::endgroup::"

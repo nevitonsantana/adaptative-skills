@@ -26,8 +26,10 @@ Domain packs live under `domain-packs/`.
 
 They are explicitly domain-specific and should stay separate from the generic library.
 
-Current pack:
+Current packs:
 - `crisis-management`
+- `ai-discovery-agent-experience` — experimental foundation; currently publishes
+  `knowledge-entity-representation` while the rest of v0.1 remains planned
 
 ## Decision rule
 
