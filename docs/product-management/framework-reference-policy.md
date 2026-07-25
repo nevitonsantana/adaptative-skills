@@ -3,8 +3,6 @@ title: Product Management framework reference policy
 description: Learn how Product Management uses external methods without turning them into copied or authoritative contracts.
 ---
 
-# Framework reference policy
-
 Frameworks are methods that can support a decision. They are not independent skills and they do not make a decision on behalf of the product owner.
 
 Each local method profile records:

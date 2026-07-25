@@ -25,7 +25,7 @@ Skills for decisions that cross product, design, engineering, or business bounda
 
 ## design
 
-Design-domain skills for experience framing, UX critique, content clarity, and bounded design-system review. These are generic design skills, not UI implementation kits.
+Design-domain skills for experience framing, UX critique, content clarity, and bounded design-system review. These are portable design skills, not UI implementation kits.
 
 - **Published:** `ux-strategy`, `ux-provocation`, `heuristic-audit`, `ux-writing`, `design-system-intelligence`
 - **Backlog:** `ux-research-synthesis`, `ux-ui-review`

@@ -3,11 +3,11 @@ title: "Domain Taxonomy"
 description: "Reference documentation for Domain Taxonomy in Adaptive Skills."
 ---
 
-## Generic skills
+## Portable skills
 
-Generic skills live under `skills/` and should work across products with little or no domain adaptation.
+Portable skills live under `skills/` and are designed to work across products with little or no project-specific adaptation.
 
-Current generic domains:
+Current portable domains:
 - business
 - cross-functional
 - design
@@ -24,7 +24,7 @@ Current generic domains:
 
 Domain packs live under `domain-packs/`.
 
-They are explicitly domain-specific and should stay separate from the generic library.
+They are explicitly domain-specific and should stay separate from the portable library.
 
 Current packs:
 - `crisis-management`
@@ -33,8 +33,10 @@ Current packs:
 
 ## Decision rule
 
-A skill belongs in the generic library only if it can be used in another project without inheriting local operating rules or domain-specific vocabulary.
+A skill belongs in the portable library only if it can be used in another project without inheriting local operating rules or domain-specific vocabulary.
 
 If the skill depends on a specific product worldview, vocabulary, or context model, it should be a domain pack.
 
-The generic `product-management` skill is a modular entry point inside the `product` domain. Its modules and framework references extend one contract; they do not create separate domains or independent skills by default.
+The portable `product-management` skill is a modular entry point inside the `product` domain. Its modules and framework references extend one contract; they do not create separate domains or independent skills by default.
+
+`generic` remains an internal metadata and governance term. Public guidance uses `portable` to emphasize reuse, inspectability, and cross-domain applicability rather than simplicity or limited capability.

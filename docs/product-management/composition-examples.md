@@ -3,8 +3,6 @@ title: Product Management composition examples
 description: See bounded Product Management journeys that hand off to existing Adaptive Skills contracts.
 ---
 
-# Composition examples
-
 These examples show sequencing, not automatic orchestration. Each handoff requires the receiving skill's inputs and preserves human authority over the decision.
 
 ## 1. Requested feature with no problem

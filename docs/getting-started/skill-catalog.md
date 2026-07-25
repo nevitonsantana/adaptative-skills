@@ -3,13 +3,13 @@ title: Skills catalog
 description: Browse all published Adaptive Skills by category, trigger, and expected outcome.
 ---
 
-Adaptive Skills currently publishes **34 generic skills**. Use this page when you already know the kind of help you need. If the task is still unclear, start with [Choose the right skill](https://nevitonsantana.github.io/adaptive-skills/guides/skill-selection/).
+Adaptive Skills currently publishes **35 portable skills**. Use this page when you already know the kind of help you need. If the task is still unclear, start with [Choose the right skill](https://nevitonsantana.github.io/adaptive-skills/guides/skill-selection/).
 
 Each skill appears once in this catalog. Its `skills/<name>/SKILL.md` file remains the canonical instruction source.
 
 ![Skill Catalog: 11 Categories](https://nevitonsantana.github.io/adaptive-skills/assets/adaptive-skills/09_skill_catalog_11_categories.png)
 
-*Skill Catalog: 11 Categories — 34 generic skills organized by category, trigger, and expected outcome.*
+*Skill Catalog: 11 Categories — 35 portable skills organized by category, trigger, and expected outcome.*
 
 ## Engineering
 
@@ -103,14 +103,14 @@ Each skill appears once in this catalog. Its `skills/<name>/SKILL.md` file remai
 
 ## What is outside this catalog
 
-- Domain-pack skills are validation cases and are not part of the 34-skill generic library.
+- Domain-pack skills are validation cases and are not part of the 35-skill portable library.
 - Capability metadata is an advisory discovery layer, not an additional skill inventory.
 - Evolution records describe how skills improve; they are not executable skills.
 
 ## Next steps
 
 - [Choose the right skill](https://nevitonsantana.github.io/adaptive-skills/guides/skill-selection/) when several options seem plausible.
-- Browse the [complete skill reference](https://nevitonsantana.github.io/adaptive-skills/skills/) for canonical public profiles of all 34 generic skills.
+- Browse the [complete skill reference](https://nevitonsantana.github.io/adaptive-skills/skills/) for canonical public profiles of all 35 portable skills.
 - [Use a skill](https://nevitonsantana.github.io/adaptive-skills/how-to-use-a-skill/) for invocation and evidence-return guidance.
 - [Try workflow recipes](https://nevitonsantana.github.io/adaptive-skills/guides/workflow-recipes/) when the task needs more than one skill.
 - Read the canonical `skills/<name>/SKILL.md` in your installed copy before execution.

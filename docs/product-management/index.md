@@ -3,9 +3,7 @@ title: Product Management
 description: Use one modular product-management skill to frame decisions, select methods, and coordinate bounded handoffs.
 ---
 
-# Product Management
-
-`product-management` is the generic, consultative entry point for product work that crosses more than one decision. It helps a consumer move from an unclear request to a bounded problem, an explicit method path, a verifiable result, and a deliberate handoff.
+`product-management` is the portable, consultative entry point for product work that crosses more than one decision. It helps a consumer move from an unclear request to a bounded problem, an explicit method path, a verifiable result, and a deliberate handoff.
 
 It is one skill with optional modules, not a collection of framework-specific skills. Modules are selected only when their trigger and minimum inputs are present. The canonical contract remains the [Product Management skill reference](../skills/product-management/).
 
