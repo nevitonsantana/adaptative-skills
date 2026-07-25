@@ -823,6 +823,94 @@
         "mode": "available-not-default",
         "target_path": null
       }
+    },
+    {
+      "id": "search-indexability-optimization",
+      "source_path": "domain-packs/ai-discovery-agent-experience/skills/search-indexability-optimization/SKILL.md",
+      "category": "ai-discovery-agent-experience",
+      "status": "active",
+      "portability_tags": [
+        "ai-discovery-agent-experience",
+        "domain-pack",
+        "experimental"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "search-indexability-optimization",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $search-indexability-optimization when the task needs its evidence-backed AI discovery contract."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "available-not-default",
+        "target_path": null
+      }
+    },
+    {
+      "id": "ai-discovery-measurement",
+      "source_path": "domain-packs/ai-discovery-agent-experience/skills/ai-discovery-measurement/SKILL.md",
+      "category": "ai-discovery-agent-experience",
+      "status": "active",
+      "portability_tags": [
+        "ai-discovery-agent-experience",
+        "domain-pack",
+        "experimental"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "ai-discovery-measurement",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $ai-discovery-measurement when the task needs its evidence-backed AI discovery contract."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "available-not-default",
+        "target_path": null
+      }
+    },
+    {
+      "id": "generative-visibility-optimization",
+      "source_path": "domain-packs/ai-discovery-agent-experience/skills/generative-visibility-optimization/SKILL.md",
+      "category": "ai-discovery-agent-experience",
+      "status": "active",
+      "portability_tags": [
+        "ai-discovery-agent-experience",
+        "domain-pack",
+        "experimental"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "generative-visibility-optimization",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $generative-visibility-optimization when the task needs its evidence-backed AI discovery contract."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "available-not-default",
+        "target_path": null
+      }
+    },
+    {
+      "id": "agent-capability-actionability",
+      "source_path": "domain-packs/ai-discovery-agent-experience/skills/agent-capability-actionability/SKILL.md",
+      "category": "ai-discovery-agent-experience",
+      "status": "active",
+      "portability_tags": [
+        "ai-discovery-agent-experience",
+        "domain-pack",
+        "experimental"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "agent-capability-actionability",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $agent-capability-actionability when the task needs its evidence-backed AI discovery contract."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "available-not-default",
+        "target_path": null
+      }
     }
   ]
 }

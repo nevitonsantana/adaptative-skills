@@ -67,6 +67,6 @@
 
 ## Follow-up
 
-- **Next action:** `implement_after_foundation`
+- **Next action:** `collect_authorized_field_evidence`
 - **Required validation:** authorization, failure-recovery, and information-only rejection cases
 - **AletheIA governance link:** human or consumer governance owns authorization and risky gates

@@ -35,14 +35,14 @@ Authoritative entrypoints:
 - Consultative `intent-clarification` capability for AletheIA S8, with advise-only harness requirements.
 - Lean Implementation Skill — delivered through Adaptive Skills PR #79 as a bounded engineering skill.
 - Design System Intelligence Skill — delivered through Adaptive Skills PR #81 as a bounded Pulso pilot method.
-- AI Discovery & Agent Experience domain-pack foundation — one experimental
-  `knowledge-entity-representation` skill with source-backed entity and claim boundaries.
+- AI Discovery & Agent Experience v0.1 — five experimental skills, eight optional templates,
+  eight synthetic cases, advisory routes, and a public self-service journey.
 
 ## Active and planned evolution
 
 - **Active:** AS-DOC-4 manual GitHub Pages publication proof.
-- **Active:** AI Discovery & Agent Experience v0.1 foundation; four planned skills remain
-  unavailable until their contracts and validation evidence land.
+- **Delivered:** AI Discovery & Agent Experience v0.1 contract pack; authorized field
+  baselines and before/after experiments remain future work.
 - **Delivered:** official documentation readiness review recorded in `docs/official-docs-readiness.md`.
 - **Delivered:** AS-DOC-1 public documentation map curation aligned `README.md` and `docs/README.md`.
 - **Delivered:** AS-DOC-2 route/link readiness classification recorded in `docs/official-docs-link-readiness.md`.
@@ -70,7 +70,7 @@ Backlog authority: [AletheIA integrated evolution backlog](https://github.com/ne
 - **Current level:** medium — capability, evolution, projection and catalog governance concepts require guided explanation for new users.
 - SYSTEM_STATE can become stale; source files and accepted evidence always win.
 - No usage percentage, success rate or skill ranking is admissible without comparable reviewed records.
-- The AI Discovery pack is proposal-stage domain evidence; it must not imply completed
+- The AI Discovery pack is experimental domain evidence; it must not imply completed
   MoradaHarmoniA measurement, ranking, citation, traffic, conversion, or agent adoption.
 - Provider naming retains historical `adaptative-skills` paths in some local integrations; GitHub redirects preserve compatibility.
 
@@ -78,12 +78,11 @@ Backlog authority: [AletheIA integrated evolution backlog](https://github.com/ne
 
 1. Keep `lean-implementation` bounded: it does not replace debugging, testing, refactoring, architecture review or governance.
 2. Keep skill use source-backed through execution/observation return records.
-3. Complete the AI Discovery pack only through its reviewed two-PR sequence and keep
-   MoradaHarmoniA evidence unavailable until an authorized baseline exists.
+3. Keep MoradaHarmoniA measurement evidence unavailable until an authorized baseline exists.
 4. Do not create an automatic routing engine, global provider selector or skill self-edit loop.
 
 ## Last reviewed
 
-- **Date:** 2026-07-16
-- **Evidence baseline:** Adaptive Skills `d5e6bed` after AS-DOC-3 closure merge; AletheIA `f3d0a69` after S82 publication-evidence closure
-- **Review trigger:** AS-DOC-4 manual GitHub Pages publication proof
+- **Date:** 2026-07-25
+- **Evidence baseline:** AI Discovery & Agent Experience v0.1 repository validation
+- **Review trigger:** first authorized field baseline or pack contract change

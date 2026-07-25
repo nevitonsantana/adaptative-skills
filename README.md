@@ -105,8 +105,9 @@ They are intentionally specific, versioned, and reusable, but they are **not** t
 Current domain packs:
 
 - `domain-packs/crisis-management`
-- `domain-packs/ai-discovery-agent-experience` — experimental foundation with
-  `knowledge-entity-representation`; the remaining four v0.1 skills are not yet delivered
+- `domain-packs/ai-discovery-agent-experience` — experimental five-skill v0.1 pack for
+  entity representation, search foundations, measurement, generative visibility, and
+  agent actionability
 
 ### Projection layer
 
@@ -265,7 +266,7 @@ Add `premortem` when plans have meaningful cost of failure and can still be chan
 
 | Dimension | Status | Next delivery posture |
 |----------|--------|-----------------------|
-| Validated skills | 35 generic + 4 domain-pack | Complete the AI Discovery pack only through its reviewed v0.1 slices |
+| Validated skills | 35 generic + 8 domain-pack | Gather authorized field evidence for the experimental AI Discovery pack |
 | Active pilots | 5 | Keep follow-ups evidence-gated |
 | Evolution cycle | #3 — Observations | Start Cycle #4 only after reviewable signals |
 | Domains | 10/10 | All categories now have at least one published skill |
@@ -283,7 +284,7 @@ Adaptive Skills is **domain-agnostic** (see [`docs/adr/ADR-002-domain-agnosticis
 - [`docs/crisis-monitor-case-study.md`](docs/crisis-monitor-case-study.md)
 - [`domain-packs/crisis-management/`](domain-packs/crisis-management/) — first example domain pack (not the canonical pack)
 - [`domain-packs/ai-discovery-agent-experience/`](domain-packs/ai-discovery-agent-experience/) —
-  experimental second pack; currently a foundation, not completed field evidence
+  experimental second pack; five skills are delivered, but field evidence remains incomplete
 
 These domain packs remain bounded evidence rather than generic skill truth. The
 MoradaHarmoniA scaffold does not become completed field evidence until an authorized,

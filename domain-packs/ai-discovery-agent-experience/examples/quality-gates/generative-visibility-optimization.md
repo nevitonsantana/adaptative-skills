@@ -65,6 +65,6 @@
 
 ## Follow-up
 
-- **Next action:** `implement_after_foundation`
+- **Next action:** `collect_authorized_field_evidence`
 - **Required validation:** repeated baseline, source analysis, and weak-fit cases
 - **AletheIA governance link:** consumer owners approve content or source interventions

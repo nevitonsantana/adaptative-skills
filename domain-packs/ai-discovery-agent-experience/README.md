@@ -1,6 +1,6 @@
 # AI Discovery & Agent Experience
 
-> **Experimental domain-pack foundation.** This pack is domain-specific evidence for
+> **Experimental domain pack, version 0.1.0.** This pack is domain-specific evidence for
 > Adaptive Skills. It is not generic skill truth and is not included in the main APM
 > payload.
 
@@ -15,13 +15,10 @@ checklist:
 | Skill | Status | Primary question |
 |---|---|---|
 | `knowledge-entity-representation` | available | Are entities, claims, relationships, and canonical descriptions coherent? |
-| `search-indexability-optimization` | planned for v0.1 | Can search systems discover, crawl, index, and interpret the property? |
-| `ai-discovery-measurement` | planned for v0.1 | Can discovery and representation outcomes be measured repeatedly? |
-| `generative-visibility-optimization` | planned for v0.1 | Can generative systems retrieve, cite, and faithfully use the information? |
-| `agent-capability-actionability` | planned for v0.1 | Can an agent discover and safely perform a meaningful user-owned action? |
-
-Do not present the pack as complete until all five contracts and their validation cases
-have landed.
+| `search-indexability-optimization` | available | Can search systems discover, crawl, index, and interpret the property? |
+| `ai-discovery-measurement` | available | Can discovery and representation outcomes be measured repeatedly? |
+| `generative-visibility-optimization` | available | Can generative systems retrieve, cite, and faithfully use the information? |
+| `agent-capability-actionability` | available | Can an agent discover and safely perform a meaningful user-owned action? |
 
 ## Use this pack when
 
@@ -48,22 +45,34 @@ have landed.
 The skills declare findings and recommendations. They do not approve, block, deploy, or
 change external state.
 
-## Foundation workflow
+## Start with the smallest fit
 
-The first implemented skill is `knowledge-entity-representation`. Use it before search or
-generative reviews when the target people, brands, products, methods, relationships, or
-claims are ambiguous.
+Use one skill when it answers the dominant question:
 
-1. Complete the [digital-property intake](templates/digital-property-intake.md).
-2. Create an [entity inventory](templates/entity-inventory.md).
-3. Connect material claims to sources with the
-   [claim-evidence map](templates/claim-evidence-map.md).
-4. Record reviewable outcomes with the
-   [prioritized finding](templates/prioritized-finding.md).
-5. Hand implementation, approval, and follow-up measurement to the appropriate owner.
+- entity or claim ambiguity → `knowledge-entity-representation`;
+- crawl, index, canonical, or architecture uncertainty → `search-indexability-optimization`;
+- query sample, repeated runs, comparison, or variance → `ai-discovery-measurement`;
+- retrieval, citation, answer coverage, or representation fidelity →
+  `generative-visibility-optimization`;
+- a concrete state-changing agent task → `agent-capability-actionability`.
+
+Common compositions:
+
+1. **Pre-launch review:** entity representation → search foundations → measurement →
+   generative visibility. Add actionability only for a defined action.
+2. **Generative baseline:** measurement → generative visibility → entity review when
+   representation conflicts appear.
+3. **Agent action readiness:** actionability → measurement of task completion, correctness,
+   human intervention, side effects, and recovery.
+
+Complete the [digital-property intake](templates/digital-property-intake.md), use only the
+templates needed by the selected skills, and finish with reviewable findings and handoffs.
 
 The templates are optional accelerators for full-pack use. The canonical `SKILL.md`
 contract remains usable without them when projected independently.
+
+See the [standards and sources register](references/standards-and-sources.md) for dated,
+primary-source pointers. The register is context, not a universal tactic list.
 
 ## Evidence policy
 

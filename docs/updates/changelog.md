@@ -7,10 +7,10 @@ This page summarizes changes that matter to skill consumers. The root `CHANGELOG
 
 ## Unreleased
 
-The experimental AI Discovery & Agent Experience domain pack now has a validated foundation:
-five reviewed quality gates, the first `knowledge-entity-representation` skill, optional
-evidence templates, synthetic cases, and advisory metadata. The remaining four v0.1 skills
-remain planned, and no MoradaHarmoniA baseline or external outcome is claimed.
+The experimental AI Discovery & Agent Experience v0.1 domain pack now includes five reviewed
+quality gates, five canonical skills, eight optional templates, eight synthetic cases, advisory
+capabilities and routes, projection metadata, a dated standards register, and a public
+self-service journey. No MoradaHarmoniA baseline or external outcome is claimed.
 
 The generic `product-management` skill is now available as one consultative, modular entry point. Its first modules cover problem framing, discovery and evidence, prioritization and method selection, and metrics and outcomes. Public guidance explains the lifecycle, module selection, framework provenance, and handoffs to existing skills.
 

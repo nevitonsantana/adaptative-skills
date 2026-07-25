@@ -141,11 +141,9 @@ entity_representation_review:
   `domain-language-alignment` or `documentation`.
 - Source eligibility or precedence is unresolved → `knowledge-source-evaluation` or
   `knowledge-conflict-resolution`.
-- The target entities are stable and the next need is discovery/crawl review → record a
-  downstream requirement; `search-indexability-optimization` is not yet available in this
-  foundation.
-- Repeated generative representation must be measured → record a downstream requirement;
-  `ai-discovery-measurement` is not yet available in this foundation.
+- The target entities are stable and the next need is discovery/crawl review →
+  `search-indexability-optimization`.
+- Repeated generative representation must be measured → `ai-discovery-measurement`.
 - A legal, ownership, credential, policy, or brand decision lacks an authorized owner → human or
   governance review.
 - A schema, feed, page, profile, or repository must be changed → implementation owner.
@@ -158,6 +156,9 @@ entity_representation_review:
 - `knowledge-conflict-resolution`
 - `restricted-context-check`
 - `observability-review`
+- `search-indexability-optimization`
+- `ai-discovery-measurement`
+- `generative-visibility-optimization`
 
 # Anti-patterns
 
