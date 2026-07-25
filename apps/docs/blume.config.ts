@@ -1,5 +1,7 @@
 import { defineConfig } from "blume";
 
+import { skillReferenceSource } from "./skill-reference-source.ts";
+
 export default defineConfig({
   title: "Adaptive Skills Docs",
   description: "Official documentation for Adaptive Skills micro-skills, capability metadata, projections, and governed evolution.",
@@ -8,7 +10,10 @@ export default defineConfig({
     repo: "adaptive-skills",
   },
   content: {
-    sources: [{ type: "filesystem", root: "../../docs" }],
+    sources: [
+      { type: "filesystem", root: "../../docs" },
+      { type: "custom", source: skillReferenceSource },
+    ],
   },
   deployment: {
     site: "https://nevitonsantana.github.io",
@@ -36,6 +41,15 @@ export default defineConfig({
           items: [
             "/guides/skill-selection",
             "/getting-started/skill-catalog",
+            {
+              label: "Skill reference",
+              items: [
+                "/skills/index",
+                "/skills/documentation",
+                "/skills/feature-planning",
+                "/skills/ux-strategy",
+              ],
+            },
             "/guides/workflow-recipes",
             "/guides/install-via-apm",
             "/codex-consumer-setup",

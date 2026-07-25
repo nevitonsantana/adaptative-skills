@@ -15,6 +15,8 @@ This page describes the repository state represented by current documentation an
 
 See the [complete skills catalog](https://nevitonsantana.github.io/adaptive-skills/getting-started/skill-catalog/) for task triggers and expected outcomes.
 
+Detailed public profiles are available for the `documentation`, `feature-planning`, and `ux-strategy` pilot. Each profile is generated from its canonical `SKILL.md` contract and adds reader-facing orientation without creating a second source of authority.
+
 ## Supporting metadata
 
 The repository validates capability metadata, per-skill harness requirements where declared, governed knowledge dependencies, evolution records, and projection consistency.
@@ -34,6 +36,8 @@ Adaptive Skills can be consumed independently through a compatible harness. Alet
 The public Blume site provides progressive paths for beginners, practitioners, advanced readers, and maintainers. Manual GitHub Pages publication remains the current release process.
 
 The canonical `documentation` skill uses five durable Core Moves and context-triggered modules for reader journeys, information architecture, technical storytelling, controlled procedural clarity, editorial governance, change documentation, and publication QA. A reusable checklist and three synthetic validation cases cover multi-level onboarding, executable procedures, and mixed-corpus audits.
+
+The detailed skill-reference pilot validates stable `/skills/<name>/` routes, canonical metadata projection, complete contract rendering, and direct access to usage boundaries, outputs, verification, and handoff guidance. The remaining 31 generic skills still use the concise catalog until the pilot is validated.
 
 ## Maturity boundaries
 
