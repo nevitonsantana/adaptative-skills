@@ -9,9 +9,10 @@ metadata:
 
 # Overview
 
-Use this skill as the generic Product Management entry point when the work spans more
-than one product decision or when the correct method is not yet clear. It organizes a
+Use this skill as the optional Product Management family entry point when the work spans
+more than one product decision or when the correct method is not yet clear. It organizes a
 small, context-appropriate product workflow instead of loading every framework at once.
+When a specialist contract already matches the question, use that building block directly.
 
 The skill is consultative. It may structure a decision, compare methods, identify missing
 evidence, and hand off to another skill. It must not approve investment, change a roadmap,
@@ -25,6 +26,7 @@ method selection and limits; do not treat a framework score as an automatic deci
 - A product request contains several connected decisions.
 - The problem, outcome, evidence, or decision owner is unclear.
 - A team needs to choose a product method before applying it.
+- The requester knows the desired product outcome but not which product capability to start with.
 - A product decision needs explicit evidence gaps, human ownership, and a next handoff.
 - A roadmap, metric, discovery, or prioritization discussion risks becoming activity without a decision.
 

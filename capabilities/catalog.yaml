@@ -294,3 +294,30 @@ capabilities:
     escalate_to_aletheia_if:
       - risky_state_change
       - authorization_or_policy_decision_required
+  - id: ai-discovery-agent-experience
+    kind: macro-capability
+    source_skill: domain-packs/ai-discovery-agent-experience/skills/ai-discovery-agent-experience/SKILL.md
+    category: ai-discovery-agent-experience
+    stable: false
+    default_mode: workflow/extended
+    allowed_modes:
+      - workflow/extended
+      - workflow/high-risk
+    intent: "Route broad discovery, SEO, generative visibility, and agent-readiness goals to the smallest sufficient building block."
+    modules:
+      - goal-framing
+      - dominant-question-classification
+      - selective-composition
+      - evidence-boundary
+    evidence:
+      - user_goal
+      - property_scope
+      - dominant_question
+      - primary_skill
+      - evidence_gaps
+      - verification
+      - handoff_targets
+    escalate_to_aletheia_if:
+      - authorization_required
+      - risky_state_change
+      - macro_gate_required

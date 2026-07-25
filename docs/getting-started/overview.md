@@ -74,7 +74,10 @@ Every skill follows a common shape:
 6. **Verification** defines the minimum proof before closure.
 7. **Handoff Signals** explains when another capability or human decision is needed.
 
-This model is called **Core + Modules + Triggers**. You do not need to understand the deeper architecture before using your first skill.
+This model is called **Core + Modules + Triggers**. Skills are the library's building blocks.
+You can use a building block directly when the task is clear, or start with an optional
+family entrypoint when the request is broad and needs selective composition. You do not need
+to understand the deeper architecture before using your first skill.
 
 ## Current library
 
@@ -134,3 +137,6 @@ Read [AletheIA integration](https://nevitonsantana.github.io/adaptive-skills/ale
 2. [Run your first skill](https://nevitonsantana.github.io/adaptive-skills/getting-started/first-skill/).
 3. [Browse the complete catalog](https://nevitonsantana.github.io/adaptive-skills/getting-started/skill-catalog/).
 4. [Read the FAQ](https://nevitonsantana.github.io/adaptive-skills/getting-started/faq/) if you have adoption or installation questions.
+
+Read [Building blocks and capability families](https://nevitonsantana.github.io/adaptive-skills/capability-composition/) to understand
+when to use a direct skill and when a family can select a composed path for you.

@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- add optional family composition for AI Discovery & Agent Experience while preserving direct
+  building-block use; document the distinction between skills, modules, families, harnesses, and
+  AletheIA; add a synthetic agnostic-SEO routing case and validation metadata
+
 - fix duplicate public H1s by aligning Blume frontmatter titles with editorial pages, correct rendered-heading validation for tags with attributes, and use `portable skills` in reader-facing documentation while preserving `generic` internal metadata and knowledge-mode terminology
 
 - complete the experimental AI Discovery & Agent Experience v0.1 domain pack with five
