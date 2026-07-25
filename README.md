@@ -266,7 +266,7 @@ Add `premortem` when plans have meaningful cost of failure and can still be chan
 
 | Dimension | Status | Next delivery posture |
 |----------|--------|-----------------------|
-| Validated skills | 37 portable + 8 domain-pack | Gather authorized field evidence for the experimental AI Discovery pack |
+| Validated skills | 38 portable + 8 domain-pack | Gather authorized field evidence for the experimental AI Discovery pack |
 | Active pilots | 5 | Keep follow-ups evidence-gated |
 | Evolution cycle | #3 — Observations | Start Cycle #4 only after reviewable signals |
 | Domains | 10/10 | All categories now have at least one published skill |

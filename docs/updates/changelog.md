@@ -25,7 +25,7 @@ The portable `product-management` skill is now available as one consultative, mo
 
 The Product Management contract keeps investment approval, roadmap commitment, task creation, delivery promises, and AletheIA macro governance outside its authority. Synthetic validation cases cover framing gaps, evidence quality, method rejection, metric interpretation, and composed handoffs.
 
-Detailed public profiles are now available for all 37 portable skills. The pages add orientation and navigation while rendering the complete canonical contracts directly from `SKILL.md`, so the public reference does not become a parallel source of truth. The validated three-skill pilot was expanded without changing skill behavior or creating manually maintained contract copies.
+Detailed public profiles are now available for all 38 portable skills. The pages add orientation and navigation while rendering the complete canonical contracts directly from `SKILL.md`, so the public reference does not become a parallel source of truth. The validated three-skill pilot was expanded without changing skill behavior or creating manually maintained contract copies.
 
 The portable `documentation` skill now centers on source-backed self-service journeys for novice, practitioner, advanced, and maintainer readers. Its contract uses five durable Core Moves, context-triggered modules, a reusable checklist, and synthetic validation cases for multi-level onboarding, procedural clarity, and mixed-corpus auditing.
 
@@ -57,3 +57,5 @@ The initial public library established portable skills, category and governance 
 - Check [Current state](https://nevitonsantana.github.io/adaptive-skills/updates/current-state/).
 - Review [Cases and evidence](https://nevitonsantana.github.io/adaptive-skills/cases/) for maturity context.
 - Read [Evolution](https://nevitonsantana.github.io/adaptive-skills/evolution-layer/) to understand how future changes are governed.
+
+Experience Design is now available as an optional family entrypoint over the existing design building blocks.

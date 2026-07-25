@@ -22,7 +22,7 @@
 
 - add the modular `product-management` skill as a consultative product-domain entry point with problem framing, discovery and evidence, prioritization and method selection, metrics and outcomes, method profiles, synthetic validation cases, capability metadata, and public lifecycle guidance; keep investment, roadmap, delivery, and macro-governance authority outside the skill
 
-- expand canonical public detail profiles from the validated three-skill pilot to all 37 portable skills, with registry-driven navigation, complete catalog and index links, and validation that blocks missing canonical profiles
+- expand canonical public detail profiles from the validated three-skill pilot to all 38 portable skills, with registry-driven navigation, complete catalog and index links, and validation that blocks missing canonical profiles
 
 - evolve the portable `documentation` skill around source-backed self-service reader journeys, five durable Core Moves, context-triggered modules, a reusable checklist, and synthetic validation cases; align its public catalog, category, portable-domain taxonomy, current-state record, and consumer-facing changelog without adding runtime enforcement or formal ASD-STE100 compliance
 
@@ -122,3 +122,5 @@
 - validation, taxonomy, telemetry, and AletheIA integration docs
 
 - add the optional `knowledge-governance` family entrypoint over existing source evaluation, conflict resolution, and restricted-context building blocks
+
+- add the optional `experience-design` family entrypoint over strategy, provocation, heuristic audit, UX writing, and design-system building blocks

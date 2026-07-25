@@ -188,3 +188,16 @@ routes:
       - precedence-analysis
       - exposure-boundary
     escalation_hint: knowledge_owner_or_aletheia
+
+  - id: route.experience-design.ambiguous-request
+    activates:
+      - experience-design
+    when:
+      task_shape: broad_experience_request
+      ambiguity: medium_or_high
+    mode: workflow/extended
+    modules:
+      - experience-intake
+      - design-question-classification
+      - selective-composition
+    escalation_hint: product_design_or_system_owner

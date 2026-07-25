@@ -79,6 +79,12 @@ export default defineConfig({
               ],
             },
             {
+              label: "Experience Design",
+              items: [
+                "/experience-design/index",
+              ],
+            },
+            {
               label: "Skill reference",
               items: [
                 "/skills/index",

@@ -151,6 +151,12 @@
       "title": "Knowledge Governance",
       "source_path": "skills/knowledge-governance/SKILL.md",
       "description": "Guide the safe evaluation, reconciliation, and bounded use of knowledge sources through selective governance building blocks."
+    },
+    {
+      "id": "experience-design",
+      "title": "Experience Design",
+      "source_path": "skills/experience-design/SKILL.md",
+      "description": "Guide broad experience-design requests to the smallest sufficient strategy, critique, writing, or design-system building block."
     }
   ]
 }

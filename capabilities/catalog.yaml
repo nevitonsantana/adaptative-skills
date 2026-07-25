@@ -377,3 +377,31 @@ capabilities:
       - authorization_required
       - human_review_required
       - restricted_context
+
+  - id: experience-design
+    kind: macro-capability
+    source_skill: skills/experience-design/SKILL.md
+    category: design
+    stable: false
+    default_mode: workflow/extended
+    allowed_modes:
+      - workflow/extended
+      - workflow/high-risk
+    intent: "Guide broad experience-design requests to the smallest sufficient strategy, critique, writing, or design-system building block."
+    modules:
+      - experience-intake
+      - design-question-classification
+      - selective-composition
+      - decision-owner-check
+    evidence:
+      - outcome
+      - surface
+      - dominant_question
+      - primary_building_block
+      - evidence
+      - verification
+      - handoffs
+    escalate_to_aletheia_if:
+      - product_decision_required
+      - design_system_owner_required
+      - macro_gate_required

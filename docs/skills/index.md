@@ -27,6 +27,7 @@ Each profile is generated from its canonical `skills/<name>/SKILL.md` file. The 
 | [`heuristic-audit`](https://nevitonsantana.github.io/adaptive-skills/skills/heuristic-audit/) | Design | An existing interface has usability risks |
 | [`ux-writing`](https://nevitonsantana.github.io/adaptive-skills/skills/ux-writing/) | Design | Product language is unclear or unsafe |
 | [`design-system-intelligence`](https://nevitonsantana.github.io/adaptive-skills/skills/design-system-intelligence/) | Design | Reviewing an artifact against declared design-system sources |
+| [`experience-design`](https://nevitonsantana.github.io/adaptive-skills/skills/experience-design/) | Design | A broad experience request needs selective composition |
 | [`documentation`](https://nevitonsantana.github.io/adaptive-skills/skills/documentation/) | Documentation | Creating, restructuring, or auditing onboarding, manuals, guides, and technical documentation |
 | [`intent-clarification`](https://nevitonsantana.github.io/adaptive-skills/skills/intent-clarification/) | Planning | Outcome, success, or constraints are ambiguous |
 | [`premortem`](https://nevitonsantana.github.io/adaptive-skills/skills/premortem/) | Planning | A consequential plan could fail in costly ways |

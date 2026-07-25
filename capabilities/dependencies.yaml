@@ -166,3 +166,28 @@ escalation_boundaries:
     to: aletheia
     relation: escalation-boundary
     reason: "Registration, authorization, human review, and governance decisions remain outside the portable family."
+
+  - from: experience-design
+    to: ux-strategy
+    relation: delegates-to
+    reason: "The family routes broad direction and experience outcomes to the canonical strategy contract."
+
+  - from: experience-design
+    to: ux-provocation
+    relation: delegates-to
+    reason: "The family routes experience hypotheses that need pressure-testing to the canonical provocation contract."
+
+  - from: experience-design
+    to: heuristic-audit
+    relation: delegates-to
+    reason: "The family routes existing interface inspection to the canonical heuristic contract."
+
+  - from: experience-design
+    to: ux-writing
+    relation: delegates-to
+    reason: "The family routes interface language and action clarity to the canonical writing contract."
+
+  - from: experience-design
+    to: design-system-intelligence
+    relation: delegates-to
+    reason: "The family routes declared design-system source review to the canonical design-system contract."
