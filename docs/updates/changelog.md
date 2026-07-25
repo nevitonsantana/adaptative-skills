@@ -7,7 +7,11 @@ This page summarizes changes that matter to skill consumers. The root `CHANGELOG
 
 ## Unreleased
 
-Detailed public profiles are now available for all 34 generic skills. The pages add orientation and navigation while rendering the complete canonical contracts directly from `SKILL.md`, so the public reference does not become a parallel source of truth. The validated three-skill pilot was expanded without changing skill behavior or creating manually maintained contract copies.
+The generic `product-management` skill is now available as one consultative, modular entry point. Its first modules cover problem framing, discovery and evidence, prioritization and method selection, and metrics and outcomes. Public guidance explains the lifecycle, module selection, framework provenance, and handoffs to existing skills.
+
+The Product Management contract keeps investment approval, roadmap commitment, task creation, delivery promises, and AletheIA macro governance outside its authority. Synthetic validation cases cover framing gaps, evidence quality, method rejection, metric interpretation, and composed handoffs.
+
+Detailed public profiles are now available for all 35 generic skills. The pages add orientation and navigation while rendering the complete canonical contracts directly from `SKILL.md`, so the public reference does not become a parallel source of truth. The validated three-skill pilot was expanded without changing skill behavior or creating manually maintained contract copies.
 
 The generic `documentation` skill now centers on source-backed self-service journeys for novice, practitioner, advanced, and maintainer readers. Its contract uses five durable Core Moves, context-triggered modules, a reusable checklist, and synthetic validation cases for multi-level onboarding, procedural clarity, and mixed-corpus auditing.
 

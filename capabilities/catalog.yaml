@@ -145,3 +145,37 @@ capabilities:
       - hard_gate_identified
       - human_decision_gate_required
       - high_assurance_context_missing
+
+  - id: product-management
+    kind: macro-capability
+    source_skill: skills/product-management/SKILL.md
+    category: product
+    stable: false
+    default_mode: product-management/diagnose
+    allowed_modes:
+      - product-management/diagnose
+      - product-management/decision
+      - product-management/composition
+    intent: "Frame product work, select the smallest sufficient method path, and coordinate bounded handoffs without investment or roadmap authority."
+    modules:
+      - problem-framing
+      - discovery-and-evidence
+      - prioritization-and-method-selection
+      - metrics-and-outcomes
+      - stakeholder-alignment
+      - strategy-and-opportunity
+      - roadmap-and-sequencing
+      - learning-review
+    evidence:
+      - problem_frame
+      - decision_shape
+      - evidence_quality
+      - selected_modules
+      - human_decisions
+      - verification_result
+      - handoff_targets
+    escalate_to_aletheia_if:
+      - investment_approval_required
+      - roadmap_commitment_required
+      - macro_gate_required
+      - ownership_boundary_crossed

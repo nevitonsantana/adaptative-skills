@@ -34,6 +34,7 @@ Each profile is generated from its canonical `skills/<name>/SKILL.md` file. The 
 | [`checkpoint-review`](https://nevitonsantana.github.io/adaptive-skills/skills/checkpoint-review/) | Efficiency | A long task needs a continue-or-stop decision |
 | [`handoff-summary`](https://nevitonsantana.github.io/adaptive-skills/skills/handoff-summary/) | Efficiency | Work is crossing a person, agent, or session boundary |
 | [`triad-check`](https://nevitonsantana.github.io/adaptive-skills/skills/triad-check/) | Cross-functional | A hard-to-reverse decision crosses product, design, and engineering |
+| [`product-management`](https://nevitonsantana.github.io/adaptive-skills/skills/product-management/) | Product | A product request spans framing, evidence, method selection, outcomes, or handoffs |
 | [`feature-value-governance`](https://nevitonsantana.github.io/adaptive-skills/skills/feature-value-governance/) | Product | Deciding whether a feature deserves investment |
 | [`opportunity-tree-alignment`](https://nevitonsantana.github.io/adaptive-skills/skills/opportunity-tree-alignment/) | Product | Backlog bets lack clear outcome links |
 | [`business-design`](https://nevitonsantana.github.io/adaptive-skills/skills/business-design/) | Business | Framing product or business strategy from mixed signals |

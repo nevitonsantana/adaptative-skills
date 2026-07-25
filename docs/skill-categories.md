@@ -74,10 +74,10 @@ Skills for structuring, stress-testing, and de-risking plans before execution be
 
 ## product
 
-Product-domain skills for deciding whether opportunities and feature investments are connected to user, business, and outcome evidence.
+Product-domain skills for framing product decisions and checking whether opportunities and feature investments are connected to user, business, and outcome evidence.
 
-- **Published:** `feature-value-governance`, `opportunity-tree-alignment`
-- **Backlog:** `product-discovery`, `roadmap-thinking`, `prioritization`, `hypothesis-design`
+- **Published:** `product-management`, `feature-value-governance`, `opportunity-tree-alignment`
+- **Backlog:** Additional Product Management modules; extraction into a new skill requires independent routing, use, verification, and reuse evidence.
 
 ## quality
 

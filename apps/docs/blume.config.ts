@@ -45,6 +45,16 @@ export default defineConfig({
             "/guides/skill-selection",
             "/getting-started/skill-catalog",
             {
+              label: "Product Management",
+              items: [
+                "/product-management/index",
+                "/product-management/lifecycle",
+                "/product-management/module-selection",
+                "/product-management/framework-reference-policy",
+                "/product-management/composition-examples",
+              ],
+            },
+            {
               label: "Skill reference",
               items: [
                 "/skills/index",

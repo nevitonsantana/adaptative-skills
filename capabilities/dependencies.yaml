@@ -55,3 +55,28 @@ escalation_boundaries:
     to: checkpoint-review
     relation: owner-review-escalation
     reason: "Pattern candidates or missing source evidence should pause for owner or governance review."
+
+  - from: product-management
+    to: feature-value-governance
+    relation: delegates-to
+    reason: "Product Management routes a bounded investment question to the canonical feature value contract."
+
+  - from: product-management
+    to: opportunity-tree-alignment
+    relation: delegates-to
+    reason: "Product Management uses opportunity alignment when a product bet needs an outcome-to-opportunity path."
+
+  - from: product-management
+    to: feature-planning
+    relation: handoff-after-framing
+    reason: "Delivery planning starts only after the product problem, outcome, and constraints are bounded."
+
+  - from: product-management
+    to: observability-review
+    relation: composes-with
+    reason: "Outcome and guardrail proposals need observability review before measurement claims are trusted."
+
+  - from: product-management
+    to: aletheia
+    relation: escalation-boundary
+    reason: "Investment, roadmap, macro-gate, and ownership decisions remain outside the portable skill."

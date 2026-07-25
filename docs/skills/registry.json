@@ -135,6 +135,10 @@
     {
       "id": "observability-review",
       "title": "Observability review"
+    },
+    {
+      "id": "product-management",
+      "title": "Product Management"
     }
   ]
 }
