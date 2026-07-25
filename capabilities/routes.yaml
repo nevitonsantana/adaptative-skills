@@ -91,3 +91,16 @@ routes:
       - discovery-and-evidence
       - handoff-boundary
     escalation_hint: aletheia_product_decision_boundary
+
+  - id: route.ai-discovery.entity-ambiguity
+    activates:
+      - knowledge-entity-representation
+    when:
+      task_shape: entity_or_claim_representation
+      ambiguity: present
+    mode: workflow/extended
+    modules:
+      - entity-inventory
+      - entity-consistency-audit
+      - claim-evidence-mapping
+    escalation_hint: human_representation_owner

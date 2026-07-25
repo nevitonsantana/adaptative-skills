@@ -102,9 +102,11 @@ Domain packs live under `/domain-packs`.
 
 They are intentionally specific, versioned, and reusable, but they are **not** treated as generic skill truth.
 
-Current domain pack:
+Current domain packs:
 
 - `domain-packs/crisis-management`
+- `domain-packs/ai-discovery-agent-experience` — experimental foundation with
+  `knowledge-entity-representation`; the remaining four v0.1 skills are not yet delivered
 
 ### Projection layer
 
@@ -259,11 +261,11 @@ Add `premortem` when plans have meaningful cost of failure and can still be chan
 
 ## Current status
 
-### June 2026
+### July 2026
 
 | Dimension | Status | Next delivery posture |
 |----------|--------|-----------------------|
-| Validated skills | 33 generic + 3 domain-pack | Expand only when evidence justifies it |
+| Validated skills | 35 generic + 4 domain-pack | Complete the AI Discovery pack only through its reviewed v0.1 slices |
 | Active pilots | 5 | Keep follow-ups evidence-gated |
 | Evolution cycle | #3 — Observations | Start Cycle #4 only after reviewable signals |
 | Domains | 10/10 | All categories now have at least one published skill |
@@ -280,8 +282,12 @@ Adaptive Skills is **domain-agnostic** (see [`docs/adr/ADR-002-domain-agnosticis
 
 - [`docs/crisis-monitor-case-study.md`](docs/crisis-monitor-case-study.md)
 - [`domain-packs/crisis-management/`](domain-packs/crisis-management/) — first example domain pack (not the canonical pack)
+- [`domain-packs/ai-discovery-agent-experience/`](domain-packs/ai-discovery-agent-experience/) —
+  experimental second pack; currently a foundation, not completed field evidence
 
-That case remains evidence for the library, not an active product backlog inside this repository. Additional consumer projects across other domains are expected and prioritized.
+These domain packs remain bounded evidence rather than generic skill truth. The
+MoradaHarmoniA scaffold does not become completed field evidence until an authorized,
+reproducible baseline exists.
 
 ## License
 

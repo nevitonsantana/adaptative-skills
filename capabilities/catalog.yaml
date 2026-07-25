@@ -179,3 +179,34 @@ capabilities:
       - roadmap_commitment_required
       - macro_gate_required
       - ownership_boundary_crossed
+
+  - id: knowledge-entity-representation
+    kind: macro-capability
+    source_skill: domain-packs/ai-discovery-agent-experience/skills/knowledge-entity-representation/SKILL.md
+    category: ai-discovery-agent-experience
+    stable: false
+    default_mode: workflow/extended
+    allowed_modes:
+      - workflow/basic
+      - workflow/extended
+      - workflow/high-risk
+    intent: "Stabilize source-backed entities, relationships, claims, and canonical descriptions before downstream discovery work."
+    modules:
+      - entity-inventory
+      - canonical-description-design
+      - entity-consistency-audit
+      - claim-evidence-mapping
+      - knowledge-graph-readiness
+      - machine-readable-packaging
+      - version-and-freshness-governance
+    evidence:
+      - entity_inventory
+      - relationship_map
+      - claim_evidence_map
+      - representation_findings
+      - unresolved_conflicts
+      - verification_handoff
+    escalate_to_aletheia_if:
+      - ownership_or_brand_decision_required
+      - policy_or_legal_conflict
+      - macro_priority_decision_required
