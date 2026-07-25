@@ -5,14 +5,17 @@ description: "Reference documentation for Capability Model in Adaptive Skills."
 
 Adaptive Skills is evolving from a flat library of skills into a lightweight capability layer.
 
-The goal is not to create more skills by default. The goal is to make existing skills easier to compose, route, execute, observe, and evolve without turning this repository into an agent runtime.
+The goal is not to create more skills by default. The goal is to make existing skills easier to
+compose, route, execute, observe, and evolve without turning this repository into an agent
+runtime. Skills remain the building blocks; a family or macro-capability is an optional,
+goal-oriented composition of those blocks.
 
 ## Definitions
 
 - **Skill** — the human-readable method asset in `skills/` or `domain-packs/`. It describes when to use the method, core moves, optional modules, triggers, verification, handoff signals, and anti-patterns.
 - **Capability** — a routable operational unit around a skill or module. It adds intent, dependencies, modes, risk posture, expected evidence, and escalation hints.
 - **Micro-capability** — a small reusable move such as ambiguity check, scope boundary, proof recap, dependency thinning, or rollback gate.
-- **Macro-capability** — a larger composition such as feature planning, debugging, checkpoint review, or premortem.
+- **Macro-capability** — a larger composition such as feature planning, debugging, checkpoint review, premortem, or a domain family entrypoint.
 - **Workflow** — an ordered composition of capabilities for a task shape.
 - **Runtime** — the consumer-local execution loop that selects, activates, checkpoints, resumes, and records capability use.
 - **Harness** — the agent, tools, sandbox, permissions, memory, and observability around execution.
