@@ -145,6 +145,12 @@
       "title": "Work Continuity & Efficiency",
       "source_path": "skills/work-continuity-efficiency/SKILL.md",
       "description": "Make oversized or interrupted work smaller, resumable, reviewable, and clear to hand off through selective continuity building blocks."
+    },
+    {
+      "id": "knowledge-governance",
+      "title": "Knowledge Governance",
+      "source_path": "skills/knowledge-governance/SKILL.md",
+      "description": "Guide the safe evaluation, reconciliation, and bounded use of knowledge sources through selective governance building blocks."
     }
   ]
 }

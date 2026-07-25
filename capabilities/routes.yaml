@@ -175,3 +175,16 @@ routes:
       - dominant-need-classification
       - selective-composition
     escalation_hint: ownership_or_macro_governance_owner
+
+  - id: route.knowledge-governance.ambiguous-source
+    activates:
+      - knowledge-governance
+    when:
+      task_shape: source_registration_conflict_or_restricted_use
+      ambiguity: medium_or_high
+    mode: workflow/extended
+    modules:
+      - source-intake
+      - precedence-analysis
+      - exposure-boundary
+    escalation_hint: knowledge_owner_or_aletheia

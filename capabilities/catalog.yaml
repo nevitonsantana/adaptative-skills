@@ -349,3 +349,31 @@ capabilities:
     escalate_to_aletheia_if:
       - macro_gate_required
       - ownership_boundary_crossed
+
+  - id: knowledge-governance
+    kind: macro-capability
+    source_skill: skills/knowledge-governance/SKILL.md
+    category: governance
+    stable: false
+    default_mode: workflow/extended
+    allowed_modes:
+      - workflow/extended
+      - workflow/high-risk
+    intent: "Guide the safe evaluation, reconciliation, and bounded use of knowledge sources through selective governance building blocks."
+    modules:
+      - source-intake
+      - precedence-analysis
+      - exposure-boundary
+      - carry-forward-check
+    evidence:
+      - sources
+      - dominant_need
+      - primary_building_block
+      - evidence_gaps
+      - restrictions
+      - human_review_required
+      - handoffs
+    escalate_to_aletheia_if:
+      - authorization_required
+      - human_review_required
+      - restricted_context

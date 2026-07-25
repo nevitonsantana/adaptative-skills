@@ -933,6 +933,28 @@
         "mode": "available-not-default",
         "target_path": null
       }
+    },
+    {
+      "id": "knowledge-governance",
+      "source_path": "skills/knowledge-governance/SKILL.md",
+      "category": "governance",
+      "status": "active",
+      "portability_tags": [
+        "product",
+        "generic",
+        "consultative"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "knowledge-governance",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $knowledge-governance when a source must be evaluated, reconciled, or checked for safe bounded use."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "available-not-default",
+        "target_path": null
+      }
     }
   ]
 }

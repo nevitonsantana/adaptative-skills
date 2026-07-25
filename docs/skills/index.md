@@ -45,6 +45,7 @@ Each profile is generated from its canonical `skills/<name>/SKILL.md` file. The 
 | [`knowledge-source-evaluation`](https://nevitonsantana.github.io/adaptive-skills/skills/knowledge-source-evaluation/) | Governance | A document may become governed knowledge |
 | [`knowledge-conflict-resolution`](https://nevitonsantana.github.io/adaptive-skills/skills/knowledge-conflict-resolution/) | Governance | Decision-relevant sources disagree |
 | [`restricted-context-check`](https://nevitonsantana.github.io/adaptive-skills/skills/restricted-context-check/) | Governance | Sensitive or untrusted knowledge may enter task context |
+| [`knowledge-governance`](https://nevitonsantana.github.io/adaptive-skills/skills/knowledge-governance/) | Governance | A broad source-governance decision needs selective composition |
 | [`qa-review`](https://nevitonsantana.github.io/adaptive-skills/skills/qa-review/) | Quality | A change needs a cross-layer quality gate |
 | [`observability-review`](https://nevitonsantana.github.io/adaptive-skills/skills/observability-review/) | Metrics | Metrics, events, alerts, or diagnostics need review |
 
