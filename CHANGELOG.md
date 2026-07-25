@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- add canonical public detail profiles for the `documentation`, `feature-planning`, and `ux-strategy` pilot, with stable `/skills/<name>/` routes, catalog and navigation links, and validation against each source `SKILL.md`
+
 - evolve the generic `documentation` skill around source-backed self-service reader journeys, five durable Core Moves, context-triggered modules, a reusable checklist, and synthetic validation cases; align its public catalog, category, generic-domain taxonomy, current-state record, and consumer-facing changelog without adding runtime enforcement or formal ASD-STE100 compliance
 
 - add curated Adaptive Skills documentation illustrations with captions and explicit conceptual/evidence boundaries

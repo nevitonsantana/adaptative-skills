@@ -2,6 +2,7 @@
 """Validate the rendered Blume documentation quality baseline."""
 from __future__ import annotations
 
+import json
 import re
 import posixpath
 from pathlib import Path
@@ -17,6 +18,19 @@ def main() -> int:
     if not pages:
         print("Rendered documentation validation failed:")
         print("- no index.html pages found; run the documentation build first")
+        return 1
+
+    registry_path = root / "docs" / "skills" / "registry.json"
+    try:
+        registry = json.loads(registry_path.read_text())
+        registered_ids = [
+            entry["id"]
+            for entry in registry["skills"]
+            if isinstance(entry, dict) and isinstance(entry.get("id"), str)
+        ]
+    except (OSError, KeyError, TypeError, json.JSONDecodeError) as error:
+        print("Rendered documentation validation failed:")
+        print(f"- cannot read skill detail registry: {error}")
         return 1
 
     for page in pages:
@@ -64,6 +78,43 @@ def main() -> int:
             if not (candidate.is_file() or (candidate / "index.html").is_file()):
                 errors.append(f"{relative}: local link does not resolve to a published route: {href}")
 
+    skill_index = dist / "skills" / "index.html"
+    if not skill_index.exists():
+        errors.append("skills/index.html: missing rendered skill reference index")
+
+    required_section_ids = {
+        "overview",
+        "when-to-use",
+        "when-not-to-use",
+        "core-moves",
+        "optional-modules",
+        "activation-triggers",
+        "expected-output",
+        "verification",
+        "handoff-signals",
+        "pairs-well-with",
+        "anti-patterns",
+    }
+    for skill_id in registered_ids:
+        relative = Path("skills") / skill_id / "index.html"
+        page = dist / relative
+        if not page.exists():
+            errors.append(f"{relative}: missing rendered registered skill profile")
+            continue
+        text = page.read_text(errors="ignore")
+        heading_ids = set(re.findall(r'<h[1-6][^>]* id="([^"]+)"', text))
+        missing_sections = sorted(required_section_ids - heading_ids)
+        if missing_sections:
+            errors.append(
+                f"{relative}: missing canonical sections: {', '.join(missing_sections)}"
+            )
+        canonical_url = (
+            "https://github.com/nevitonsantana/adaptive-skills/blob/main/"
+            f"skills/{skill_id}/SKILL.md"
+        )
+        if canonical_url not in text:
+            errors.append(f"{relative}: missing canonical SKILL.md source link")
+
     if errors:
         print("Rendered documentation validation failed:")
         for error in errors:
@@ -71,8 +122,9 @@ def main() -> int:
         return 1
 
     print(
-        f"Validated {len(pages)} rendered documentation pages: "
-        "one H1 each, continuous heading hierarchy, and valid published local routes."
+        f"Validated {len(pages)} rendered documentation pages, including "
+        f"{len(registered_ids)} canonical skill profiles: one H1 each, continuous "
+        "heading hierarchy, valid published local routes, and complete skill sections."
     )
     return 0
 

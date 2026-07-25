@@ -7,11 +7,13 @@ This page summarizes changes that matter to skill consumers. The root `CHANGELOG
 
 ## Unreleased
 
+Detailed public profiles are now available for the `documentation`, `feature-planning`, and `ux-strategy` pilot. The pages add orientation and navigation while rendering the complete canonical contracts directly from `SKILL.md`, so the public reference does not become a parallel source of truth.
+
 The generic `documentation` skill now centers on source-backed self-service journeys for novice, practitioner, advanced, and maintainer readers. Its contract uses five durable Core Moves, context-triggered modules, a reusable checklist, and synthetic validation cases for multi-level onboarding, procedural clarity, and mixed-corpus auditing.
 
 Public discovery and taxonomy now align the `docs` category, skill catalog, category description, and all 11 current generic domains. The broader documentation journey continues to improve onboarding, navigation, rendered links, and separation among current state, evidence, evolution, roadmaps, and maintainer records.
 
-These changes alter consultative skill guidance and discovery metadata. They do not add runtime enforcement, automatic routing authority, formal ASD-STE100 compliance, or AletheIA authority.
+These changes alter consultative skill guidance, discovery metadata, and public reference routes. They do not add runtime enforcement, automatic routing authority, formal ASD-STE100 compliance, or AletheIA authority.
 
 ## 0.1.2
 

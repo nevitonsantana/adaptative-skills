@@ -16,7 +16,7 @@ Each skill appears once in this catalog. Its `skills/<name>/SKILL.md` file remai
 | Skill | Use it when | Expected outcome |
 |---|---|---|
 | `workflow` | Starting non-trivial work or returning from a handoff | Explicit scope, proof, and next step |
-| `feature-planning` | Turning a feature request into staged delivery | Small, testable delivery plan |
+| [`feature-planning`](https://nevitonsantana.github.io/adaptive-skills/skills/feature-planning/) | Turning a feature request into staged delivery | Small, testable delivery plan |
 | `testing` | Choosing proof before closing meaningful work | Risk-appropriate validation strategy |
 | `debugging` | Investigating a reproducible failure | Isolated cause, fix, and recurrence guard |
 | `api-design` | Defining a contract between components | Clear inputs, outputs, errors, and compatibility |
@@ -31,7 +31,7 @@ Each skill appears once in this catalog. Its `skills/<name>/SKILL.md` file remai
 
 | Skill | Use it when | Expected outcome |
 |---|---|---|
-| `ux-strategy` | The interaction direction is still open | Compared directions and a reasoned position |
+| [`ux-strategy`](https://nevitonsantana.github.io/adaptive-skills/skills/ux-strategy/) | The interaction direction is still open | Compared directions and a reasoned position |
 | `ux-provocation` | A dominant UX hypothesis needs pressure testing | Exposed assumptions and stronger alternatives |
 | `heuristic-audit` | An existing interface has usability risks | Prioritized failures and defensible fixes |
 | `ux-writing` | Product language is unclear or unsafe | Clear, actionable interface language |
@@ -41,7 +41,7 @@ Each skill appears once in this catalog. Its `skills/<name>/SKILL.md` file remai
 
 | Skill | Use it when | Expected outcome |
 |---|---|---|
-| `documentation` | Creating, restructuring, or auditing onboarding, manuals, guides, and technical documentation | Self-service reader journeys, source-backed content, controlled procedural clarity, and validated recovery paths |
+| [`documentation`](https://nevitonsantana.github.io/adaptive-skills/skills/documentation/) | Creating, restructuring, or auditing onboarding, manuals, guides, and technical documentation | Self-service reader journeys, source-backed content, controlled procedural clarity, and validated recovery paths |
 
 ## Planning
 
@@ -109,6 +109,7 @@ Each skill appears once in this catalog. Its `skills/<name>/SKILL.md` file remai
 ## Next steps
 
 - [Choose the right skill](https://nevitonsantana.github.io/adaptive-skills/guides/skill-selection/) when several options seem plausible.
+- Browse the [detailed skill reference pilot](https://nevitonsantana.github.io/adaptive-skills/skills/) for canonical public profiles of `documentation`, `feature-planning`, and `ux-strategy`.
 - [Use a skill](https://nevitonsantana.github.io/adaptive-skills/how-to-use-a-skill/) for invocation and evidence-return guidance.
 - [Try workflow recipes](https://nevitonsantana.github.io/adaptive-skills/guides/workflow-recipes/) when the task needs more than one skill.
 - Read the canonical `skills/<name>/SKILL.md` in your installed copy before execution.

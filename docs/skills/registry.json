@@ -1,0 +1,16 @@
+{
+  "skills": [
+    {
+      "id": "documentation",
+      "title": "Documentation"
+    },
+    {
+      "id": "feature-planning",
+      "title": "Feature planning"
+    },
+    {
+      "id": "ux-strategy",
+      "title": "UX strategy"
+    }
+  ]
+}
