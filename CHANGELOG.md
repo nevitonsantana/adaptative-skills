@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- add canonical public detail profiles for the `documentation`, `feature-planning`, and `ux-strategy` pilot, with stable `/skills/<name>/` routes, catalog and navigation links, and validation against each source `SKILL.md`
+- expand canonical public detail profiles from the validated three-skill pilot to all 34 generic skills, with registry-driven navigation, complete catalog and index links, and validation that blocks missing canonical profiles
 
 - evolve the generic `documentation` skill around source-backed self-service reader journeys, five durable Core Moves, context-triggered modules, a reusable checklist, and synthetic validation cases; align its public catalog, category, generic-domain taxonomy, current-state record, and consumer-facing changelog without adding runtime enforcement or formal ASD-STE100 compliance
 

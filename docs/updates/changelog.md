@@ -7,7 +7,7 @@ This page summarizes changes that matter to skill consumers. The root `CHANGELOG
 
 ## Unreleased
 
-Detailed public profiles are now available for the `documentation`, `feature-planning`, and `ux-strategy` pilot. The pages add orientation and navigation while rendering the complete canonical contracts directly from `SKILL.md`, so the public reference does not become a parallel source of truth.
+Detailed public profiles are now available for all 34 generic skills. The pages add orientation and navigation while rendering the complete canonical contracts directly from `SKILL.md`, so the public reference does not become a parallel source of truth. The validated three-skill pilot was expanded without changing skill behavior or creating manually maintained contract copies.
 
 The generic `documentation` skill now centers on source-backed self-service journeys for novice, practitioner, advanced, and maintainer readers. Its contract uses five durable Core Moves, context-triggered modules, a reusable checklist, and synthetic validation cases for multi-level onboarding, procedural clarity, and mixed-corpus auditing.
 

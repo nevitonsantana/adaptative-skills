@@ -84,17 +84,23 @@ const rewriteRelativeLinks = (line: string, id: string): string =>
     const [pathWithQuery, fragment = ""] = pathAndQuery.split("#", 2);
     const [path, query = ""] = pathWithQuery.split("?", 2);
     const repositoryPath = posix.normalize(posix.join("skills", id, path));
+    const suffix = [
+      query ? `?${query}` : "",
+      fragment ? `#${fragment}` : "",
+      titleParts.length > 0 ? ` ${titleParts.join(" ")}` : "",
+    ].join("");
+
+    const aletheiaPrefix = "../aletheia/";
+    if (repositoryPath.startsWith(aletheiaPrefix)) {
+      const aletheiaPath = repositoryPath.slice(aletheiaPrefix.length);
+      return `](https://github.com/nevitonsantana/AletheIA/blob/main/${aletheiaPath}${suffix})`;
+    }
     if (repositoryPath.startsWith("../")) {
       throw new Error(
         `skills/${id}/SKILL.md: relative link escapes the repository: ${target}`
       );
     }
 
-    const suffix = [
-      query ? `?${query}` : "",
-      fragment ? `#${fragment}` : "",
-      titleParts.length > 0 ? ` ${titleParts.join(" ")}` : "",
-    ].join("");
     return `](https://github.com/nevitonsantana/adaptive-skills/blob/main/${repositoryPath}${suffix})`;
   });
 
