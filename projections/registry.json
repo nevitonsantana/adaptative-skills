@@ -911,6 +911,28 @@
         "mode": "available-not-default",
         "target_path": null
       }
+    },
+    {
+      "id": "work-continuity-efficiency",
+      "source_path": "skills/work-continuity-efficiency/SKILL.md",
+      "category": "efficiency",
+      "status": "active",
+      "portability_tags": [
+        "product",
+        "generic",
+        "consultative"
+      ],
+      "codex_projection": {
+        "enabled": true,
+        "target_name": "work-continuity-efficiency",
+        "generate_openai_yaml": true,
+        "default_prompt": "Use $work-continuity-efficiency when the task is oversized, interrupted, context-heavy, or needs a resumable handoff."
+      },
+      "claude_projection": {
+        "enabled": true,
+        "mode": "available-not-default",
+        "target_path": null
+      }
     }
   ]
 }

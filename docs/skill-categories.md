@@ -41,7 +41,7 @@ Documentation skills for designing self-service reader journeys, creating source
 
 Skills that compound execution speed without sacrificing clarity — task chunking, handoff hygiene, mid-flight checkpoints.
 
-- **Published:** `task-chunking`, `handoff-summary`, `checkpoint-review`
+- **Published:** `task-chunking`, `handoff-summary`, `checkpoint-review`, `work-continuity-efficiency`
 - **Backlog:** see [`docs/efficiency-layer-candidate-skills.md`](https://nevitonsantana.github.io/adaptive-skills/efficiency-layer-candidate-skills/)
 
 ## engineering

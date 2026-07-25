@@ -139,6 +139,12 @@
     {
       "id": "product-management",
       "title": "Product Management"
+    },
+    {
+      "id": "work-continuity-efficiency",
+      "title": "Work Continuity & Efficiency",
+      "source_path": "skills/work-continuity-efficiency/SKILL.md",
+      "description": "Make oversized or interrupted work smaller, resumable, reviewable, and clear to hand off through selective continuity building blocks."
     }
   ]
 }

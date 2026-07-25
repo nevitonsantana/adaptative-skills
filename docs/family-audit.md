@@ -30,7 +30,7 @@ for users or agents.
 | Engineering Delivery | “What is the smallest safe path from change intent to proven implementation?” | `workflow`, `feature-planning`, `testing`, `debugging`, `lean-implementation`, `architecture-review`, `api-design`, `refactoring`, `code-style` | Needs framing | Broad lifecycle family risks becoming a second workflow runtime. Start with a narrower delivery question. |
 | Business & Value | “How does this initiative create or protect value?” | `business-design`, `revenue-lever-mapping`, Product Management value skills | Hold | Significant overlap with Product Management and unresolved decision ownership. |
 | Quality & Observability | “What evidence shows the system or outcome is healthy?” | `qa-review`, `observability-review`, `testing` | Hold | Quality, testing, and metrics cross several existing families. |
-| Crisis Response | “How should a high-impact incident be understood, monitored, communicated, and coordinated?” | `crisis-analyst`, `monitoring-architect`, `cris-voice`, crisis companion skills | Needs framing | Strong domain workflow exists, but requires explicit crisis entry contract and authority boundaries. |
+| Crisis Response | — | Crisis Monitor skills | Out of scope | Crisis Response belongs to Crisis Monitor and is not an Adaptive Skills family candidate. |
 | Planning & Intent | “What must be clarified or stress-tested before work begins?” | `intent-clarification`, `premortem`, `workflow` | Direct use | Small, cross-cutting building blocks are clearer than a new family. |
 | Documentation | “How do we create a self-service document for this reader and task?” | `documentation` and its internal modules | Direct use | The skill already provides the appropriate primary entrypoint. |
 
@@ -41,8 +41,15 @@ for users or agents.
    boundaries.
 3. Frame Experience Design around one entry question before composing its members.
 4. Keep Business & Value and Quality & Observability on hold until their overlaps are resolved.
-5. Revisit Engineering Delivery and Crisis Response as dedicated workflows, not automatically
-   as broad families.
+5. Revisit Engineering Delivery as a dedicated workflow, not automatically as a broad family.
+
+## Explicit boundary: Crisis Monitor
+
+The Crisis Response skills are excluded from this Adaptive Skills family audit. They belong to
+the Crisis Monitor product and should be governed, documented, and evolved in that repository.
+They must not be treated as general-purpose Adaptive Skills, increase the portable-skill
+inventory, or shape the public Adaptive Skills navigation. Existing integration-specific files
+remain a separate boundary until their ownership and migration are handled explicitly.
 
 ## Family creation gate
 
