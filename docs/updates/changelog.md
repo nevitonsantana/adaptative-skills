@@ -15,13 +15,16 @@ It now also has an optional family entrypoint that routes broad goals to the sma
 building block without replacing direct specialist use.
 The first inventory audit of the remaining portable skills identifies Work Continuity & Efficiency
 as the next pilot candidate and keeps broader or overlapping groupings on hold.
+Work Continuity & Efficiency is now available as an optional family entrypoint over task
+chunking, checkpoints, handoffs, and communication, with direct use of each building block
+preserved. Crisis Response is explicitly excluded as Crisis Monitor-specific scope.
 Public documentation now labels the cross-domain library as **portable skills** while preserving `generic` for internal metadata and knowledge-mode semantics. The rendered-page validator was corrected to detect H1 tags with attributes, and the Product Management guide no longer renders duplicate page titles.
 
 The portable `product-management` skill is now available as one consultative, modular entry point. Its first modules cover problem framing, discovery and evidence, prioritization and method selection, and metrics and outcomes. Public guidance explains the lifecycle, module selection, framework provenance, and handoffs to existing skills.
 
 The Product Management contract keeps investment approval, roadmap commitment, task creation, delivery promises, and AletheIA macro governance outside its authority. Synthetic validation cases cover framing gaps, evidence quality, method rejection, metric interpretation, and composed handoffs.
 
-Detailed public profiles are now available for all 35 portable skills. The pages add orientation and navigation while rendering the complete canonical contracts directly from `SKILL.md`, so the public reference does not become a parallel source of truth. The validated three-skill pilot was expanded without changing skill behavior or creating manually maintained contract copies.
+Detailed public profiles are now available for all 36 portable skills. The pages add orientation and navigation while rendering the complete canonical contracts directly from `SKILL.md`, so the public reference does not become a parallel source of truth. The validated three-skill pilot was expanded without changing skill behavior or creating manually maintained contract copies.
 
 The portable `documentation` skill now centers on source-backed self-service journeys for novice, practitioner, advanced, and maintainer readers. Its contract uses five durable Core Moves, context-triggered modules, a reusable checklist, and synthetic validation cases for multi-level onboarding, procedural clarity, and mixed-corpus auditing.
 

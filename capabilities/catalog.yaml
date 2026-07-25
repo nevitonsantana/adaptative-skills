@@ -321,3 +321,31 @@ capabilities:
       - authorization_required
       - risky_state_change
       - macro_gate_required
+
+  - id: work-continuity-efficiency
+    kind: macro-capability
+    source_skill: skills/work-continuity-efficiency/SKILL.md
+    category: efficiency
+    stable: false
+    default_mode: workflow/extended
+    allowed_modes:
+      - workflow/basic
+      - workflow/extended
+    intent: "Make oversized or interrupted work smaller, resumable, reviewable, and clear to hand off through selective continuity building blocks."
+    modules:
+      - continuity-need-framing
+      - dominant-need-classification
+      - selective-composition
+      - resumability-check
+    evidence:
+      - work_state
+      - dominant_need
+      - primary_building_block
+      - proved
+      - open_items
+      - decision
+      - stop_condition
+      - next_step
+    escalate_to_aletheia_if:
+      - macro_gate_required
+      - ownership_boundary_crossed

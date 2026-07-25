@@ -126,3 +126,23 @@ escalation_boundaries:
     to: agent-capability-actionability
     relation: delegates-to
     reason: "The family entrypoint routes concrete state-changing agent tasks to the canonical specialist."
+
+  - from: work-continuity-efficiency
+    to: task-chunking
+    relation: delegates-to
+    reason: "The family routes oversized or entangled work to the canonical slicing contract."
+
+  - from: work-continuity-efficiency
+    to: checkpoint-review
+    relation: delegates-to
+    reason: "The family uses a checkpoint when a round changed shape or continuation is uncertain."
+
+  - from: work-continuity-efficiency
+    to: handoff-summary
+    relation: delegates-to
+    reason: "The family uses a handoff summary when another round or owner must resume the work."
+
+  - from: work-continuity-efficiency
+    to: communication
+    relation: delegates-to
+    reason: "The family uses communication when the continuity result must be made legible to another owner."
