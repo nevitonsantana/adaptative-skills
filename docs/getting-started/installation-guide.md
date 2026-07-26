@@ -11,7 +11,7 @@ You need:
 
 - a project directory;
 - Git;
-- Node.js 18 or newer for APM;
+- Node.js 20 or newer for APM;
 - an AI environment that can consume `SKILL.md` files;
 - permission to add configuration files to the project.
 
@@ -74,7 +74,7 @@ You may also validate the installed collection:
 
 ```bash
 pip install 'skills-ref==0.1.0'
-agentskills validate .claude/skills/
+skills-ref validate .claude/skills/
 ```
 
 ## Environment-specific setup

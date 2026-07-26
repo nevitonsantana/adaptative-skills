@@ -68,7 +68,7 @@ The payload is the capability surface a consumer executes, not the governance an
 
 ## Domain packs (`crisis-management`)
 
-`domain-packs/crisis-management/` is the first validation case for the domain-pack pattern. It is **deliberately excluded** from the main APM package for v0.1.0 — domain packs are case studies, not canonical capability surface (see [ADR-002 — Domain agnosticism](https://nevitonsantana.github.io/adaptive-skills/adr/ADR-002-domain-agnosticism/) and [Épico 2 of the cross-repo plan](https://nevitonsantana.github.io/adaptive-skills/adr/ADR-005-apm-packaging-strategy/)).
+`domain-packs/crisis-management/` is the first validation case for the domain-pack pattern. It is **deliberately excluded** from the main APM package for v0.1.2 — domain packs are case studies, not canonical capability surface (see [ADR-002 — Domain agnosticism](https://nevitonsantana.github.io/adaptive-skills/adr/ADR-002-domain-agnosticism/) and [Épico 2 of the cross-repo plan](https://nevitonsantana.github.io/adaptive-skills/adr/ADR-005-apm-packaging-strategy/)).
 
 If you want the crisis-management skills today, consume them via `git clone`:
 
