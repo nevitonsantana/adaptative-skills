@@ -39,3 +39,9 @@ python3 scripts/validate_evolution_experiments.py
 
 See [optimization-boundaries.md](../../../docs/evolution/optimization-boundaries.md) and
 [skill-evolution-experiments.md](../../../docs/evolution/skill-evolution-experiments.md).
+
+## Next authorized real-use pilot
+
+When an authorized task becomes available, copy [`family-routing-real-use-trace.md`](../templates/family-routing-real-use-trace.md) for each trace. Keep the pilot small and record direct building-block use, family entry, composed requests, blocked work, human decisions, and handoff quality.
+
+Do not promote a contract change from one trace. First compare at least two relevant traces or record why the evidence is insufficient and choose `defer`.
