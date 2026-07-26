@@ -6,6 +6,37 @@ It helps agents, teams, and AI-enabled workflows choose the right capability for
 
 The goal is simple: make AI work less improvised.
 
+## Try it in two minutes
+
+Start with one small, low-risk task instead of installing the whole library:
+
+```bash
+npx skills add nevitonsantana/adaptive-skills --skill workflow
+```
+
+Then ask your agent to use the `workflow` skill before beginning the task. It
+should make the goal, scope, proof, and next step explicit. When you are ready,
+add `feature-planning` and `testing`:
+
+```bash
+npx skills add nevitonsantana/adaptive-skills \
+  --skill workflow \
+  --skill feature-planning \
+  --skill testing
+```
+
+Prefer APM? Use the equivalent path:
+
+```bash
+apm install nevitonsantana/adaptive-skills \
+  --skill workflow \
+  --skill feature-planning \
+  --skill testing
+```
+
+Tell us what changed, what failed, and whether you would use the skill again in
+[Discussions](https://github.com/nevitonsantana/adaptive-skills/discussions).
+
 ## Creator
 
 Adaptive Skills was created and is maintained by **Neviton Santana**, a Staff/Principal Designer working across product design, complex systems, artificial intelligence, and governed AI-assisted work.

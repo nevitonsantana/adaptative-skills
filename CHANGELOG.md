@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- improve public discoverability with a two-minute starter path, aligned APM
+  package metadata, and corrected installation prerequisites and validation command
+
 - add optional family composition for AI Discovery & Agent Experience while preserving direct
   building-block use; document the distinction between skills, modules, families, harnesses, and
   AletheIA; add a synthetic agnostic-SEO routing case and validation metadata
