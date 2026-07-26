@@ -1,5 +1,7 @@
 # Adaptive Skills
 
+[![Latest release](https://img.shields.io/github/v/release/nevitonsantana/adaptive-skills?display_name=tag&sort=semver)](https://github.com/nevitonsantana/adaptive-skills/releases) [![Documentation](https://img.shields.io/badge/docs-online-2f80ed)](https://nevitonsantana.github.io/adaptive-skills/) [![Discussions](https://img.shields.io/github/discussions/nevitonsantana/adaptive-skills)](https://github.com/nevitonsantana/adaptive-skills/discussions)
+
 **Adaptive Skills is a portable library of micro-skills for AI-assisted work.**
 
 It helps agents, teams, and AI-enabled workflows choose the right capability for the task, execute it with discipline, and leave behind outputs that are easier to review, reuse, and improve.
