@@ -7,6 +7,8 @@ This page summarizes changes that matter to skill consumers. The root `CHANGELOG
 
 ## Unreleased
 
+APM installation guidance now documents the verified target paths for Claude Code, Codex, and GitHub Copilot. APM 0.26.0 smoke tests against the immutable `v0.1.2` tag materialized all 38 portable skills and passed `apm compile --validate`; the guide also records that manifest convenience scripts are not exposed through `apm run` in the consumer project.
+
 The experimental AI Discovery & Agent Experience v0.1 domain pack now includes five reviewed
 quality gates, five canonical skills, eight optional templates, eight synthetic cases, advisory
 capabilities and routes, projection metadata, a dated standards register, and a public

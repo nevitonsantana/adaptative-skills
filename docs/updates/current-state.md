@@ -36,6 +36,8 @@ Adaptive Skills can be consumed independently through a compatible harness. Alet
 - Adaptive Skills owns reusable micro-execution methods.
 - Consumer harnesses own local loading and runtime mechanics.
 
+The verified APM path uses the immutable `v0.1.2` tag: Claude Code materializes skills under `.claude/skills/`, while Codex and GitHub Copilot materialize them under `.agents/skills/`. These smoke tests used APM 0.26.0 and confirmed all 38 portable skills plus `apm compile --validate`. APM consumer projects do not expose the package manifest's convenience scripts through `apm run`.
+
 ## Documentation state
 
 The public Blume site provides progressive paths for beginners, practitioners, advanced readers, and maintainers. Manual GitHub Pages publication remains the current release process.

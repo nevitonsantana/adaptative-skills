@@ -11,6 +11,16 @@ This guide covers installing the Adaptive Skills capability library through the 
 - A consumer project (any directory; APM operates on the current working directory).
 - A target harness that consumes `<project>/skills/` — Claude Code is the reference target (`target: claude` in `apm.yml`). Other agentskills.io-conformant harnesses should work without changes, since Adaptive Skills emits the spec-conformant Skill Collection layout.
 
+### Target paths
+
+| APM target | Installed skill path |
+|---|---|
+| `claude` | `.claude/skills/` |
+| `codex` | `.agents/skills/` |
+| `copilot` | `.agents/skills/` |
+
+Codex and GitHub Copilot use the shared `.agents/skills/` convention. APM does not create a `.github/skills/` directory for the `copilot` target.
+
 ## Install the full library
 
 ```bash
@@ -89,6 +99,8 @@ skills-ref validate .claude/skills/
 ```
 
 All 38 skills should report conformant.
+
+Disposable smoke tests with APM 0.26.0 and the immutable `v0.1.2` tag confirmed installation for `claude`, `codex`, and `copilot`, with all 38 skills materialized and `apm compile --validate` passing in each consumer. The package manifest contains maintainer convenience scripts, but APM generated `scripts: {}` in the consumer projects and did not expose them through `apm run`; use the validation commands above instead of assuming those scripts are available after installation.
 
 ## Two-step caveat (vs. AletheIA)
 

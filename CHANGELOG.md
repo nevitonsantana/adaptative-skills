@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- document verified APM target paths for Claude Code, Codex, and GitHub Copilot, including the `apm run` script exposure limitation
+
 - improve public discoverability with a two-minute starter path, aligned APM
   package metadata, and corrected installation prerequisites and validation command
 
