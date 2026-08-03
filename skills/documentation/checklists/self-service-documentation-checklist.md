@@ -55,6 +55,19 @@ These checks are inspired by controlled technical writing. They do not implement
 - [ ] An advanced reader can bypass basics and find precise reference material.
 - [ ] A maintainer can identify ownership, canonical sources, rationale, and freshness boundaries.
 
+## Runtime corpus and assistant consumption
+
+Use this section only when documentation also feeds an assistant, retrieval layer, exported snapshot, raw Markdown corpus, or `llms*` artifact.
+
+- [ ] Name the runtime consumer and the human reader it is allowed to serve.
+- [ ] Define the approved corpus and the sources that must never be included.
+- [ ] Record provenance such as source commit, generated-at time, content hash, page paths, titles, and owner.
+- [ ] Validate that public/user content and internal technical content remain separated.
+- [ ] Define safe failure behavior when the corpus is missing, stale, invalid, or version-incompatible.
+- [ ] Verify published artifacts such as `llms.txt`, `llms-full.txt`, raw Markdown, manifest files, snapshots, or search indexes.
+- [ ] Run at least one negative test for restricted content and one smoke test for a user question or retrieval path.
+- [ ] Do not activate assistant or MCP features merely because static artifacts exist; treat runtime features as a separate risk decision.
+
 ## Publication and maintenance
 
 - [ ] Titles, headings, navigation, link labels, and alt text remain understandable when scanned.

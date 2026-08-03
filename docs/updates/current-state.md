@@ -42,7 +42,7 @@ The verified APM path uses the immutable `v0.1.2` tag: Claude Code materializes 
 
 The public Blume site provides progressive paths for beginners, practitioners, advanced readers, and maintainers. Manual GitHub Pages publication remains the current release process.
 
-The canonical `documentation` skill uses five durable Core Moves and context-triggered modules for reader journeys, information architecture, technical storytelling, controlled procedural clarity, editorial governance, change documentation, and publication QA. A reusable checklist and three synthetic validation cases cover multi-level onboarding, executable procedures, and mixed-corpus audits.
+The canonical `documentation` skill uses five durable Core Moves and context-triggered modules for reader journeys, information architecture, technical storytelling, controlled procedural clarity, editorial governance, change documentation, publication QA, and docs-as-runtime-corpus cases. A reusable checklist and field evidence from Crisis Monitor cover multi-level onboarding, executable procedures, mixed-corpus audits, snapshots, manifests, raw Markdown, `llms*` artifacts, and assistant-safe negative checks.
 
 The complete skill reference uses stable `/skills/<name>/` routes, canonical metadata projection, complete contract rendering, and direct access to usage boundaries, outputs, verification, and handoff guidance. Registry validation now requires every canonical portable skill to have a public profile.
 

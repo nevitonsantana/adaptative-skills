@@ -7,6 +7,8 @@ This page summarizes changes that matter to skill consumers. The root `CHANGELOG
 
 ## Unreleased
 
+The `documentation` skill now includes a docs-as-runtime-corpus module for documentation that feeds assistants, snapshots, retrieval layers, raw Markdown, manifests, or `llms*` artifacts. A new Crisis Monitor field case records the validated pattern: private governed source, clean public export, versioned assistant snapshot, negative checks for technical leakage, and live smoke by manifest.
+
 APM installation guidance now documents the verified target paths for Claude Code, Codex, and GitHub Copilot. APM 0.26.0 smoke tests against the immutable `v0.1.2` tag materialized all 38 portable skills and passed `apm compile --validate`; the guide also records that manifest convenience scripts are not exposed through `apm run` in the consumer project.
 
 The experimental AI Discovery & Agent Experience v0.1 domain pack now includes five reviewed

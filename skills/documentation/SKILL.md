@@ -18,6 +18,7 @@ Self-service means reducing avoidable dependency, not promising that documentati
 - create or restructure onboarding, manuals, tutorials, how-to guides, reference, explanation, troubleshooting, FAQ, or migration content
 - design progressive paths for novice, practitioner, advanced, or maintainer readers
 - plan a multi-page documentation system or improve its information architecture
+- design documentation that will also be consumed by an assistant, agent, retrieval layer, snapshot, or other runtime corpus
 - audit a documentation site or repository for broken journeys, weak recovery, duplicate content, stale claims, mixed terminology, or unsafe links
 - document a release, changelog, roadmap, decision, contract, or evidence record
 - make procedures clearer for international or mixed-proficiency audiences
@@ -47,6 +48,7 @@ Self-service means reducing avoidable dependency, not promising that documentati
 - **Editorial governance and terminology** — follow the project's language, tone, glossary, accessibility rules, contribution process, evidence boundaries, and current implementation.
 - **Release and change documentation** — inspect the relevant version-control range, identify user impact and breaking changes, and produce a technical record plus a reader-facing summary linked to canonical detail.
 - **Publication QA** — check rendered routes, links, headings, titles, accessibility, code examples, screenshots, freshness, unsupported claims, and maintenance ownership.
+- **Docs as runtime corpus** — when documentation feeds an assistant, retrieval surface, static snapshot, or agent-readable artifact, define the approved source corpus, excluded technical sources, provenance, freshness, failure behavior, and runtime validation path.
 
 # Activation Triggers
 
@@ -57,6 +59,7 @@ Self-service means reducing avoidable dependency, not promising that documentati
 - Activate **editorial governance and terminology** when the project provides a style guide, glossary, contribution policy, accessibility standard, or canonical implementation.
 - Activate **release and change documentation** when a release, milestone, migration, or commit range must be translated into user-visible impact. Inspect source history and diffs; do not infer the narrative from filenames or commit titles alone.
 - Activate **publication QA** before publication, after navigation or route changes, or when users report broken links, raw Markdown, duplicate titles, stale content, or inaccessible material.
+- Activate **docs as runtime corpus** when documentation produces `llms.txt`, raw Markdown, manifests, snapshots, embeddings, retrieval payloads, assistant knowledge, or any runtime-readable corpus that must not leak internal sources.
 
 # Expected Output
 
@@ -66,6 +69,7 @@ Self-service means reducing avoidable dependency, not promising that documentati
 - source-backed content with explicit examples, boundaries, procedures, expected results, recovery, and next steps
 - canonical links and compatibility paths for moved or consolidated content
 - a validation report covering reader-path success, failures, warnings, checks run, and follow-ups
+- when docs feed a runtime corpus: a source ledger, exclusion list, provenance fields, freshness rule, safe-failure behavior, and smoke or integrity check for the published artifacts
 
 # Verification
 
@@ -77,6 +81,7 @@ Self-service means reducing avoidable dependency, not promising that documentati
 - Storytelling improves orientation or understanding without delaying the answer, obscuring evidence, or forcing experts through a beginner path.
 - Internal links resolve to rendered pages or intentional external sources; public links do not accidentally expose raw repository content.
 - Examples, metrics, maturity claims, security statements, and integrations are source-backed and labeled when synthetic or aspirational.
+- Runtime-readable documentation artifacts cite the approved user corpus, exclude restricted technical sources, fail safely when stale or invalid, and are checked through at least one integrity or smoke validation.
 - Code, commands, screenshots, navigation, terminology, tone, and accessibility reflect the current implementation and project standards or explicitly state their version and limits.
 
 # Handoff Signals

@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- extend the `documentation` skill with docs-as-runtime-corpus guidance and add a Crisis Monitor field case for assistant-safe documentation snapshots, clean public exports, manifests, raw Markdown, `llms*` artifacts, negative leakage checks, and live smoke validation
+
 - document verified APM target paths for Claude Code, Codex, and GitHub Copilot, including the `apm run` script exposure limitation
 
 - improve public discoverability with a two-minute starter path, aligned APM

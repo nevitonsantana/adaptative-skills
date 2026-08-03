@@ -163,6 +163,7 @@ export default defineConfig({
           label: "Cases and evidence",
           items: [
             "/cases/index",
+            "/cases/docs-as-runtime-corpus-crisis-monitor",
             "/crisis-monitor-case-study",
             "/design-system-intelligence-pulso-pilot",
             "/efficiency-layer-crisis-monitor-reference",
