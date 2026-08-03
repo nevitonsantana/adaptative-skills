@@ -21,6 +21,8 @@ Always read **what the record did not prove** before generalizing a result.
 
 The [Crisis Monitor case study](https://nevitonsantana.github.io/adaptive-skills/crisis-monitor-case-study/) documents two real product-work rounds and the separation among macro governance, micro execution, and consumer-local rules.
 
+The [Docs as runtime corpus — Crisis Monitor](https://nevitonsantana.github.io/adaptive-skills/cases/docs-as-runtime-corpus-crisis-monitor/) field case records a later documentation pilot where Blume user docs also became a versioned, validated corpus for the Cris assistant.
+
 The [Pulso pilot](https://nevitonsantana.github.io/adaptive-skills/design-system-intelligence-pulso-pilot/) records a bounded use of `design-system-intelligence` against declared source material. Pattern promotion remains outside the skill's authority.
 
 ## Efficiency-layer evidence

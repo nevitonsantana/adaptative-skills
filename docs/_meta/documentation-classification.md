@@ -77,6 +77,7 @@ The classification preserves existing public routes while the content is progres
 ## Public evidence and cases
 
 - `docs/cases/index.md`
+- `docs/cases/docs-as-runtime-corpus-crisis-monitor.md`
 - `docs/crisis-monitor-case-study.md`
 - `docs/design-system-intelligence-pulso-pilot.md`
 - `docs/efficiency-layer-crisis-monitor-reference.md`
